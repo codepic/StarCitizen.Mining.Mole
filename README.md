@@ -1,0 +1,27 @@
+# Mole Mining Guide - Star Citizen Universe
+
+## Table of Contents
+
+- [1. Base Setup (PD 45, Passive)](BaseSetup.md)
+    - [1. Turret Loadout Overview](BaseSetup.md#1-turret-loadout-overview)
+        - [2.1 Front Turret (Main Break)](BaseSetup.md#21-front-turret-main-break)
+        - [2.2 Starboard Turret (Sub Break)](BaseSetup.md#22-starboard-turret-sub-break)
+        - [2.3 Port Turret (Support & Extraction)](BaseSetup.md#23-port-turret-support--extraction)
+    - [3. Gadgets](BaseSetup.md#3-gadgets)
+    - [4. Optimal Range & Alignment](BaseSetup.md#4-optimal-range--alignment)
+    - [5. Ping Distance (PD)](BaseSetup.md#5-ping-distance-pd)
+        - [5.1 How to Approach to Ping Distance (PD)](BaseSetup.md#51-how-to-approach-to-ping-distance-pd)
+    - [6. Coordinated Multi-Turret Operation](BaseSetup.md#6-coordinated-multi-turret-operation)
+        - [6.1 Crew Roles and Initial Setup](BaseSetup.md#61-crew-roles-and-initial-setup)
+        - [6.2 Synchronized Fracturing Sequence](BaseSetup.md#62-synchronized-fracturing-sequence)
+    - [7. Solo MOLE Operation](BaseSetup.md#7-solo-mole-operation)
+- [2. Mining Process Overview](MiningProcessOverview.md)
+    - [3.1 Multicrew MOLE Mining](MiningProcessOverview.md#31-multicrew-mole-mining)
+    - [3.2 Solo MOLE Mining](MiningProcessOverview.md#32-solo-mole-mining)
+    - [3.3 Multi-Ship Mining with Caterpillar Ore Pod Swapping](MiningProcessOverview.md#33-multi-ship-mining-with-caterpillar-ore-pod-swapping)
+    - [3.4 Other Mining Styles](MiningProcessOverview.md#34-other-mining-styles)
+- [3. Tips & Tricks](TipsAndTricks.md)
+- [4. Troubleshooting](Troubleshooting.md)
+- [5. Resources & References](ResourcesReferences.md)
+- [6. Best Practises](BestPractises.md)
+    - [6.1 Power Management](BestPractises.md#71-power-management)
