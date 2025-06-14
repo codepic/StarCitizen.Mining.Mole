@@ -12,12 +12,12 @@ Below you’ll find a breakdown of each turret, including the recommended mining
 
 ### 2.1 Front Turret (Main Break)
 
-**Role:** The front turret is your go-to for breaking the biggest and toughest rocks. Start with this turret when you find a high-resistance or high-mass rock. The HELIX II mining head and three Rieger C3 modules give you the most power possible, making it perfect for the first break. Once the main rock is fractured, the side turrets can take over for further breaking and extraction.
+**Role:** The front turret is your go-to for breaking the biggest and toughest rocks. Start with this turret when you find a high-resistance or high-mass rock. The [HELIX II](https://finder.cstone.space/ShipMiningHeads1/3bcde69d-3e3a-4f78-b2cb-8189b349e4d2) mining head and three Rieger C3 modules give you the most power possible, making it perfect for the first break. Once the main rock is fractured, the side turrets can take over for further breaking and extraction.
 
 | Attribute     | Value                                 |
 |--------------|----------------------------------------|
-| Mining Head  | HELIX II                              |
-| Modules      | 3x Rieger C3                          |
+| Mining Head  | [HELIX II](https://finder.cstone.space/ShipMiningHeads1/3bcde69d-3e3a-4f78-b2cb-8189b349e4d2)                              |
+| Modules      | 3x [Rieger C3](https://finder.cstone.space/ShipMiningMods1/2ceb0de9-105b-434e-a152-8af1fd1660d0)                          |
 | Optimal Range| 30m                                   |
 | Window Size  | Standard                              |
 | Instability  | Standard                              |
@@ -28,15 +28,15 @@ Below you’ll find a breakdown of each turret, including the recommended mining
 
 ### 2.2 Starboard Turret (Sub Break)
 
-**Role:** Use the starboard turret after the main break. It’s great for handling medium-sized pieces that are left after the first fracture. The Hofstede S2 head, with a Rieger C3 and Focus III module, gives you a good mix of power and control. This makes it easier to break down rocks that are too small for the main turret but too big or unstable for the support turret. It also helps keep the process stable and safe.
+**Role:** Use the starboard turret after the main break. It’s great for handling medium-sized pieces that are left after the first fracture. The [Hofstede S2](https://finder.cstone.space/ShipMiningHeads1/b422bcf8-b553-4b09-b2be-e92ab2f80e9a) head, with a Rieger C3 and [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9) module, gives you a good mix of power and control. This makes it easier to break down rocks that are too small for the main turret but too big or unstable for the support turret. It also helps keep the process stable and safe.
 
 | Attribute     | Value                                 |
 |--------------|----------------------------------------|
-| Mining Head  | Hofstede S2                            |
-| Modules      | 1x Rieger C3, 1x Focus III             |
+| Mining Head  | [Hofstede S2](https://finder.cstone.space/ShipMiningHeads1/b422bcf8-b553-4b09-b2be-e92ab2f80e9a)                            |
+| Modules      | 1x [Rieger C3](https://finder.cstone.space/ShipMiningMods1/2ceb0de9-105b-434e-a152-8af1fd1660d0), 1x [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9)             |
 | Optimal Range| 60m                                    |
-| Window Size  | Increased (with Focus III)             |
-| Instability  | Reduced (with Focus III)               |
+| Window Size  | Increased (with [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9))             |
+| Instability  | Reduced (with [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9))               |
 | Max Rock Size| ~15 tons                               |
 | Notes        | Versatile, balance of power and precision |
 
@@ -44,12 +44,12 @@ Below you’ll find a breakdown of each turret, including the recommended mining
 
 ### 2.3 Port Turret (Support & Extraction)
 
-**Role:** The port turret shines in the final stages of mining. Use it to break down small fragments, help stabilize rocks with high instability, and assist with extraction. The Arbor MH2 head and two Focus III modules give you a huge optimal window and help keep things steady, making it perfect for delicate or unstable rocks and for fine-tuning the last part of the fracture.
+**Role:** The port turret shines in the final stages of mining. Use it to break down small fragments, help stabilize rocks with high instability, and assist with extraction. The Arbor MH2 head and two [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9) modules give you a huge optimal window and help keep things steady, making it perfect for delicate or unstable rocks and for fine-tuning the last part of the fracture.
 
 | Attribute     | Value                                 |
 |--------------|----------------------------------------|
-| Mining Head  | Arbor MH2                              |
-| Modules      | 2x Focus III                           |
+| Mining Head  | [Arbor MH2](https://finder.cstone.space/ShipMiningHeads1/4435898e-a6cc-4f51-ab2a-805d0cf1a44a)                              |
+| Modules      | 2x [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9)                           |
 | Optimal Range| 90m                                    |
 | Window Size  | 274% (very large)                      |
 | Instability  | 65%                                    |
@@ -83,8 +83,8 @@ Mining gadgets are handheld devices that attach directly to a rock, temporarily 
 
 | Gadget   | Manufacturer         | Optimal Charge Window | Resistance | Instability | Cluster Modifier | When to Use |
 |----------|----------------------|----------------------|------------|-------------|------------------|-------------|
-| **Sabir**   | Shubin Interstellar   | +50%                 | -50%       | +15%        | —                | For high-resistance rocks that are difficult to break. Greatly lowers resistance and increases the optimal window, but increases instability. Best for stubborn rocks, but requires careful power management. |
-| **OptiMax** | Greycat Industrial    | -30%                 | -30%       | —           | +60%             | For maximizing yield and keeping valuable fragments together. Reduces resistance but shrinks the optimal window, so use when you want to minimize resource loss and can manage a smaller window. |
+| **[Sabir](https://finder.cstone.space/FPSMiningMods1/d539a485-4a68-4426-8678-2cff115e6051)**   | Shubin Interstellar   | +50%                 | -50%       | +15%        | —                | For high-resistance rocks that are difficult to break. Greatly lowers resistance and increases the optimal window, but increases instability. Best for stubborn rocks, but requires careful power management. |
+| **[OptiMax](https://finder.cstone.space/FPSMiningMods1/1a6b9b13-d3f8-4f32-b7db-146b90aad2da)** | Greycat Industrial    | -30%                 | -30%       | —           | +60%             | For maximizing yield and keeping valuable fragments together. Reduces resistance but shrinks the optimal window, so use when you want to minimize resource loss and can manage a smaller window. |
 
 **How to Use Mining Gadgets:**
 1. Exit your ship and approach the target rock.
@@ -98,11 +98,11 @@ Mining gadgets are handheld devices that attach directly to a rock, temporarily 
 
 Matching mining head ranges to turret positions maximizes efficiency and minimizes ship movement during mining.
 
-Each mining head has its own sweet spot for range. Since the MOLE has one front and two side turrets, it’s important to set up your mining heads so all three can work at their best without having to move the ship around too much. This keeps your operation smooth, efficient, and safe for everyone on board.
+Each mining head has its own sweet spot for range. Since the MOLE has one front and two side turrets further back, it’s important to set up your mining heads so all three can work at their best without having to move the ship around too much. This keeps your operation smooth, efficient, and safe for everyone on board.
 
 **Example from this Base Setup:**
-- The HELIX II, with its 30m optimal range, is placed on the front turret.
-- The Hofstede S2, with its 60m optimal range, is on the starboard turret.
+- The [HELIX II](https://finder.cstone.space/ShipMiningHeads1/3bcde69d-3e3a-4f78-b2cb-8189b349e4d2), with its 30m optimal range, is placed on the front turret.
+- The [Hofstede S2](https://finder.cstone.space/ShipMiningHeads1/b422bcf8-b553-4b09-b2be-e92ab2f80e9a), with its 60m optimal range, is on the starboard turret.
 
 This arrangement means that, when the MOLE is parked at the recommended ping distance, the two most powerful lasers have their optimal ranges focused on the same spot. Both turrets can work together efficiently on the same rock while the ship remains stationary, maximizing mining power and minimizing the need for repositioning.
 
@@ -124,7 +124,9 @@ Follow these steps to hit the ideal PD every time for safe and efficient mining.
 
 ---
 
-## 6. Coordinated Multi-Turret Operation
+## 6. Coordinated Multi-Crew Operation
+
+In a single ship Multi-Crew operation, the most efficient crew count is **3**. This setup allows the MOLE to remain stationary during mining, ensuring that all turrets can be used without the need for constant ship repositioning. With three crew members, each can operate a turret, and the pilot is always engaged—no one is left idle or "bored to death" while others fracture rocks. This also optimizes the dividends of the operation, as there are fewer people to share the profits with, maximizing individual earnings.
 
 Best practices for using all three MOLE turrets together, solo or with a full crew, to maximize safety and yield.
 
@@ -137,9 +139,9 @@ While you can use this setup solo, it really shines with a full three-person cre
 
 ### 6.2 Synchronized Fracturing Sequence
 1. **Apply Support Bonuses:**
-   - The port turret operator starts by turning on their mining laser in fracture mode at minimal power, aiming at the rock. This applies the Arbor MH2 and Focus III bonuses, making the rock more stable and the optimal window much bigger. The front and starboard turrets stay off for now.
+   - The port turret operator starts by turning on their mining laser in fracture mode at minimal power, aiming at the rock. This applies the [Arbor MH2](https://finder.cstone.space/ShipMiningHeads1/4435898e-a6cc-4f51-ab2a-805d0cf1a44a) and [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9) bonuses, making the rock more stable and the optimal window much bigger. The front and starboard turrets stay off for now.
 2. **Layer Additional Modifiers:**
-   - Next, the starboard turret operator turns on their mining laser at minimal power. This adds more window and stability bonuses from the Focus III module, making the rock even easier to manage.
+   - Next, the starboard turret operator turns on their mining laser at minimal power. This adds more window and stability bonuses from the [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9) module, making the rock even easier to manage.
 3. **Initiate Main Fracture:**
    - The front turret operator slowly increases power, looking for a stable charge where the gauge just barely drops (about 50–75% toward optimal). The port and starboard turrets keep their bonuses going at minimal power.
 4. **Synchronize Power Application:**
@@ -165,8 +167,8 @@ Solo MOLE mining is possible and effective with the right approach, even though 
     - For rocks **5,000 kg or less**, move to the **port (Support & Extraction) turret**.
   - To avoid unnecessary marching around the ship, ensure all the rocks you intend to break are below the next turret's threshold mass before swapping turrets. This minimizes seat changes and streamlines your workflow.
   - This approach ensures you always use the most effective mining head and modules for the rock size, maximizing efficiency and safety.
-- **Sabir Gadget for Large Rocks:**
-  - For rocks **over 28,000 kg**, exit the ship and apply a **Sabir gadget** to the rock before fracturing with the front turret. This greatly lowers resistance and increases the optimal window, making the break possible.
+- **[Sabir](https://finder.cstone.space/FPSMiningMods1/d539a485-4a68-4426-8678-2cff115e6051)** Gadget for Large Rocks:
+  - For rocks **over 28,000 kg**, exit the ship and apply a **[Sabir](https://finder.cstone.space/FPSMiningMods1/d539a485-4a68-4426-8678-2cff115e6051)** gadget to the rock before fracturing with the front turret. This greatly lowers resistance and increases the optimal window, making the break possible.
 
 Solo MOLE mining is slower than with a full crew, but with careful planning and the right setup, it’s a rewarding and profitable way to mine.
 
