@@ -5,7 +5,22 @@ Many times, I've tried to set myself a strict cutoff before going mining—only 
 
 > **Note:** While this document describes calculations you can make in the field, it's not intended that everyone mines with a calculator or spreadsheet in hand. Remember to have fun, relax, and review your decision-making process. At first, you might take a more rigid approach to mining decisions, but soon enough it should become a natural habit—knowing your choices are grounded in deterministic science and math, not just whim or guesswork.
 
-Understanding which rocks are worth mining is a common question for both new and experienced miners. The answer depends on the composition of the rock, the value of its minerals, your own mining goals, your specific setup, crew, and other situational factors. This section provides practical guidelines for evaluating rocks based on ore cutoff percentages, using the S, A, B, and C tier system as described on [Regolith Rocks](https://regolith.rocks/survey/ores).
+---
+
+## Why Use a Single Cutoff Number?
+
+Communicating your mining target as a single cutoff percentage—supported by a few clear rules—offers powerful benefits for both solo and group mining:
+
+- **Simplicity:** Everyone knows the baseline for what to mine. No need to debate every rock; the number is clear.
+- **Consistency:** Decisions are repeatable and reliable, leading to steady profits and less second-guessing.
+- **Adaptability:** The cutoff can be quickly adjusted by the pilot or organizer to match changing conditions (e.g., if high-value rocks are rare, lower the cutoff to keep bags full).
+- **Team Coordination:** With a single number and shared rules, the whole crew can align their actions, avoid confusion, and maximize efficiency.
+- **Confidence:** You can trust your decisions are grounded in logic and math, not just gut feeling—making mining less stressful and more enjoyable.
+
+> **Motivation:**
+> This guide will show you how to use a single cutoff value, combined with a few dynamic rules, to make smart, flexible mining decisions. Whether you're new or experienced, this approach will help you get the most out of every mining run—so read on and see how it works in practice!
+
+---
 
 ## 7.1 Ore Tiers Explained
 
@@ -95,6 +110,19 @@ Rock composition: 32% Taranite (A-tier), 20% Tin (B-tier), 48% Inert
 - The proportion of Taranite in the adjusted total: 32% / 80.8% ≈ 40%
 
 Here, the initial A-tier is right at the 40% cutoff after inert adjustment, making this rock a borderline but valid candidate for mining with the base setup. This demonstrates how inert filtering can make a borderline rock more attractive for mining.
+
+## When and Why to Adjust Your Cutoff
+
+There are many real-world situations where it makes sense to adjust your mining cutoff—sometimes for profit, sometimes for fun, and sometimes just to keep the operation running smoothly:
+
+- **Keep the Team Engaged:** If your Caterpillar pilot is waiting endlessly for MOLEs to fill bags, consider lowering the cutoff so the operation moves faster and everyone stays involved. Mining is a team activity—no one wants to be bored!
+- **Adapt to Rock Availability:** If high-percentage A-tier rocks are rare, a lower cutoff helps you fill your hold and avoid wasted time searching for "perfect" rocks.
+- **Chase a Challenge:** Sometimes, you might raise the cutoff for a session to see how efficiently your crew can operate under stricter rules, or to compete with friends.
+- **Have Fun:** Maybe you want to try mining a weird mix of ores, or just see how fast you can fill the hold—adjust the cutoff to match your goals for the day.
+- **Respond to Market Changes:** If ore prices spike or drop, you might want to adjust your cutoff to maximize profit or minimize risk.
+- **Event or Roleplay:** During org events or roleplay sessions, the cutoff might be set for narrative or challenge reasons, not just money.
+
+> **Remember:** The cutoff is a tool, not a law. Use it to keep mining fun, efficient, and engaging for everyone involved.
 
 ## 7.3 Other Considerations
 
