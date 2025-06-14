@@ -29,39 +29,39 @@ Below are the most relevant mining ores, their acronyms, and approximate values 
 ### S-Tier Ores
 | Ore Name   | Acronym | Value (UEC/SCU) |
 |------------|---------|-----------------|
-| Quantanium | QUAN    | 22,000          |
-| Stileron   | STIL    | 28,000          |
-| Riccite    | RICC    | 21,000          |
+| Quantanium | [QUAN](https://uexcorp.space/commodities/info/name/quantanium/)    | 22,000          |
+| Stileron   | [STIL](https://uexcorp.space/commodities/info/name/stileron/)    | 28,000          |
+| Riccite    | [RICC](https://uexcorp.space/commodities/info/name/riccite/)    | 21,000          |
 
 ### A-Tier Ores
 | Ore Name  | Acronym | Value (UEC/SCU) |
 |-----------|---------|-----------------|
-| Taranite  | TARA    | 9,000           |
-| Bexalite  | BEXA    | 7,000           |
-| Gold      | GOLD    | 6,000           |
+| Taranite  | [TARA](https://uexcorp.space/commodities/info/name/taranite/)    | 9,000           |
+| Bexalite  | [BEXA](https://uexcorp.space/commodities/info/name/bexalite/)    | 7,000           |
+| Gold      | [GOLD](https://uexcorp.space/commodities/info/name/gold/)    | 6,000           |
 
 ### B-Tier Ores
 | Ore Name      | Acronym | Value (UEC/SCU) |
 |---------------|---------|-----------------|
-| Laranite      | LARA    | 3,000           |
-| Borase        | BORA    | 3,000           |
-| Beryl         | BERY    | 3,000           |
-| Agricium      | AGRI    | 2,000           |
-| Hephaestanite | HEPH    | 2,000           |
+| Laranite      | [LARA](https://uexcorp.space/commodities/info/name/laranite/)    | 3,000           |
+| Borase        | [BORA](https://uexcorp.space/commodities/info/name/borase/)    | 3,000           |
+| Beryl         | [BERY](https://uexcorp.space/commodities/info/name/beryl/)    | 3,000           |
+| Agricium      | [AGRI](https://uexcorp.space/commodities/info/name/agricium/)    | 2,000           |
+| Hephaestanite | [HEPH](https://uexcorp.space/commodities/info/name/hephaestanite/)    | 2,000           |
 
 ### C-Tier Ores
 | Ore Name   | Acronym | Value (UEC/SCU) |
 |------------|---------|-----------------|
-| Tungsten   | TUNG    | 614             |
-| Titanium   | TITA    | 451             |
-| Silicon    | SILI    | 197             |
-| Iron       | IRON    | 372             |
-| Quartz     | QUAR    | 373             |
-| Corundum   | CORU    | 356             |
-| Copper     | COPP    | 351             |
-| Tin        | TIN     | 319             |
-| Aluminum   | ALUM    | 296             |
-| Ice        | ICE     | 100             |
+| Tungsten   | [TUNG](https://uexcorp.space/commodities/info/name/tungsten/)    | 614             |
+| Titanium   | [TITA](https://uexcorp.space/commodities/info/name/titanium/)    | 451             |
+| Silicon    | [SILI](https://uexcorp.space/commodities/info/name/silicon/)    | 197             |
+| Iron       | [IRON](https://uexcorp.space/commodities/info/name/iron/)    | 372             |
+| Quartz     | [QUAR](https://uexcorp.space/commodities/info/name/quartz/)    | 373             |
+| Corundum   | [CORU](https://uexcorp.space/commodities/info/name/corundum/)    | 356             |
+| Copper     | [COPP](https://uexcorp.space/commodities/info/name/copper/)    | 351             |
+| Tin        | [TIN](https://uexcorp.space/commodities/info/name/tin/)    | 319             |
+| Aluminum   | [ALUM](https://uexcorp.space/commodities/info/name/aluminum/)    | 296             |
+| Ice        | [ICE](https://uexcorp.space/commodities/info/name/pressurized-ice/)    | 100             |
 
 > **Note:** Values are approximate and fluctuate with the in-game market. Acronyms are community-standard.
 
