@@ -29,39 +29,39 @@ Below are the most relevant mining ores, their acronyms, and approximate values 
 ### S-Tier Ores
 | Ore Name   | Acronym | Value (UEC/SCU) |
 |------------|---------|-----------------|
-| Quantanium | [QUAN](https://uexcorp.space/commodities/info/name/quantanium/)    | 22,000          |
-| Stileron   | [STIL](https://uexcorp.space/commodities/info/name/stileron/)    | 28,000          |
-| Riccite    | [RICC](https://uexcorp.space/commodities/info/name/riccite/)    | 21,000          |
+| Quantanium | [QUAN](https://uexcorp.space/commodities/info/name/quantanium/tab/locations_buying/)    | 22,000          |
+| Stileron   | [STIL](https://uexcorp.space/commodities/info/name/stileron/tab/locations_buying/)    | 28,000          |
+| Riccite    | [RICC](https://uexcorp.space/commodities/info/name/riccite/tab/locations_buying/)    | 21,000          |
 
 ### A-Tier Ores
 | Ore Name  | Acronym | Value (UEC/SCU) |
 |-----------|---------|-----------------|
-| Taranite  | [TARA](https://uexcorp.space/commodities/info/name/taranite/)    | 9,000           |
-| Bexalite  | [BEXA](https://uexcorp.space/commodities/info/name/bexalite/)    | 7,000           |
-| Gold      | [GOLD](https://uexcorp.space/commodities/info/name/gold/)    | 6,000           |
+| Taranite  | [TARA](https://uexcorp.space/commodities/info/name/taranite/tab/locations_buying/)    | 9,000           |
+| Bexalite  | [BEXA](https://uexcorp.space/commodities/info/name/bexalite/tab/locations_buying/)    | 7,000           |
+| Gold      | [GOLD](https://uexcorp.space/commodities/info/name/gold/tab/locations_buying/)    | 6,000           |
 
 ### B-Tier Ores
 | Ore Name      | Acronym | Value (UEC/SCU) |
 |---------------|---------|-----------------|
-| Laranite      | [LARA](https://uexcorp.space/commodities/info/name/laranite/)    | 3,000           |
-| Borase        | [BORA](https://uexcorp.space/commodities/info/name/borase/)    | 3,000           |
-| Beryl         | [BERY](https://uexcorp.space/commodities/info/name/beryl/)    | 3,000           |
-| Agricium      | [AGRI](https://uexcorp.space/commodities/info/name/agricium/)    | 2,000           |
-| Hephaestanite | [HEPH](https://uexcorp.space/commodities/info/name/hephaestanite/)    | 2,000           |
+| Laranite      | [LARA](https://uexcorp.space/commodities/info/name/laranite/tab/locations_buying/)    | 3,000           |
+| Borase        | [BORA](https://uexcorp.space/commodities/info/name/borase/tab/locations_buying/)    | 3,000           |
+| Beryl         | [BERY](https://uexcorp.space/commodities/info/name/beryl/tab/locations_buying/)    | 3,000           |
+| Agricium      | [AGRI](https://uexcorp.space/commodities/info/name/agricium/tab/locations_buying/)    | 2,000           |
+| Hephaestanite | [HEPH](https://uexcorp.space/commodities/info/name/hephaestanite/tab/locations_buying/)    | 2,000           |
 
 ### C-Tier Ores
 | Ore Name   | Acronym | Value (UEC/SCU) |
 |------------|---------|-----------------|
-| Tungsten   | [TUNG](https://uexcorp.space/commodities/info/name/tungsten/)    | 614             |
-| Titanium   | [TITA](https://uexcorp.space/commodities/info/name/titanium/)    | 451             |
-| Silicon    | [SILI](https://uexcorp.space/commodities/info/name/silicon/)    | 197             |
-| Iron       | [IRON](https://uexcorp.space/commodities/info/name/iron/)    | 372             |
-| Quartz     | [QUAR](https://uexcorp.space/commodities/info/name/quartz/)    | 373             |
-| Corundum   | [CORU](https://uexcorp.space/commodities/info/name/corundum/)    | 356             |
-| Copper     | [COPP](https://uexcorp.space/commodities/info/name/copper/)    | 351             |
-| Tin        | [TIN](https://uexcorp.space/commodities/info/name/tin/)    | 319             |
-| Aluminum   | [ALUM](https://uexcorp.space/commodities/info/name/aluminum/)    | 296             |
-| Ice        | [ICE](https://uexcorp.space/commodities/info/name/pressurized-ice/)    | 100             |
+| Tungsten   | [TUNG](https://uexcorp.space/commodities/info/name/tungsten/tab/locations_buying/)    | 614             |
+| Titanium   | [TITA](https://uexcorp.space/commodities/info/name/titanium/tab/locations_buying/)    | 451             |
+| Silicon    | [SILI](https://uexcorp.space/commodities/info/name/silicon/tab/locations_buying/)    | 197             |
+| Iron       | [IRON](https://uexcorp.space/commodities/info/name/iron/tab/locations_buying/)    | 372             |
+| Quartz     | [QUAR](https://uexcorp.space/commodities/info/name/quartz/tab/locations_buying/)    | 373             |
+| Corundum   | [CORU](https://uexcorp.space/commodities/info/name/corundum/tab/locations_buying/)    | 356             |
+| Copper     | [COPP](https://uexcorp.space/commodities/info/name/copper/tab/locations_buying/)    | 351             |
+| Tin        | [TIN](https://uexcorp.space/commodities/info/name/tin/tab/locations_buying/)    | 319             |
+| Aluminum   | [ALUM](https://uexcorp.space/commodities/info/name/aluminum/tab/locations_buying/)    | 296             |
+| Ice        | [ICE](https://uexcorp.space/commodities/info/name/pressurized-ice/tab/locations_buying/)    | 100             |
 
 > **Note:** Values are approximate and fluctuate with the in-game market. Acronyms are community-standard.
 
