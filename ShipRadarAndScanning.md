@@ -15,7 +15,7 @@ If you've ever struggled to find rocks, salvage, or other resources while mining
 
 ## 2.1 What Is Ship Radar?
 
-Ship radar in Star Citizen is your main tool for detecting mineable resources, salvage panels, derelict ships, and more. Unlike other signals (like EM, CS, or IR), resource detection uses a special formula and is especially important for mining and salvage crews.
+Ship radar in Star Citizen is your main tool for detecting mineable resources, salvage panels, derelict ships, and more. Resource detection (RS) uses the same underlying formula as EM, CS, and IR detection—the key difference is that RS values for resources are static, while ship signatures (EM, CS, IR) are dynamic depending on the ship's modules, current energy distribution, and other factors.
 
 ## 2.2 How Detection Works (The Formula)
 
@@ -110,6 +110,8 @@ Even a small increase in detection range means a much larger increase in the vol
 ## 2.6 RS Signature Values by Resource Type
 
 Each minable resource type in Star Citizen has its own Radar Signature (RS) value, which determines how detectable it is by your ship's radar. For example, a Granite Deposit has an RS signature of 1920, while a Hercules C2 Derelict ship has a signature of 2400. The RS signature you see on your ship's HUD may be a multiple of the base value, depending on how many of that resource are clustered together—e.g., 1920 for a single granite deposit, 3840 for two, 5760 for three, and so on.
+
+> **Note:** RS signature detection works exactly the same way as IR, EM, or CS detection. The only difference is that RS values for resources are static (always the same for a given resource type), while ship signatures (IR/EM/CS) are dynamic and can change depending on what modules are active, ship state, or player actions.
 
 For a comprehensive and up-to-date list of RS signature values for all minable resource types, see the [Regolith Rocks Rock Class Survey](https://regolith.rocks/survey/rock_class). This resource provides detailed tables and explanations for each rock and deposit type, helping you identify what you're scanning based on the signature value displayed.
 
