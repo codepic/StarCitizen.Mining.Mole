@@ -1,4 +1,4 @@
-# 1. Ship Radar & Scanning for Resources
+# 2. Ship Radar & Scanning for Resources
 
 > **Summary:** This guide explores the mechanics of ship radar and scanning in Star Citizen, focusing on resource detection techniques and radar formulas. It provides practical insights for players aiming to improve their mining and exploration efficiency.
 
@@ -6,7 +6,7 @@
 
 > **Quick Note:** Even if mining isn't your thing and you're more into the pew-pew action, you might actually learn something useful here. After all, understanding radar mechanics can give you an edge in any scenario!
 
-## 1.1 Mandatory Graph
+## 2.1 Mandatory Graph
 
 > **Summary:** A visual representation of radar and scanning concepts, illustrating their interconnections and key topics covered in the guide.
 
@@ -24,7 +24,7 @@ graph TD
     G --> K[Ambience]
 ```
 
-## 1.2 Why This Guide Matters
+## 2.2 Why This Guide Matters
 
 If you've ever struggled to find rocks, salvage, or other resources while mining or exploring in Star Citizen, you're not alone! Many players miss out on valuable finds simply because they don't fully understand how ship radar and scanning work. This guide is here to help you change that.
 
@@ -39,7 +39,7 @@ Before we dive into the technical details, let's set the stage with what you'll 
 
 **Bottom line:** Whether you're a seasoned veteran or just starting your journey, this guide will help you make the most of your radar and scanning techniques, ensuring you never miss a valuable find again!
 
-## 1.3 What Is Ship Radar?
+## 2.3 What Is Ship Radar?
 
 Ship radar uses formulas to detect resources and ship signatures. Resource detection values are static, while ship signatures vary based on modules and energy distribution. Understanding these basics is key to effective scanning.
 
@@ -59,7 +59,7 @@ Ship radar uses formulas to detect resources and ship signatures. Resource detec
 
 ---
 
-## 1.4 How Detection Works (The Formula)
+## 2.4 How Detection Works (The Formula)
 
 Ready to geek out? Here's where we dive into the mechanics of detection. Don't worry if formulas aren't your thing—we'll break them down step by step and show you how they apply in real scenarios.
 
@@ -75,7 +75,7 @@ This means that in space, only the emitted signature of the target and your rada
 
 If **DetectedSignature ≥ DistanceToTarget**, you will see the target on radar or ping.
 
-### 1.4.1 Example: Ship Radar Sensitivity
+### 2.4.1 Example: Ship Radar Sensitivity
 
 > **Note:** The following table shows how much space different ships can scan in space. The higher the sensitivity, the more resources you can find!
 
@@ -98,7 +98,7 @@ If **DetectedSignature ≥ DistanceToTarget**, you will see the target on radar 
 >
 > **Tip:** Use slow, overlapping scan passes when covering an area. This helps ensure you don't miss small deposits that might fall between scan sweeps, especially when searching for valuable or rare resources.
 
-### 1.4.2 Example: Surface Scanning
+### 2.4.2 Example: Surface Scanning
 
 When scanning on a planet or moon, detection is limited to a 2D area (a circle) instead of a 3D volume. The scanned area is:
 
@@ -131,7 +131,7 @@ When scanning on a planet or moon, detection is limited to a 2D area (a circle) 
 
 **Source:** [CIG Dev Formula](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582)
 
-## 1.5 How Much Can You Scan? (Effective Scanning Volume)
+## 2.5 How Much Can You Scan? (Effective Scanning Volume)
 
 The farther your radar can detect, the more space you can scan. The formula is:
 
@@ -144,7 +144,7 @@ Even a small increase in detection range means a much larger increase in the vol
 - Dragonfly (RadarSensitivity = 100%) detects at ~20 km → ~33,510 km³ scanned
 - The Reclaimer scans about 12.5% of the volume that the Dragonfly can, which explains why you can't find much panels with a Reclaimer.
 
-## 1.6 How to Use Your Radar (Practical Steps)
+## 2.6 How to Use Your Radar (Practical Steps)
 
 1. **Know Your Ship's Specs:** Learn your ship's RS Signature Sensitivity and calculate its detection range and scanned volume.
 2. **Plan Your Route:** When exploring or mining, plan your route to maximize radar coverage. Consider your ship's radar limitations.
@@ -153,7 +153,7 @@ Even a small increase in detection range means a much larger increase in the vol
 5. **Analyze Readings:** Learn to quickly interpret radar or ping readings to find the location and quantity of resources.
 6. **Practice Makes Perfect:** The more you use and understand your ship's radar, the better you'll get at finding resources.
 
-## 1.7 Surface Scanning vs. Altitude
+## 2.7 Surface Scanning vs. Altitude
 
 ### Understanding Surface Scanning
 
@@ -183,13 +183,13 @@ Below is a table illustrating how the scanned surface area changes with altitude
 
 > **Caution:** The calculations assume Ambience=0, which is never true on a planet's surface.
 
-## 1.8 Key Takeaways
+## 2.8 Key Takeaways
 - **Radar Sensitivity is Critical:** Higher sensitivity means more resources detected at greater distances.
 - **Ambience is Usually Negligible in Space:** RadarPierce rarely affects detection in vacuum.
 - **Detection is Binary:** If DetectedSignature ≥ DistanceToTarget, you see the resource; otherwise, you don't.
 - **Volume Scales Fast:** Small improvements in detection range yield much larger scanning volumes.
 
-## 1.9 RS Signature Values by Resource Type
+## 2.9 RS Signature Values by Resource Type
 
 Each minable resource type in Star Citizen has its own Radar Signature (RS) value, which determines how detectable it is by your ship's radar. For example, a Granite Deposit has an RS signature of 1920, while a Hercules C2 Derelict ship has a signature of 2400. The RS signature you see on your ship's HUD may be a multiple of the base value, depending on how many of that resource are clustered together—e.g., 1920 for a single granite deposit, 3840 for two, 5760 for three, and so on.
 
@@ -232,7 +232,7 @@ For a full and up-to-date list, see the [Regolith Rocks Rock Class Survey](https
 
 ---
 
-## 1.11 Ship Minables vs. ROC/FPS Minables
+## 2.10 Ship Minables vs. ROC/FPS Minables
 
 ### Understanding the Difference
 
@@ -255,7 +255,7 @@ If you discover a deposit while surface scanning at a range of less than 5 km, i
 
 > **Note:** These minables are typically smaller and have lower `RS Signature` values compared to ship minables, which are detectable at much greater distances.
 
-## 1.10 References & Further Reading
+## 2.11 References & Further Reading
 
 - [CIG Dev Formula Discussion](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582) — Official developer discussion explaining the meaning and mechanics behind HUD IR/CS/EM values and the detection formula in Star Citizen.
 - [SC Ships Performances Viewer (RS Sensitivity)](https://www.spviewer.eu/performance?ship=drak_vulture) — Community-maintained tool for comparing ship radar sensitivity, detection ranges, and other performance metrics for all ships in Star Citizen.
