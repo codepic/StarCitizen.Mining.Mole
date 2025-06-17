@@ -10,7 +10,7 @@ Recommended mining head and module configurations for each turret, with roles an
 
 Below you’ll find a breakdown of each turret, including the recommended mining head, modules, optimal range, window size, instability, and the ideal rock size for each. This makes it easy to see what each turret is best at and how they work together.
 
-### 2.1 Front Turret (Main Break)
+### 1.1 Front Turret (Main Break)
 
 **Role:** The front turret is your go-to for breaking the biggest and toughest rocks. Start with this turret when you find a high-resistance or high-mass rock. The [HELIX II](https://finder.cstone.space/ShipMiningHeads1/3bcde69d-3e3a-4f78-b2cb-8189b349e4d2) mining head and three Rieger C3 modules give you the most power possible, making it perfect for the first break. Once the main rock is fractured, the side turrets can take over for further breaking and extraction.
 
@@ -26,7 +26,7 @@ Below you’ll find a breakdown of each turret, including the recommended mining
 
 ---
 
-### 2.2 Starboard Turret (Sub Break)
+### 1.2 Starboard Turret (Sub Break)
 
 **Role:** Use the starboard turret after the main break. It’s great for handling medium-sized pieces that are left after the first fracture. The [Hofstede S2](https://finder.cstone.space/ShipMiningHeads1/b422bcf8-b553-4b09-b2be-e92ab2f80e9a) head, with a Rieger C3 and [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9) module, gives you a good mix of power and control. This makes it easier to break down rocks that are too small for the main turret but too big or unstable for the support turret. It also helps keep the process stable and safe.
 
@@ -42,7 +42,7 @@ Below you’ll find a breakdown of each turret, including the recommended mining
 
 ---
 
-### 2.3 Port Turret (Support & Extraction)
+### 1.3 Port Turret (Support & Extraction)
 
 **Role:** The port turret shines in the final stages of mining. Use it to break down small fragments, help stabilize rocks with high instability, and assist with extraction. The Arbor MH2 head and two [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9) modules give you a huge optimal window and help keep things steady, making it perfect for delicate or unstable rocks and for fine-tuning the last part of the fracture.
 

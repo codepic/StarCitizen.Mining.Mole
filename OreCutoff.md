@@ -1,4 +1,4 @@
-# 7. Ore Cutoff Percentages & Rock Evaluation
+# 8. Ore Cutoff Percentages & Rock Evaluation
 
 *Background:*
 Many times, I've tried to set myself a strict cutoff before going mining—only to realize that, in practice, I end up breaking my own "promise" here and there. This document was born from analyzing the factors that cause me (and likely others) to steer away from a predefined A-tier cutoff. By understanding these factors, we can treat a predefined cutoff not as a rigid rule, but as a dynamic target. This approach lets us adapt our decisions to the actual rock compositions we encounter, while still aiming for a consistent, reliable financial outcome over time.
@@ -22,7 +22,7 @@ Communicating your mining target as a single cutoff percentage—supported by a 
 
 ---
 
-## 7.1 Ore Tiers Explained
+## 8.1 Ore Tiers Explained
 
 Below are the most relevant mining ores, their acronyms, and approximate values (per SCU) as of June 2025. For a full, up-to-date list, see [Regolith Rocks Ore Survey](https://regolith.rocks/survey/ores) and [UEX Corp Commodities](https://uexcorp.space/commodities).
 
@@ -65,7 +65,7 @@ Below are the most relevant mining ores, their acronyms, and approximate values 
 
 > **Note:** Values are approximate and fluctuate with the in-game market. Acronyms are community-standard.
 
-## 7.2 Practical Cutoff Guidelines
+## 8.2 Practical Cutoff Guidelines
 
 Before diving into the details, let's introduce the concept of an **A-tier focus**. This approach is based on the idea that you can achieve reliable and repeatable results by prioritizing A-tier ores, rather than endlessly hunting for the elusive S-tier "unicorn." Chasing only S-tier rocks might occasionally lead to a big win, but more often you'll come back empty-handed. Focusing on A-tier makes mining more fun and consistent, and when you do find an S-tier rock, it feels like a cherry on top of the cake. Using a single cutoff percentage based on A-tier content helps maximize profit and efficiency, filling your cargo with the most valuable and commonly available ores, while keeping your mining decisions simple and effective. The cutoff percentage and most crew policies in this guide are explained with this A-tier focus in mind, and the following policies (for S-tier, B-tier, or inerts) are adjustments to this default approach.
 
@@ -124,13 +124,13 @@ There are many real-world situations where it makes sense to adjust your mining 
 
 > **Remember:** The cutoff is a tool, not a law. Use it to keep mining fun, efficient, and engaging for everyone involved.
 
-## 7.3 Other Considerations
+## 8.3 Other Considerations
 
 - **Cargo Space:** Only mine rocks that maximize your profit per SCU. Avoid filling your hold with low-value C-tier or inert-heavy rocks.
 - **Time vs. Value:** Sometimes, a slightly lower cutoff is acceptable if you are in a hurry or want to fill your hold quickly.
 - **Market Fluctuations:** Ore prices can change. Adjust your cutoffs if the market shifts.
 
-## 7.4 References
+## 8.4 References
 
 - [Regolith Rocks Ore Survey](https://regolith.rocks/survey/ores)
 - [Star Citizen Mining Discords & Community Resources](ResourcesReferences.md)
