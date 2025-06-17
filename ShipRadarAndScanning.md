@@ -26,7 +26,7 @@ Because the ambience in vacuum is zero, the formula simplifies to:
 
 > **DetectedSignature = EmittedSignature × RadarSensitivity**
 
-This means that in space, only the emitted signature of the target and your radar's sensitivity matter for detection—radar pierce and ambience have no effect in a true vacuum.
+This means that in space, only the emitted signature of the target and your radar's sensitivity matter for detection—radar pierce and ambience have no effect in a true vacuum. This has been confirmed through experimentation in the [Aaron-Halo asteroid belt](https://cstone.space/resources/knowledge-base/65-aaron-halo-detailed-shape-and-density-survey), where detection results matched the simplified formula and showed no influence from radar pierce or ambience.
 
 If **DetectedSignature ≥ DistanceToTarget**, you will see the target on radar or ping.
 
@@ -66,7 +66,7 @@ When scanning for resources on a planetary or moon surface, detection is limited
 
 > **Note:** Scanned area is calculated as π × (DetectionRange/1000)² and rounded to the nearest whole number. This represents the maximum flat area on a surface where a resource can be detected. Percentages are relative to the maximum area (Dragonfly).
 
-- **EmittedSignature:** The actual signal strength emitted by the target (e.g., asteroid, salvage panel). Based on surveys I conducted on the Aaron-Halo asteroid belt, a value of 20,000 meters is an accurate working estimate for asteroids and salvage panels.
+- **EmittedSignature:** The actual signal strength emitted by the target (e.g., asteroid, salvage panel). Based on surveys I conducted on the [Aaron-Halo asteroid belt](https://cstone.space/resources/knowledge-base/65-aaron-halo-detailed-shape-and-density-survey), a value of 20,000 meters is an accurate working estimate for asteroids and salvage panels.
 - **Ambience:** The environmental background noise. In space (vacuum), this is typically 0, so it can often be ignored.
 - **RadarPierce:** How well your radar can penetrate environmental interference. If Ambience is 0, this has no effect.
 - **RadarSensitivity:** The sensitivity of your ship's radar, usually expressed as a percentage (e.g., 85% for MSR, 100% for Dragonfly). Higher sensitivity means better detection range.
@@ -109,8 +109,9 @@ To effectively use your ship's radar for finding resources, follow these steps:
 - **Volume scales fast:** Small improvements in detection range yield much larger scanning volumes.
 
 ## 2.6 References & Further Reading
-- [CIG Dev Formula Discussion](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582)
-- [SC Ships Performances Viewer (RS Sensitivity)](https://www.spviewer.eu/performance?ship=drak_vulture)
+- [CIG Dev Formula Discussion](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582) — Official developer discussion explaining the meaning and mechanics behind HUD IR/CS/EM values and the detection formula in Star Citizen.
+- [SC Ships Performances Viewer (RS Sensitivity)](https://www.spviewer.eu/performance?ship=drak_vulture) — Community-maintained tool for comparing ship radar sensitivity, detection ranges, and other performance metrics for all ships in Star Citizen.
+- [Aaron Halo - Detailed Shape and Density Survey (CaptSheppard, Cornerstone)](https://cstone.space/resources/knowledge-base/65-aaron-halo-detailed-shape-and-density-survey) — A comprehensive, scientific survey of the Aaron-Halo asteroid belt by CaptSheppard (Cornerstone). This article details the methods, data, and findings on the belt's structure, density, and consistency across servers, and stands as a gold standard for community-driven research. CaptSheppard's marvellous work not only advanced our understanding of the Aaron-Halo, but also inspired me to join Cornerstone and later create this documentation.
 
 ---
 
