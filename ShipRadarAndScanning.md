@@ -1,10 +1,14 @@
 # 1. Ship Radar & Scanning for Resources
 
+> **Summary:** This guide explores the mechanics of ship radar and scanning in Star Citizen, focusing on resource detection techniques and radar formulas. It provides practical insights for players aiming to improve their mining and exploration efficiency.
+
 > **Geek-Out Warning:** This guide dives into the nitty-gritty of radar formulas and scanning techniques. But don't worry—it's all grounded in common sense, so even if math isn't your thing, you'll find it easy to follow and super rewarding!
 
 > **Quick Note:** Even if mining isn't your thing and you're more into the pew-pew action, you might actually learn something useful here. After all, understanding radar mechanics can give you an edge in any scenario!
 
 ## 1.1 Mandatory Graph
+
+> **Summary:** A visual representation of radar and scanning concepts, illustrating their interconnections and key topics covered in the guide.
 
 ```mermaid
 graph TD
@@ -19,8 +23,6 @@ graph TD
     G --> J[Circle Radius]
     G --> K[Ambience]
 ```
-
-> **Note:** This diagram summarizes the key topics covered in the guide, providing a visual representation of how the concepts are interconnected.
 
 ## 1.2 Why This Guide Matters
 
@@ -39,9 +41,23 @@ Before we dive into the technical details, let's set the stage with what you'll 
 
 ## 1.3 What Is Ship Radar?
 
-Now that you know what this guide offers, let's start with the basics: what ship radar is and why it's your best friend in resource detection. This section will introduce the core concepts of radar functionality and set the foundation for understanding the formulas and techniques discussed later.
+Ship radar uses formulas to detect resources and ship signatures. Resource detection values are static, while ship signatures vary based on modules and energy distribution. Understanding these basics is key to effective scanning.
 
-Ship radar in Star Citizen is your main tool for detecting mineable resources, salvage panels, derelict ships, and more. Resource detection (RS) uses the same underlying formula as EM, CS, and IR detection—the key difference is that RS values for resources are static, while ship signatures (EM, CS, IR) are dynamic depending on the ship's modules, current energy distribution, and other factors.
+### Similarities and Differences Between EM, IR, RS Scanning
+
+- **EmittedSignature:** The signal strength emitted by the target. For resource scanning, RS signature is used, while other signatures like EM and IR are specific to ships and vary dynamically based on ship modules and energy distribution.
+- **Ambience:** The environmental background noise. Ambience affects surface scanning but is zero in space, simplifying detection formulas.
+- **RadarPierce:** Determines the focus or width of the scanning cone. It has no impact in space due to zero ambience. More research is needed to figure out the actual values of Ambience on planetary body surfaces. If figuring out such details is your suit, consider applying for the Cornerstone Star Citizen organization and its `analysis` pillar. Learn more and join at [Cornerstone Organization](https://robertsspaceindustries.com/en/orgs/CSTONE).
+- **RadarSensitivity:** Represents the percentage of the maximum detection range. In this document, we concentrate exclusively on RS Signature Sensitivity, which is specific to resource scanning and determines how effectively resources can be detected.
+
+**In practice:**
+- In space, the formula simplifies to:
+  > **DetectedSignature = EmittedSignature × RadarSensitivity**
+- If DetectedSignature ≥ DistanceToTarget, the target appears on radar or ping.
+
+**Source:** [CIG Dev Formula](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582)
+
+---
 
 ## 1.4 How Detection Works (The Formula)
 
@@ -88,6 +104,8 @@ When scanning on a planet or moon, detection is limited to a 2D area (a circle) 
 
 > **Area (km²) = π × (DetectionRange/1000)²**
 
+> **Assumption:** This example assumes an altitude of 0 meters.
+
 | Ship Name   | RS Sensitivity (%) | Detection Range (m) | Scanned Area (km²) | % of Max Area |
 |-------------|-------------------|---------------------|--------------------|---------------|
 | Dragonfly   | 100%              | 20,000              | 1,257              | 100%          |
@@ -101,10 +119,10 @@ When scanning on a planet or moon, detection is limited to a 2D area (a circle) 
 
 > **Note:** Scanned area is calculated as π × (DetectionRange/1000)².
 
-- **EmittedSignature:** The signal strength emitted by the target (e.g., asteroid, salvage panel). Based on surveys in the [Aaron-Halo asteroid belt](https://cstone.space/resources/knowledge-base/65-aaron-halo-detailed-shape-and-density-survey), a value of 20,000 meters is a good working estimate for asteroids and salvage panels.
-- **Ambience:** The environmental background noise. In space, this is usually 0.
-- **RadarPierce:** How well your radar can penetrate interference. If Ambience is 0, this has no effect.
-- **RadarSensitivity:** The sensitivity of your ship's radar, usually a percentage (e.g., 85% for MSR, 100% for Dragonfly).
+- **EmittedSignature:** The signal strength emitted by the target (e.g., asteroid, salvage panel). Based on individual surveys, a value of 20,000 meters is a good working estimate for asteroids and salvage panels. This estimate is independent of the linked [Aaron-Halo asteroid belt survey](https://cstone.space/resources/knowledge-base/65-aaron-halo-detailed-shape-and-density-survey), which focuses on other aspects of the belt.
+- **Ambience:** The environmental background noise. At the moment, the exact values for ambience on planet or moon surfaces are largely unknown. If figuring out such details is your suit, consider applying for the Cornerstone Star Citizen organization and its `analysis` pillar. Learn more and join at [Cornerstone Organization](https://robertsspaceindustries.com/en/orgs/CSTONE).
+- **RadarPierce:** The angle of the radar scan, determining how focused or wide the scanning cone is. According to the formula provided by CIG developers, if Ambience = 0, RadarPierce is effectively canceled out and has no impact on DetectedSignature.
+- **RadarSensitivity:** Effectively the percentage of the maximum 20 kilometers your radar can detect a signature in vacuum.
 
 **In practice:**
 - If Ambience is 0 (as in space), the formula simplifies to:
@@ -122,9 +140,9 @@ The farther your radar can detect, the more space you can scan. The formula is:
 Even a small increase in detection range means a much larger increase in the volume you can scan!
 
 **Example:**
-- MSR (RadarSensitivity = 85%) detects at ~15.9 km → ~16,743 km³ scanned
-- Dragonfly (RadarSensitivity = 100%) detects at ~19 km → ~28,600 km³ scanned
-- The MSR scans about 59% of the volume that the Dragonfly can, matching theory.
+- Reclaimer (RadarSensitivity = 50%) detects at ~10 km → ~4,189 km³ scanned
+- Dragonfly (RadarSensitivity = 100%) detects at ~20 km → ~33,510 km³ scanned
+- The Reclaimer scans about 12.5% of the volume that the Dragonfly can, which explains why you can't find much panels with a Reclaimer.
 
 ## 1.6 How to Use Your Radar (Practical Steps)
 
@@ -177,23 +195,23 @@ Each minable resource type in Star Citizen has its own Radar Signature (RS) valu
 
 > **Note:** RS signature detection works exactly the same way as IR, EM, or CS detection. The only difference is that RS values for resources are static (always the same for a given resource type), while ship signatures (IR/EM/CS) are dynamic and can change depending on what modules are active, ship state, or player actions.
 
-For a comprehensive and up-to-date list of RS signature values for all minable resource types, see the [Regolith Rocks Rock Class Survey](https://regolith.rocks/survey/rock_class). This resource provides detailed tables and explanations for each rock and deposit type, helping you identify what you're scanning based on the signature value displayed.
+For a comprehensive and up-to-date list of RS signature values for all minable resource types, see the [Regolith Rocks Rock Class Survey](https://regolith.rocks/survey/rock_class). If you hover your mouse over the RS signature on the linked page, you'll see the multiple signature values for each resource type.
 
 ### Common RS Signature Values for Minable Resource Types
 
 Below are example RS signature values for common minable rocks and surface deposits. The value you see on your ship's HUD is the sum of all signatures in a cluster—e.g., 1920 for one Granite Deposit, 3840 for two, etc.
 
-| Resource Type         | RS Signature (Single) |
-|----------------------|-----------------------|
-| Granite Deposit      | 1920                  |
-| Igneous Deposit      | 1950                  |
-| Quartzite Deposit    | 1820                  |
-| Shale Deposit        | 1730                  |
-| Atacamite Deposit    | 1800                  |
-| Felsic Deposit       | 1770                  |
-| Gneiss Deposit       | 1840                  |
-| Obsidian Deposit     | 1790                  |
-| Hercules C2 Derelict | 2400                  |
+| Resource Type         | RS Signature (2) | RS Signature (3) | RS Signature (5) | RS Signature (7) | RS Signature (11) |
+|----------------------|------------------|------------------|------------------|------------------|-------------------|
+| Granite Deposit      | 3840             | 5760             | 9600             | 13,440           | 21,120            |
+| Igneous Deposit      | 3900             | 5850             | 9750             | 13,650           | 21,450            |
+| Quartzite Deposit    | 3640             | 5460             | 9100             | 12,740           | 19,880            |
+| Shale Deposit        | 3460             | 5190             | 8650             | 12,110           | 18,830            |
+| Atacamite Deposit    | 3600             | 5400             | 9000             | 12,600           | 19,800            |
+| Felsic Deposit       | 3540             | 5310             | 8850             | 12,390           | 19,470            |
+| Gneiss Deposit       | 3680             | 5520             | 9200             | 12,880           | 20,240            |
+| Obsidian Deposit     | 3580             | 5370             | 8950             | 12,530           | 19,690            |
+| Hercules C2 Derelict | 4800             | 7200             | 12,000           | 16,800           | 26,400            |
 
 #### Example: Signature Multiples
 
@@ -205,14 +223,40 @@ If you scan a cluster of 3 Granite Deposits, the HUD will show:
 | 2                         | 3840               |
 | 3                         | 5760               |
 | 4                         | 7680               |
+| 5                         | 9600               |
+| 10                        | 19,200             |
 
 This pattern applies to all minable resource types: simply multiply the base RS signature by the number of rocks or deposits in the cluster.
 
-For a full and up-to-date list, see the [Regolith Rocks Rock Class Survey](https://regolith.rocks/survey/rock_class).
+For a full and up-to-date list, see the [Regolith Rocks Rock Class Survey](https://regolith.rocks/survey/rock_class). If you hover your mouse over the RS signature on the linked page, you'll see the multiple signature values for each resource type.
 
 ---
 
+## 1.11 Ship Minables vs. ROC/FPS Minables
+
+### Understanding the Difference
+
+Ship minables and ROC/FPS minables differ significantly in their `EmittedSignature` values. ROC/FPS minables generally have lower `EmittedSignature` values, making them harder to detect at longer ranges. This distinction is crucial when surface scanning for resources.
+
+### Practical Insight
+
+If you discover a deposit while surface scanning at a range of less than 5 km, it is most likely one of the following ROC/FPS minables:
+
+- Janalite
+- Hadanite
+- Feynmeline
+- Aphorite
+- Beradom
+- Dolivine
+- Glacosite
+- Carinite
+- Jaclium
+- Saldynium
+
+> **Note:** These minables are typically smaller and have lower `RS Signature` values compared to ship minables, which are detectable at much greater distances.
+
 ## 1.10 References & Further Reading
+
 - [CIG Dev Formula Discussion](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582) — Official developer discussion explaining the meaning and mechanics behind HUD IR/CS/EM values and the detection formula in Star Citizen.
 - [SC Ships Performances Viewer (RS Sensitivity)](https://www.spviewer.eu/performance?ship=drak_vulture) — Community-maintained tool for comparing ship radar sensitivity, detection ranges, and other performance metrics for all ships in Star Citizen.
 - [Aaron Halo - Detailed Shape and Density Survey (CaptSheppard, Cornerstone)](https://cstone.space/resources/knowledge-base/65-aaron-halo-detailed-shape-and-density-survey) — A comprehensive, scientific survey of the Aaron-Halo asteroid belt by CaptSheppard (Cornerstone). This article details the methods, data, and findings on the belt's structure, density, and consistency across servers, and stands as a gold standard for community-driven research. CaptSheppard's marvellous work not only advanced our understanding of the Aaron-Halo, but also inspired me to join Cornerstone and later create this documentation.
