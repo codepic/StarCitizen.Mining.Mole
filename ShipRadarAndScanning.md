@@ -1,28 +1,29 @@
 # 2. Ship Radar & Scanning for Resources
 
-## 2.0 Newcomer Motivation: Why This Page Matters
+## 2.0 Why This Guide Matters (For Newcomers)
 
-If you've ever struggled to find rocks, salvage, or other resources while mining or exploring in Star Citizen, you're not alone! Many players miss out on valuable finds simply because they don't understand how ship radar and scanning really work. This page is here to help you turn that around.
+If you've ever struggled to find rocks, salvage, or other resources while mining or exploring in Star Citizen, you're not alone! Many players miss out on valuable finds simply because they don't fully understand how ship radar and scanning work. This guide is here to help you change that.
 
-**Why should you read this page?**
-- **Ship choice matters:** In space, a ship like the Reclaimer can only detect about 13% of the maximum possible resource volume compared to a Dragonfly. If you're using the wrong ship, you might be missing out on most of the rocks!
-- **Radar specs are critical:** Even ships that look similar can have very different radar sensitivity. For example, the MSR can scan 10% more space than a MOLE, just because of its radar. Even though this doesn't make sense at all.
-- **Surface vs. space scanning:** The area or volume you can scan changes dramatically depending on whether you're in space or on a planet. Knowing the difference helps you plan your search and avoid frustration.
-- **No more guesswork:** With the formulas and tables on this page, you'll know exactly what your ship can (and can't) do. This means less time wandering and more time finding valuable resources.
-- **Confidence and efficiency:** Understanding these basics will make you a more effective miner, scout, or salvager—and make your time in the 'verse much more rewarding!
+**What You'll Learn:**
+- **Choosing the Right Ship:** Some ships, like the Reclaimer, can only detect a small fraction of resources compared to others like the Dragonfly. Using the right ship makes a huge difference!
+- **Understanding Radar Specs:** Even similar-looking ships can have very different radar sensitivity. For example, the MSR can scan 10% more space than a MOLE, just because of its radar.
+- **Space vs. Surface Scanning:** The area or volume you can scan changes dramatically depending on whether you're in space or on a planet. Knowing the difference helps you plan your search and avoid frustration.
+- **No More Guesswork:** With the formulas and tables in this guide, you'll know exactly what your ship can (and can't) do. This means less time wandering and more time finding valuable resources.
+- **Confidence and Efficiency:** Understanding these basics will make you a more effective miner, scout, or salvager—and make your time in the 'verse much more rewarding!
 
 **Bottom line:** If you've ever felt unlucky or frustrated while searching for resources, the real problem might be your ship or your scanning technique—not your luck. Read on to learn how to make the most of your radar and never miss a find again!
 
-## 2.1 Introduction to Ship Radar
-Ship radar in Star Citizen is the primary tool for detecting mineable resources, salvage panels, derelict ships, and more. Unlike EM, CS, or IR signatures, resource detection relies on a different formula and is especially important for mining and salvage crews.
+## 2.1 What Is Ship Radar?
 
-## 2.2 The Detection Formula Explained
+Ship radar in Star Citizen is your main tool for detecting mineable resources, salvage panels, derelict ships, and more. Unlike other signals (like EM, CS, or IR), resource detection uses a special formula and is especially important for mining and salvage crews.
 
-The formula used to determine whether a resource is detected by your ship's radar is:
+## 2.2 How Detection Works (The Formula)
+
+To know if your ship can detect a resource, use this formula:
 
 > **DetectedSignature = (EmittedSignature - (Ambience × (1 - RadarPierce))) × RadarSensitivity**
 
-Because the ambience in vacuum is zero, the formula simplifies to:
+But in space, ambience is zero, so it simplifies to:
 
 > **DetectedSignature = EmittedSignature × RadarSensitivity**
 
@@ -30,46 +31,46 @@ This means that in space, only the emitted signature of the target and your rada
 
 If **DetectedSignature ≥ DistanceToTarget**, you will see the target on radar or ping.
 
-### 2.2.1 Example RS Signature Sensitivity Values by Ship
+### 2.2.1 Example: Ship Radar Sensitivity
 
-> **Note:** The scanned volume calculations below apply to space, where resources can be detected within a sphere around the ship. This represents the maximum 3D volume in which a resource can be detected, assuming no obstructions.
+> **Note:** The following table shows how much space different ships can scan in space. The higher the sensitivity, the more resources you can find!
 
-| Ship Name         | RS Signature Sensitivity (%) | Detection Range (m) | Scanned Volume (km³) | % of Max Volume |
-|-------------------|-----------------------------|---------------------|----------------------|-----------------|
-| Dragonfly         | 100%                        | 20,000              | 33,510               | 100%            |
-| Mantis            | 90%                         | 18,000              | 24,429               | 73%             |
-| MSR               | 85%                         | 17,000              | 20,579               | 61%             |
-| MOLE              | 80%                         | 16,000              | 17,157               | 51%             |
-| Vulture           | 80%                         | 16,000              | 17,157               | 51%             |
-| Prospector        | 80%                         | 16,000              | 17,157               | 51%             |
-| Carrack           | 75%                         | 15,000              | 14,137               | 42%             |
-| Reclaimer         | 50%                         | 10,000              | 4,189                | 13%             |
+| Ship Name         | RS Sensitivity (%) | Detection Range (m) | Scanned Volume (km³) | % of Max Volume |
+|-------------------|-------------------|---------------------|----------------------|-----------------|
+| Dragonfly         | 100%              | 20,000              | 33,510               | 100%            |
+| Mantis            | 90%               | 18,000              | 24,429               | 73%             |
+| MSR               | 85%               | 17,000              | 20,579               | 61%             |
+| MOLE              | 80%               | 16,000              | 17,157               | 51%             |
+| Vulture           | 80%               | 16,000              | 17,157               | 51%             |
+| Prospector        | 80%               | 16,000              | 17,157               | 51%             |
+| Carrack           | 75%               | 15,000              | 14,137               | 42%             |
+| Reclaimer         | 50%               | 10,000              | 4,189                | 13%             |
 
-> **Note:** Detection range is calculated as EmittedSignature × RS Sensitivity (e.g., 20,000 × 0.85 = 17,000 m for MSR). Scanned volume is calculated as 4/3 × π × (DetectionRange/1000)³ and rounded to the nearest whole number. For the latest and full list, visit [SC Ships Performances Viewer](https://www.spviewer.eu/performance).
+> **Note:** Detection range is calculated as EmittedSignature × RS Sensitivity. Scanned volume is calculated as 4/3 × π × (DetectionRange/1000)³.
 
-### 2.2.2 Example RS Signature Sensitivity Values by Ship (Surface Scanning)
+### 2.2.2 Example: Surface Scanning
 
-When scanning for resources on a planetary or moon surface, detection is limited to a 2D area (a circle) rather than a 3D volume. The scanned area is calculated as:
+When scanning on a planet or moon, detection is limited to a 2D area (a circle) instead of a 3D volume. The scanned area is:
 
 > **Area (km²) = π × (DetectionRange/1000)²**
 
-| Ship Name   | RS Signature Sensitivity (%) | Detection Range (m) | Scanned Area (km²) | % of Max Area |
-|-------------|-----------------------------|---------------------|--------------------|---------------|
-| Dragonfly   | 100%                        | 20,000              | 1,257              | 100%          |
-| Mantis      | 90%                         | 18,000              | 1,018              | 81%           |
-| MSR         | 85%                         | 17,000              | 908                | 72%           |
-| MOLE        | 80%                         | 16,000              | 804                | 64%           |
-| Vulture     | 80%                         | 16,000              | 804                | 64%           |
-| Prospector  | 80%                         | 16,000              | 804                | 64%           |
-| Carrack     | 75%                         | 15,000              | 707                | 56%           |
-| Reclaimer   | 50%                         | 10,000              | 314                | 25%           |
+| Ship Name   | RS Sensitivity (%) | Detection Range (m) | Scanned Area (km²) | % of Max Area |
+|-------------|-------------------|---------------------|--------------------|---------------|
+| Dragonfly   | 100%              | 20,000              | 1,257              | 100%          |
+| Mantis      | 90%               | 18,000              | 1,018              | 81%           |
+| MSR         | 85%               | 17,000              | 908                | 72%           |
+| MOLE        | 80%               | 16,000              | 804                | 64%           |
+| Vulture     | 80%               | 16,000              | 804                | 64%           |
+| Prospector  | 80%               | 16,000              | 804                | 64%           |
+| Carrack     | 75%               | 15,000              | 707                | 56%           |
+| Reclaimer   | 50%               | 10,000              | 314                | 25%           |
 
-> **Note:** Scanned area is calculated as π × (DetectionRange/1000)² and rounded to the nearest whole number. This represents the maximum flat area on a surface where a resource can be detected. Percentages are relative to the maximum area (Dragonfly).
+> **Note:** Scanned area is calculated as π × (DetectionRange/1000)².
 
-- **EmittedSignature:** The actual signal strength emitted by the target (e.g., asteroid, salvage panel). Based on surveys I conducted on the [Aaron-Halo asteroid belt](https://cstone.space/resources/knowledge-base/65-aaron-halo-detailed-shape-and-density-survey), a value of 20,000 meters is an accurate working estimate for asteroids and salvage panels.
-- **Ambience:** The environmental background noise. In space (vacuum), this is typically 0, so it can often be ignored.
-- **RadarPierce:** How well your radar can penetrate environmental interference. If Ambience is 0, this has no effect.
-- **RadarSensitivity:** The sensitivity of your ship's radar, usually expressed as a percentage (e.g., 85% for MSR, 100% for Dragonfly). Higher sensitivity means better detection range.
+- **EmittedSignature:** The signal strength emitted by the target (e.g., asteroid, salvage panel). Based on surveys in the [Aaron-Halo asteroid belt](https://cstone.space/resources/knowledge-base/65-aaron-halo-detailed-shape-and-density-survey), a value of 20,000 meters is a good working estimate for asteroids and salvage panels.
+- **Ambience:** The environmental background noise. In space, this is usually 0.
+- **RadarPierce:** How well your radar can penetrate interference. If Ambience is 0, this has no effect.
+- **RadarSensitivity:** The sensitivity of your ship's radar, usually a percentage (e.g., 85% for MSR, 100% for Dragonfly).
 
 **In practice:**
 - If Ambience is 0 (as in space), the formula simplifies to:
@@ -78,40 +79,78 @@ When scanning for resources on a planetary or moon surface, detection is limited
 
 **Source:** [CIG Dev Formula](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582)
 
-## 2.3 Effective Scanning Volume
+## 2.3 How Much Can You Scan? (Effective Scanning Volume)
 
-The effective volume of space you can scan is determined by how far your radar can detect a signature. The formula for the scanned volume is:
+The farther your radar can detect, the more space you can scan. The formula is:
 
 > **Volume (km³) = 4/3 × π × (DetectedSignature / 1000)³**
 
-This means that even a small increase in detection range results in a much larger increase in the volume of space you can scan.
+Even a small increase in detection range means a much larger increase in the volume you can scan!
 
 **Example:**
 - MSR (RadarSensitivity = 85%) detects at ~15.9 km → ~16,743 km³ scanned
 - Dragonfly (RadarSensitivity = 100%) detects at ~19 km → ~28,600 km³ scanned
-- The MSR scans about 59% of the volume that the Dragonfly can, matching theoretical predictions.
+- The MSR scans about 59% of the volume that the Dragonfly can, matching theory.
 
-## 2.4 Practical Scanning Procedure
+## 2.4 How to Use Your Radar (Practical Steps)
 
-To effectively use your ship's radar for finding resources, follow these steps:
-
-1. **Know Your Ship's Specs:** Understand your ship's RS Signature Sensitivity and calculate its detection range and scanned volume.
-2. **Plan Your Route:** When exploring or mining, plan your route to maximize the area covered by your radar. Consider the limitations of your ship's radar compared to others.
-3. **Adjust Your Speed:** Slower speeds allow for more accurate scanning and less missed resources. Consider the trade-off between speed and detection.
-4. **Use Ping Wisely:** Utilize the ping function to get a quick overview of the resources in your vicinity. Remember the difference between space and surface pinging.
-5. **Analyze Readings:** Learn to quickly analyze the radar or ping readings to determine the location and quantity of resources.
-6. **Practice Makes Perfect:** The more you use and understand your ship's radar, the more effective you'll become at locating resources.
+1. **Know Your Ship's Specs:** Learn your ship's RS Signature Sensitivity and calculate its detection range and scanned volume.
+2. **Plan Your Route:** When exploring or mining, plan your route to maximize radar coverage. Consider your ship's radar limitations.
+3. **Adjust Your Speed:** Slower speeds allow for more accurate scanning and less missed resources. Balance speed and detection.
+4. **Use Ping Wisely:** Use the ping function to quickly check for resources nearby. Remember the difference between space and surface pinging.
+5. **Analyze Readings:** Learn to quickly interpret radar or ping readings to find the location and quantity of resources.
+6. **Practice Makes Perfect:** The more you use and understand your ship's radar, the better you'll get at finding resources.
 
 ## 2.5 Key Takeaways
-- **RS Signature Sensitivity of your radar is critical:** Higher sensitivity means more resources detected at greater distances.
-- **Ambience is usually negligible in space:** So RadarPierce rarely affects detection in vacuum.
-- **Detection is binary:** If DetectedSignature ≥ DistanceToTarget, you see the resource; otherwise, you don't.
-- **Volume scales fast:** Small improvements in detection range yield much larger scanning volumes.
+- **Radar Sensitivity is Critical:** Higher sensitivity means more resources detected at greater distances.
+- **Ambience is Usually Negligible in Space:** RadarPierce rarely affects detection in vacuum.
+- **Detection is Binary:** If DetectedSignature ≥ DistanceToTarget, you see the resource; otherwise, you don't.
+- **Volume Scales Fast:** Small improvements in detection range yield much larger scanning volumes.
 
-## 2.6 References & Further Reading
+## 2.6 RS Signature Values by Resource Type
+
+Each minable resource type in Star Citizen has its own Radar Signature (RS) value, which determines how detectable it is by your ship's radar. For example, a Granite Deposit has an RS signature of 1920, while a Hercules C2 Derelict ship has a signature of 2400. The RS signature you see on your ship's HUD may be a multiple of the base value, depending on how many of that resource are clustered together—e.g., 1920 for a single granite deposit, 3840 for two, 5760 for three, and so on.
+
+For a comprehensive and up-to-date list of RS signature values for all minable resource types, see the [Regolith Rocks Rock Class Survey](https://regolith.rocks/survey/rock_class). This resource provides detailed tables and explanations for each rock and deposit type, helping you identify what you're scanning based on the signature value displayed.
+
+### Common RS Signature Values for Minable Resource Types
+
+Below are example RS signature values for common minable rocks and surface deposits. The value you see on your ship's HUD is the sum of all signatures in a cluster—e.g., 1920 for one Granite Deposit, 3840 for two, etc.
+
+| Resource Type         | RS Signature (Single) |
+|----------------------|-----------------------|
+| Granite Deposit      | 1920                  |
+| Igneous Deposit      | 1950                  |
+| Quartzite Deposit    | 1820                  |
+| Shale Deposit        | 1730                  |
+| Atacamite Deposit    | 1800                  |
+| Felsic Deposit       | 1770                  |
+| Gneiss Deposit       | 1840                  |
+| Obsidian Deposit     | 1790                  |
+| Hercules C2 Derelict | 2400                  |
+
+#### Example: Signature Multiples
+
+If you scan a cluster of 3 Granite Deposits, the HUD will show:
+
+| Number of Granite Deposits | Total RS Signature |
+|---------------------------|--------------------|
+| 1                         | 1920               |
+| 2                         | 3840               |
+| 3                         | 5760               |
+| 4                         | 7680               |
+
+This pattern applies to all minable resource types: simply multiply the base RS signature by the number of rocks or deposits in the cluster.
+
+For a full and up-to-date list, see the [Regolith Rocks Rock Class Survey](https://regolith.rocks/survey/rock_class).
+
+---
+
+## 2.7 References & Further Reading
 - [CIG Dev Formula Discussion](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582) — Official developer discussion explaining the meaning and mechanics behind HUD IR/CS/EM values and the detection formula in Star Citizen.
 - [SC Ships Performances Viewer (RS Sensitivity)](https://www.spviewer.eu/performance?ship=drak_vulture) — Community-maintained tool for comparing ship radar sensitivity, detection ranges, and other performance metrics for all ships in Star Citizen.
 - [Aaron Halo - Detailed Shape and Density Survey (CaptSheppard, Cornerstone)](https://cstone.space/resources/knowledge-base/65-aaron-halo-detailed-shape-and-density-survey) — A comprehensive, scientific survey of the Aaron-Halo asteroid belt by CaptSheppard (Cornerstone). This article details the methods, data, and findings on the belt's structure, density, and consistency across servers, and stands as a gold standard for community-driven research. CaptSheppard's marvellous work not only advanced our understanding of the Aaron-Halo, but also inspired me to join Cornerstone and later create this documentation.
+- [Regolith Rocks Rock Class Survey](https://regolith.rocks/survey/rock_class) — A detailed, community-driven database of RS signature values for all rock and deposit types in Star Citizen. This resource is invaluable for identifying scanned objects and understanding the numbers shown on your ship's HUD.
 
 ---
 
