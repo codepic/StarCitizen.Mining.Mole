@@ -189,7 +189,13 @@ Below is a table illustrating how the scanned surface area changes with altitude
 - **Detection is Binary:** If DetectedSignature ≥ DistanceToTarget, you see the resource; otherwise, you don't.
 - **Volume Scales Fast:** Small improvements in detection range yield much larger scanning volumes.
 
-## 2.9 RS Signature Values by Resource Type
+## 2.9 Simple Rules Summary
+
+1. The scanned volume increases by the cube of the radius.
+2. The scanned surface area at 0 altitude increases by the square of the radius.
+3. The scanned surface area decreases by the square of the altitude.
+
+## 2.10 RS Signature Values by Resource Type
 
 Each minable resource type in Star Citizen has its own Radar Signature (RS) value, which determines how detectable it is by your ship's radar. For example, a Granite Deposit has an RS signature of 1920, while a Hercules C2 Derelict ship has a signature of 2400. The RS signature you see on your ship's HUD may be a multiple of the base value, depending on how many of that resource are clustered together—e.g., 1920 for a single granite deposit, 3840 for two, 5760 for three, and so on.
 
@@ -222,9 +228,9 @@ If you scan a cluster of 3 Granite Deposits, the HUD will show:
 | 1                         | 1920               |
 | 2                         | 3840               |
 | 3                         | 5760               |
-| 4                         | 7680               |
 | 5                         | 9600               |
-| 10                        | 19,200             |
+| 7                         | 13,440             |
+| 11                        | 21,120             |
 
 This pattern applies to all minable resource types: simply multiply the base RS signature by the number of rocks or deposits in the cluster.
 
@@ -232,7 +238,7 @@ For a full and up-to-date list, see the [Regolith Rocks Rock Class Survey](https
 
 ---
 
-## 2.10 Ship Minables vs. ROC/FPS Minables
+## 2.11 Ship Minables vs. ROC/FPS Minables
 
 ### Understanding the Difference
 
@@ -255,7 +261,7 @@ If you discover a deposit while surface scanning at a range of less than 5 km, i
 
 > **Note:** These minables are typically smaller and have lower `RS Signature` values compared to ship minables, which are detectable at much greater distances.
 
-## 2.11 References & Further Reading
+## 2.12 References & Further Reading
 
 - [CIG Dev Formula Discussion](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582) — Official developer discussion explaining the meaning and mechanics behind HUD IR/CS/EM values and the detection formula in Star Citizen.
 - [SC Ships Performances Viewer (RS Sensitivity)](https://www.spviewer.eu/performance?ship=drak_vulture) — Community-maintained tool for comparing ship radar sensitivity, detection ranges, and other performance metrics for all ships in Star Citizen.
@@ -263,5 +269,3 @@ If you discover a deposit while surface scanning at a range of less than 5 km, i
 - [Regolith Rocks Rock Class Survey](https://regolith.rocks/survey/rock_class) — A detailed, community-driven database of RS signature values for all rock and deposit types in Star Citizen. This resource is invaluable for identifying scanned objects and understanding the numbers shown on your ship's HUD.
 
 ---
-
-*This section is a work in progress. If you have suggestions or want to see a specific topic covered, let us know!*
