@@ -185,6 +185,22 @@ For value miners and A-Tier focus miners, we recommend prioritizing other modifi
 
 ---
 
+## Future Work
+
+Further studies are warranted to build upon these initial findings. Potential directions for future research include:
+
+- **Empirical Field Studies:** Conducting in-game experiments to validate the calculated profitability differences under real mining conditions, accounting for player behavior, ship configurations, and dynamic market prices.
+- **Longitudinal Analysis:** Tracking profitability and mining efficiency over multiple game patches to assess the impact of ongoing changes to ore values, mass-to-SCU ratios, and mining mechanics.
+- **Comparative Ship Analysis:** Evaluating how the Mass-to-SCU ratio of C-Tier ores affects profitability across different mining ships and cargo capacities, not just the Mole.
+- **Refining Process Optimization:** Investigating how refining yields, times, and costs interact with ore mass-to-SCU ratios to influence net profit.
+- **Player Strategy Modeling:** Analyzing how different mining strategies (e.g., solo vs. group mining, selective vs. volume mining) interact with ore properties to optimize outcomes.
+- **Modifier Impact Analysis:** Expanding the scope of research to systematically study the effects of other C-Tier ore modifiers—such as resistance, instability, clustering, explosion strength, and green zone thinness—on mining efficiency, safety, and profitability. This would help determine the relative importance of these factors compared to the Mass-to-SCU ratio and guide more nuanced mining strategies.
+- **Tier Comparison Studies:** Extending the analysis to examine how the Mass-to-SCU ratio of S-Tier, A-Tier, and B-Tier rocks influences mining profitability. This would clarify whether similar effects observed for C-Tier ores apply to higher-value ores and inform optimal mining strategies across all ore tiers.
+
+These avenues of research would provide a more comprehensive understanding of the economic and practical implications of ore density and other modifiers in Star Citizen mining.
+
+---
+
 ## References
 
 1. Reddit: [Mass to SCU values in 3.19 ?(Mining)](https://www.reddit.com/r/starcitizen/comments/13hko27/mass_to_scu_values_in_319_mining/)
