@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This study analyzes the impact of C-Tier ore Mass to SCU ratio on mining profitability in Star Citizen. Using in-game data, community discussions, and scenario analysis, we compare the effects of ore composition and mining strategies on value per trip, efficiency, and overall profit. Our findings show that the Mass to SCU ratio is a critical factor for volume miners, especially with the advent of on-field ore bag swapping, while value-focused miners should prioritize other rock modifiers.
+This study analyzes the impact of [C-Tier ore](https://regolith.rocks/survey/ores?ot=C) Mass to SCU ratio on mining profitability in Star Citizen. Using in-game data, community discussions, and scenario analysis, we compare the effects of ore composition and mining strategies on value per trip, efficiency, and overall profit. Our findings show that the Mass to SCU ratio is a critical factor for volume miners, especially with the advent of on-field ore bag swapping, while value-focused miners should prioritize other rock modifiers.
 
 ---
 
@@ -16,11 +16,11 @@ The main hypothesis is that the profitability of mining is now heavily influence
 *Source: [Reddit - Mass to SCU values in 3.19 (Mining)](https://www.reddit.com/r/starcitizen/comments/13hko27/mass_to_scu_values_in_319_mining/)*
 
 **Additional Hypothesis:**  
-It has also been hypothesized that miners should focus on C-Tier ores when choosing a mining location, using the Mass to SCU ratio of these ores as a key factor in selecting the most profitable mining sites. This approach suggests that evaluating the density and efficiency of C-Tier ores at a location can help maximize rock value and overall mining profitability.  
+It has also been hypothesized that miners should focus on [C-Tier ores](https://regolith.rocks/survey/ores?ot=C) when choosing a mining location, using the Mass to SCU ratio of these ores as a key factor in selecting the most profitable mining sites. This approach suggests that evaluating the density and efficiency of [C-Tier ores](https://regolith.rocks/survey/ores?ot=C) at a location can help maximize rock value and overall mining profitability.  
 *Source: [YouTube - Star Citizen Mining Guide](https://www.youtube.com/watch?v=-7KyJ8NsOUc&t=2168s)*
 
 ## Purpose and Scope of This Analysis
-Since we're talking about Mass to SCU, which affects both mass and volume, it's important to examine the real-world effect of the presence of C-Tier ore in a rock. Profitability is not only determined by the value of a rock, but also by how many round trips you need to make to the refinery. Rocks with high-mass, low-value C-Tier ores can fill your cargo hold faster, but may require more trips and reduce overall efficiency, while low-mass, high-value ores maximize profit per trip and minimize downtime.
+Since we're talking about Mass to SCU, which affects both mass and volume, it's important to examine the real-world effect of the presence of [C-Tier ore](https://regolith.rocks/survey/ores?ot=C) in a rock. Profitability is not only determined by the value of a rock, but also by how many round trips you need to make to the refinery. Rocks with high-mass, low-value [C-Tier ores](https://regolith.rocks/survey/ores?ot=C) can fill your cargo hold faster, but may require more trips and reduce overall efficiency, while low-mass, high-value ores maximize profit per trip and minimize downtime.
 
 ---
 
@@ -28,7 +28,7 @@ Since we're talking about Mass to SCU, which affects both mass and volume, it's 
 
 - Data was collected from community calculators (e.g., Regolith's Cluster Calculator), and online discussions (Reddit, YouTube).
 - Calculations for value per Mole, % best, and moles filled are based on standard cargo unit (SCU) conversions and ore mass-to-SCU ratios as observed in Star Citizen 4.1.1.
-- The comparison tables were constructed by holding total rock mass and ore percentages constant, varying only the C-Tier ore type to isolate its effect on profitability and efficiency.
+- The comparison tables were constructed by holding total rock mass and ore percentages constant, varying only the [C-Tier ore](https://regolith.rocks/survey/ores?ot=C) type to isolate its effect on profitability and efficiency.
 - The Mole mining ship was used as the reference for all calculations involving cargo capacity and value per trip, as it is a common choice for group mining and provides a consistent baseline for comparison.
 - Assumptions include consistent ore percentages and mass across compared rocks, and that all mining ships and refining processes operate under standard game mechanics.
 
@@ -78,23 +78,23 @@ Even though these ores may ultimately be discarded, their impact on the overall 
 
 ## How Does C-Tier Ore Mass to SCU Affect Profitability?
 
-The mass-to-SCU ratio determines how much ore is needed to fill a cargo unit. Lower ratios mean you fill your hold with less mass, increasing profit per SCU. This section explores how C-Tier ore’s mass-to-SCU impacts mining returns.
+The mass-to-SCU ratio determines how much ore is needed to fill a cargo unit. Lower ratios mean you fill your hold with less mass, increasing profit per SCU. This section explores how [C-Tier ore](https://regolith.rocks/survey/ores?ot=C)’s mass-to-SCU impacts mining returns.
 
 *Source: Calculations made with [Regolith's Cluster Calculator](https://regolith.rocks/cluster)*
 
 ## With S-Tier Ore
 
-This table compares rocks with the same total mass and high-value ore percentages, but different C-Tier ores. Each column represents a different C-Tier ore (Iron, Titanium, Ice, etc.).
+This table compares rocks with the same total mass and high-value ore percentages, but different [C-Tier ores](https://regolith.rocks/survey/ores?ot=C). Each column represents a different [C-Tier ore](https://regolith.rocks/survey/ores?ot=C) (Iron, Titanium, Ice, etc.).
 
 - **Total Mass**: The mass of the rock being analyzed (same for all).
 - **Stileron % / Taranite % / C-Tier %**: The percentage of each ore type in the rock.
-- **C-Tier Ore**: The specific C-Tier ore in that column.
+- **C-Tier Ore**: The specific [C-Tier ore](https://regolith.rocks/survey/ores?ot=C) in that column.
 - **Value (aUEC)**: The total in-game value of the rock, in aUEC (Star Citizen’s currency).
 - **Moles Filled**: How many Mole mining ship cargo holds the rock would fill.
 - **Value per Mole (aUEC)**: The value of ore that fits in one Mole’s cargo hold.
 - **% best**: How each ore’s value per Mole compares to the best (highest) value in the row (Iron, in this case, is 100%).
 
-**Purpose:** This table shows how the choice of C-Tier ore affects value and efficiency, even when all other factors are held constant.
+**Purpose:** This table shows how the choice of [C-Tier ore](https://regolith.rocks/survey/ores?ot=C) affects value and efficiency, even when all other factors are held constant.
 
 | Property                | Iron      | Titanium  | Quartz    | Aluminum   | Ice        | Copper    | Tungsten   | Tin       | Corundum  | Silicon   |
 |------------------------ |----------|-----------|----------|-----------|------------|-----------|------------|-----------|-----------|-----------|
@@ -108,7 +108,7 @@ This table compares rocks with the same total mass and high-value ore percentage
 | Value per Mole (aUEC)   | 777,778  | 772,727   | 760,000  | 760,000   | 758,621    | 764,706   | 751,818    | 750,000   | 739,130   | 730,769   |
 | % best                  | 100%     | 99%       | 98%      | 98%       | 98%        | 98%       | 97%        | 96%       | 95%       | 94%       |
 
-This table compares ten rocks with identical mass and high-value ore percentages, but different C-Tier ores. The rock with Iron has the highest value per Mole, while Silicon has the lowest, highlighting the impact of C-Tier ore selection on mining profitability and efficiency.
+This table compares ten rocks with identical mass and high-value ore percentages, but different [C-Tier ores](https://regolith.rocks/survey/ores?ot=C). The rock with Iron has the highest value per Mole, while Silicon has the lowest, highlighting the impact of C-Tier ore selection on mining profitability and efficiency.
 
 ## With A-Tier Ore
 
@@ -116,13 +116,13 @@ This table is similar to the S-Tier table, but uses a different set of ore value
 
 - **Total Mass**: The mass of the rock (same for all).
 - **Taranite % / C-Tier %**: The percentage of each ore type in the rock.
-- **C-Tier Ore**: The specific C-Tier ore in that column.
+- **C-Tier Ore**: The specific [C-Tier ore](https://regolith.rocks/survey/ores?ot=C) in that column.
 - **Value (aUEC)**: The total value of the rock.
 - **Moles Filled**: How many Mole mining ship cargo holds the rock would fill.
 - **Value per Mole (aUEC)**: The value of ore that fits in one Mole’s cargo hold.
 - **% best**: The value per Mole as a percentage of the highest value in the row (Tungsten, 100%).
 
-**Purpose:** This table lets you compare how different C-Tier ores affect mining value and efficiency when paired with A-Tier ores, making it easy to see which ore combinations are most profitable.
+**Purpose:** This table lets you compare how different [C-Tier ores](https://regolith.rocks/survey/ores?ot=C) affect mining value and efficiency when paired with A-Tier ores, making it easy to see which ore combinations are most profitable.
 
 | Property                | Tungsten  | Ice      | Quartz    | Titanium  | Tin      | Aluminum  | Iron     | Copper   | Corundum  | Silicon   |
 |------------------------ |-----------|----------|----------|-----------|----------|-----------|----------|----------|-----------|-----------|
@@ -137,17 +137,17 @@ This table is similar to the S-Tier table, but uses a different set of ore value
 
 ## With B-Tier Ore
 
-This table compares rocks with the same total mass and ore percentages, but with B-Tier ores included alongside C-Tier ores. Each column represents a different C-Tier ore, with Beryl as the B-Tier ore. The columns are sorted so that the highest mining value efficiency ("% best") is on the left and the lowest is on the right.
+This table compares rocks with the same total mass and ore percentages, but with B-Tier ores included alongside [C-Tier ores](https://regolith.rocks/survey/ores?ot=C). Each column represents a different [C-Tier ore](https://regolith.rocks/survey/ores?ot=C), with Beryl as the B-Tier ore. The columns are sorted so that the highest mining value efficiency ("% best") is on the left and the lowest is on the right.
 
 - **Total Mass**: The mass of the rock being analyzed (same for all).
 - **Beryl % / C-Tier %**: The percentage of B-Tier and C-Tier ores in the rock.
-- **C-Tier Ore**: The specific C-Tier ore in that column.
+- **C-Tier Ore**: The specific [C-Tier ore](https://regolith.rocks/survey/ores?ot=C) in that column.
 - **Value (aUEC)**: The total in-game value of the rock, in aUEC (Star Citizen’s currency).
 - **Moles Filled**: How many Mole mining ship cargo holds the rock would fill.
 - **Value per Mole (aUEC)**: The value of ore that fits in one Mole’s cargo hold.
 - **% best**: How each ore’s value per Mole compares to the best (highest) value in the row (Ice, in this case, is 100%).
 
-**Purpose:** This table helps you see how the inclusion of B-Tier ores affects the value and efficiency of mining rocks, and how different C-Tier ores compare in this context.
+**Purpose:** This table helps you see how the inclusion of B-Tier ores affects the value and efficiency of mining rocks, and how different [C-Tier ores](https://regolith.rocks/survey/ores?ot=C) compare in this context.
 
 | Property                | Ice      | Tungsten  | Titanium  | Quartz    | Iron     | Tin      | Copper   | Corundum  | Aluminum  | Silicon   |
 |------------------------ |----------|-----------|-----------|----------|----------|----------|----------|-----------|-----------|-----------|
@@ -167,21 +167,21 @@ This table compares rocks with the same total mass and ore percentages, but with
 The data presented in these tables highlights how ore composition and mining strategy can affect profitability and efficiency in Star Citizen mining operations. The implications vary depending on the type of miner:
 
 ### Value Miner
-Value miners focus exclusively on the highest-value ores (S and A tiers), often discarding or ignoring B- and C-tier ores.
+Value miners focus exclusively on the highest-value ores (S and A tiers), often discarding or ignoring B- and [C-tier ores](https://regolith.rocks/survey/ores?ot=C).
 
 ### A-Tier Focus Miner
-A-Tier focus miners target rocks rich in A-tier ores, sometimes discarding C-tier ores but often refining B-tier ores if present.
+A-Tier focus miners target rocks rich in A-tier ores, sometimes discarding [C-tier ores](https://regolith.rocks/survey/ores?ot=C) but often refining B-tier ores if present.
 
 ### Volume Miner
 Volume miners collect and refine everything, regardless of ore tier.
 
 ### Elaboration of Findings
 
-The analysis shows that the Mass to SCU ratio of C-Tier ores only significantly affects profitability for volume miners—those who collect and refine all ores regardless of tier. For value miners and A-Tier focus miners, who are more selective and often discard C-Tier ores, the Mass to SCU ratio has little practical impact on their overall profitability.
+The analysis shows that the Mass to SCU ratio of [C-Tier ores](https://regolith.rocks/survey/ores?ot=C) only significantly affects profitability for volume miners—those who collect and refine all ores regardless of tier. For value miners and A-Tier focus miners, who are more selective and often discard [C-Tier ores](https://regolith.rocks/survey/ores?ot=C), the Mass to SCU ratio has little practical impact on their overall profitability.
 
-A key implication of this finding is that, with the introduction of on-field ore bag swapping (which allows miners to offload cargo without returning to a refinery), more players may choose to adopt a volume mining strategy. In this scenario, the Mass to SCU ratio of C-Tier rocks becomes a much more important factor in maximizing profit per trip and overall efficiency. Volume miners should therefore pay close attention to this ratio when selecting rocks and mining locations.
+A key implication of this finding is that, with the introduction of on-field ore bag swapping (which allows miners to offload cargo without returning to a refinery), more players may choose to adopt a volume mining strategy. In this scenario, the Mass to SCU ratio of [C-Tier rocks](https://regolith.rocks/survey/ores?ot=C) becomes a much more important factor in maximizing profit per trip and overall efficiency. Volume miners should therefore pay close attention to this ratio when selecting rocks and mining locations.
 
-For value miners and A-Tier focus miners, we recommend prioritizing other modifiers and characteristics of C-Tier rocks, as the Mass to SCU ratio will not meaningfully affect their bottom line unless they change to a volume mining approach.
+For value miners and A-Tier focus miners, we recommend prioritizing other modifiers and characteristics of [C-Tier rocks](https://regolith.rocks/survey/ores?ot=C), as the Mass to SCU ratio will not meaningfully affect their bottom line unless they change to a volume mining approach.
 
 ---
 
@@ -191,11 +191,11 @@ Further studies are warranted to build upon these initial findings. Potential di
 
 - **Empirical Field Studies:** Conducting in-game experiments to validate the calculated profitability differences under real mining conditions, accounting for player behavior, ship configurations, and dynamic market prices.
 - **Longitudinal Analysis:** Tracking profitability and mining efficiency over multiple game patches to assess the impact of ongoing changes to ore values, mass-to-SCU ratios, and mining mechanics.
-- **Comparative Ship Analysis:** Evaluating how the Mass-to-SCU ratio of C-Tier ores affects profitability across different mining ships and cargo capacities, not just the Mole.
+- **Comparative Ship Analysis:** Evaluating how the Mass-to-SCU ratio of [C-Tier ores](https://regolith.rocks/survey/ores?ot=C) affects profitability across different mining ships and cargo capacities, not just the Mole.
 - **Refining Process Optimization:** Investigating how refining yields, times, and costs interact with ore mass-to-SCU ratios to influence net profit.
 - **Player Strategy Modeling:** Analyzing how different mining strategies (e.g., solo vs. group mining, selective vs. volume mining) interact with ore properties to optimize outcomes.
-- **Modifier Impact Analysis:** Expanding the scope of research to systematically study the effects of other C-Tier ore modifiers—such as resistance, instability, clustering, explosion strength, and green zone thinness—on mining efficiency, safety, and profitability. This would help determine the relative importance of these factors compared to the Mass-to-SCU ratio and guide more nuanced mining strategies.
-- **Tier Comparison Studies:** Extending the analysis to examine how the Mass-to-SCU ratio of S-Tier, A-Tier, and B-Tier rocks influences mining profitability. This would clarify whether similar effects observed for C-Tier ores apply to higher-value ores and inform optimal mining strategies across all ore tiers.
+- **Modifier Impact Analysis:** Expanding the scope of research to systematically study the effects of other [C-Tier ore](https://regolith.rocks/survey/ores?ot=C) modifiers—such as resistance, instability, clustering, explosion strength, and green zone thinness—on mining efficiency, safety, and profitability. This would help determine the relative importance of these factors compared to the Mass-to-SCU ratio and guide more nuanced mining strategies.
+- **Tier Comparison Studies:** Extending the analysis to examine how the Mass-to-SCU ratio of S-Tier, A-Tier, and B-Tier rocks influences mining profitability. This would clarify whether similar effects observed for [C-Tier ores](https://regolith.rocks/survey/ores?ot=C) apply to higher-value ores and inform optimal mining strategies across all ore tiers.
 
 These avenues of research would provide a more comprehensive understanding of the economic and practical implications of ore density and other modifiers in Star Citizen mining.
 
