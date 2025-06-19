@@ -1,6 +1,6 @@
-# 7. Best Practises
+# 6. Best Practises
 
-## 7.1 Power Management
+## 6.1 Power Management
 
 - **Leave Shields On While Mining:**  
   The pilot should always keep the ship’s shields active during mining operations. Shields provide critical protection against potential catastrophic explosions from unstable rocks, helping to prevent hull damage or loss of the ship.

@@ -4,13 +4,13 @@ This guide is not intended to present an overpowered or "meta" setup, but rather
 
 ---
 
-## 1. Turret Loadout Overview
+## 1.1 Turret Loadout Overview
 
 Recommended mining head and module configurations for each turret, with roles and synergy explained for efficient mining.
 
 Below you’ll find a breakdown of each turret, including the recommended mining head, modules, optimal range, window size, instability, and the ideal rock size for each. This makes it easy to see what each turret is best at and how they work together.
 
-### 1.1 Front Turret (Main Break)
+### 1.1.1 Front Turret (Main Break)
 
 **Role:** The front turret is your go-to for breaking the biggest and toughest rocks. Start with this turret when you find a high-resistance or high-mass rock. The [HELIX II](https://finder.cstone.space/ShipMiningHeads1/3bcde69d-3e3a-4f78-b2cb-8189b349e4d2) mining head and three Rieger C3 modules give you the most power possible, making it perfect for the first break. Once the main rock is fractured, the side turrets can take over for further breaking and extraction.
 
@@ -26,7 +26,7 @@ Below you’ll find a breakdown of each turret, including the recommended mining
 
 ---
 
-### 1.2 Starboard Turret (Sub Break)
+### 1.1.2 Starboard Turret (Sub Break)
 
 **Role:** Use the starboard turret after the main break. It’s great for handling medium-sized pieces that are left after the first fracture. The [Hofstede S2](https://finder.cstone.space/ShipMiningHeads1/b422bcf8-b553-4b09-b2be-e92ab2f80e9a) head, with a Rieger C3 and [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9) module, gives you a good mix of power and control. This makes it easier to break down rocks that are too small for the main turret but too big or unstable for the support turret. It also helps keep the process stable and safe.
 
@@ -42,7 +42,7 @@ Below you’ll find a breakdown of each turret, including the recommended mining
 
 ---
 
-### 1.3 Port Turret (Support & Extraction)
+### 1.1.3 Port Turret (Support & Extraction)
 
 **Role:** The port turret shines in the final stages of mining. Use it to break down small fragments, help stabilize rocks with high instability, and assist with extraction. The Arbor MH2 head and two [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9) modules give you a huge optimal window and help keep things steady, making it perfect for delicate or unstable rocks and for fine-tuning the last part of the fracture.
 
@@ -75,7 +75,7 @@ flowchart TD
 
 ---
 
-## 3. Gadgets
+## 1.2 Gadgets
 
 Mining gadgets modify rock properties to make mining easier, safer, or more profitable. The most useful gadgets for the MOLE are compared below.
 
@@ -94,7 +94,7 @@ Mining gadgets are handheld devices that attach directly to a rock, temporarily 
 
 ---
 
-## 4. Optimal Range & Alignment
+## 1.3 Optimal Range & Alignment
 
 Matching mining head ranges to turret positions maximizes efficiency and minimizes ship movement during mining.
 
@@ -108,13 +108,13 @@ This arrangement means that, when the MOLE is parked at the recommended ping dis
 
 ---
 
-## 5. Ping Distance (PD)
+## 1.4 Ping Distance (PD)
 
 Position your MOLE at the ideal distance from a rock to ensure all turrets operate within their optimal range for safe and effective mining.
 
 Ping distance (PD) is the ideal distance to park your MOLE from a rock before you start mining. Keeping a consistent PD means your lasers are always in their best range, making mining easier and safer. It also helps all turrets reach the rock without moving the ship, reduces the risk of bumping into things, and makes teamwork easier.
 
-### 5.1 How to Approach to Ping Distance (PD)
+### 1.4.1 How to Approach to Ping Distance (PD)
 
 1. **Ping with your radar:** Use your ship’s radar to display the rock's distance.
 2. **Approach to your setup’s ping distance (PD):** For this setup, fly in and stop about 45 meters from the rock. If you use a different setup, adjust your distance as needed.
@@ -124,7 +124,7 @@ Follow these steps to hit the ideal PD every time for safe and efficient mining.
 
 ---
 
-## 6. Coordinated Multi-Crew Operation
+## 1.5 Coordinated Multi-Turret Operation
 
 In a single ship Multi-Crew operation, the most efficient crew count is **3**. This setup allows the MOLE to remain stationary during mining, ensuring that all turrets can be used without the need for constant ship repositioning. With three crew members, each can operate a turret, and the pilot is always engaged—no one is left idle or "bored to death" while others fracture rocks. This also optimizes the dividends of the operation, as there are fewer people to share the profits with, maximizing individual earnings.
 
@@ -132,12 +132,12 @@ Best practices for using all three MOLE turrets together, solo or with a full cr
 
 While you can use this setup solo, it really shines with a full three-person crew. Here’s how to get the most out of all three turrets working together.
 
-### 6.1 Crew Roles and Initial Setup
+### 1.5.1 Crew Roles and Initial Setup
 - **Pilot:** After getting the MOLE to the right ping distance, the pilot moves to the front (Main Break) turret.
 - **Port Turret Operator:** Takes the Support & Extraction turret.
 - **Starboard Turret Operator:** Takes the Sub Break turret.
 
-### 6.2 Synchronized Fracturing Sequence
+### 1.5.2 Synchronized Fracturing Sequence
 1. **Apply Support Bonuses:**
    - The port turret operator starts by turning on their mining laser in fracture mode at minimal power, aiming at the rock. This applies the [Arbor MH2](https://finder.cstone.space/ShipMiningHeads1/4435898e-a6cc-4f51-ab2a-805d0cf1a44a) and [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9) bonuses, making the rock more stable and the optimal window much bigger. The front and starboard turrets stay off for now.
 2. **Layer Additional Modifiers:**
@@ -156,7 +156,7 @@ This teamwork-focused approach keeps even tough rocks stable, and makes mining s
 
 ---
 
-## 7. Solo MOLE Operation
+## 1.6 Solo MOLE Operation
 
 Solo MOLE mining is possible and effective with the right approach, even though the ship is designed for a crew. Knowing your equipment and matching your turret choice to the rock's mass is key to efficient solo mining with the base setup:
 

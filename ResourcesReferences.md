@@ -1,4 +1,4 @@
-# 6. Resources & References
+# 10. Resources & References
 
 - Links to official Star Citizen mining guides and patch notes.
 - Community resources (websites, Discords, calculators).

@@ -1,4 +1,4 @@
-# 4. Tips & Tricks
+# 8. Tips & Tricks
 
 - Quick tips for efficiency, safety, and maximizing profit.
 - Common mistakes and how to avoid them.
