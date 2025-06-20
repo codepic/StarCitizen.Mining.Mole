@@ -8,6 +8,12 @@ This guide is not intended to present an overpowered or "meta" setup, but rather
 
 Recommended mining head and module configurations for each turret, with roles and synergy explained for efficient mining.
 
+### Regolith's Mining Loadouts
+
+- [Base Setup (no gadgets)](images/Regolith-loadout-MOLE-Base%20Setup%20(no%20gadgets).png)
+- [Base Setup (Sabir)](images/Regolith-loadout-MOLE-Base%20Setup%20(Sabir).png)
+- [Base Setup (OptiMax)](images/Regolith-loadout-MOLE-Base%20Setup%20(OptiMax).png)
+
 Below you’ll find a breakdown of each turret, including the recommended mining head, modules, optimal range, window size, instability, and the ideal rock size for each. This makes it easy to see what each turret is best at and how they work together.
 
 ### 1.1.1 Front Turret (Main Break)
@@ -197,4 +203,3 @@ Solo MOLE mining is possible and effective with the right approach, even though 
 Solo MOLE mining is slower than with a full crew, but with careful planning and the right setup, it’s a rewarding and profitable way to mine.
 
 ---
-
