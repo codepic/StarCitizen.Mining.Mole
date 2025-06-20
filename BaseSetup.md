@@ -15,13 +15,21 @@ Below you’ll find a breakdown of each turret, including the recommended mining
 **Role:** The front turret is your go-to for breaking the biggest and toughest rocks. Start with this turret when you find a high-resistance or high-mass rock. The [HELIX II](https://finder.cstone.space/ShipMiningHeads1/3bcde69d-3e3a-4f78-b2cb-8189b349e4d2) mining head and three Rieger C3 modules give you the most power possible, making it perfect for the first break. Once the main rock is fractured, the side turrets can take over for further breaking and extraction.
 
 | Attribute     | Value                                 |
-|--------------|----------------------------------------|
+|--------------|---------------------------------------:|
 | Mining Head  | [HELIX II](https://finder.cstone.space/ShipMiningHeads1/3bcde69d-3e3a-4f78-b2cb-8189b349e4d2)                              |
 | Modules      | 3x [Rieger C3](https://finder.cstone.space/ShipMiningMods1/2ceb0de9-105b-434e-a152-8af1fd1660d0)                          |
-| Optimal Range| 30m                                   |
-| Window Size  | Standard                              |
-| Instability  | Standard                              |
-| Max Rock Size| ~28 tons                              |
+| Optimal Range|                                    30m |
+| Fracture Power |                                   195 |
+| Resistance   |                                    70 |
+| Instability  |                                   100 |
+| Optimal Rate |                                   100 |
+| Overcharge Rate |                                   100 |
+| Window Size  |                                    58 |
+| Shatter Damage |                                   100 |
+| Extract Power |                                   100 |
+| Clustering   |                                   100 |
+| Inert Material Level |                            60 |
+| Max Rock Size|                                   ~28 tons |
 | Notes        | Highest power, for large/high-resistance rocks |
 
 ---
@@ -31,13 +39,21 @@ Below you’ll find a breakdown of each turret, including the recommended mining
 **Role:** Use the starboard turret after the main break. It’s great for handling medium-sized pieces that are left after the first fracture. The [Hofstede S2](https://finder.cstone.space/ShipMiningHeads1/b422bcf8-b553-4b09-b2be-e92ab2f80e9a) head, with a Rieger C3 and [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9) module, gives you a good mix of power and control. This makes it easier to break down rocks that are too small for the main turret but too big or unstable for the support turret. It also helps keep the process stable and safe.
 
 | Attribute     | Value                                 |
-|--------------|----------------------------------------|
+|--------------|---------------------------------------:|
 | Mining Head  | [Hofstede S2](https://finder.cstone.space/ShipMiningHeads1/b422bcf8-b553-4b09-b2be-e92ab2f80e9a)                            |
 | Modules      | 1x [Rieger C3](https://finder.cstone.space/ShipMiningMods1/2ceb0de9-105b-434e-a152-8af1fd1660d0), 1x [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9)             |
-| Optimal Range| 60m                                    |
-| Window Size  | Increased (with [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9))             |
-| Instability  | Reduced (with [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9))               |
-| Max Rock Size| ~15 tons                               |
+| Optimal Range|                                    60m |
+| Fracture Power |                                   119 |
+| Resistance   |                                    70 |
+| Instability  |                                   110 |
+| Optimal Rate |                                   120 |
+| Overcharge Rate |                                   100 |
+| Window Size  |                                   222 |
+| Shatter Damage |                                   100 |
+| Extract Power |                                   100 |
+| Clustering   |                                   100 |
+| Inert Material Level |                            60 |
+| Max Rock Size|                                   ~16 tons |
 | Notes        | Versatile, balance of power and precision |
 
 ---
@@ -47,13 +63,21 @@ Below you’ll find a breakdown of each turret, including the recommended mining
 **Role:** The port turret shines in the final stages of mining. Use it to break down small fragments, help stabilize rocks with high instability, and assist with extraction. The Arbor MH2 head and two [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9) modules give you a huge optimal window and help keep things steady, making it perfect for delicate or unstable rocks and for fine-tuning the last part of the fracture.
 
 | Attribute     | Value                                 |
-|--------------|----------------------------------------|
+|--------------|---------------------------------------:|
 | Mining Head  | [Arbor MH2](https://finder.cstone.space/ShipMiningHeads1/4435898e-a6cc-4f51-ab2a-805d0cf1a44a)                              |
 | Modules      | 2x [Focus III](https://finder.cstone.space/ShipMiningMods1/91417d7d-a6ad-4ce2-9d57-1ae15a7486f9)                           |
-| Optimal Range| 90m                                    |
-| Window Size  | 274% (very large)                      |
-| Instability  | 65%                                    |
-| Max Rock Size| ~5 tons                                |
+| Optimal Range|                                    90m |
+| Fracture Power |                                    90 |
+| Resistance   |                                   125 |
+| Instability  |                                    65 |
+| Optimal Rate |                                   100 |
+| Overcharge Rate |                                   100 |
+| Window Size  |                                   274% |
+| Shatter Damage |                                   100 |
+| Extract Power |                                   100 |
+| Clustering   |                                   100 |
+| Inert Material Level |                            60 |
+| Max Rock Size|                                   ~6 tons |
 | Notes        | Long-range, large window, best for support/extraction and small rocks |
 
 ---
