@@ -37,7 +37,7 @@ Below you’ll find a breakdown of each turret, including the recommended mining
 | Extract Power |                                   100 |
 | Clustering   |                                   100 |
 | Inert Material Level |                            60 |
-| Max Rock Size|                                   ~28 tons |
+| Max Rock Size|                                   ~32 tons |
 | Notes        | Highest power, for large/high-resistance rocks |
 
 ---
