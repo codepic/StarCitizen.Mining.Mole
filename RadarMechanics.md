@@ -39,27 +39,9 @@ Before we dive into the technical details, let's set the stage with what you'll 
 
 **Bottom line:** Whether you're a seasoned veteran or just starting your journey, this guide will help you make the most of your radar and scanning techniques, ensuring you never miss a valuable find again!
 
-## 3.3 What Is Ship Radar?
-
-Ship radar uses formulas to detect resources and ship signatures. Resource detection values are static, while ship signatures vary based on modules and energy distribution. Understanding these basics is key to effective scanning.
-
-### 3.3.1 Similarities and Differences Between EM, IR, RS Scanning
-
-- **EmittedSignature:** The signal strength emitted by the target. For resource scanning, RS signature is used, while other signatures like EM and IR are specific to ships and vary dynamically based on ship modules and energy distribution.
-- **Ambience:** The environmental background noise. Ambience affects surface scanning but is zero in space, simplifying detection formulas.
-- **RadarPierce:** Determines the focus or width of the scanning cone. It has no impact in space due to zero ambience. More research is needed to figure out the actual values of Ambience on planetary body surfaces. If figuring out such details is your suit, consider applying for the Cornerstone Star Citizen organization and its `analysis` pillar. Learn more and join at [Cornerstone Organization](https://robertsspaceindustries.com/en/orgs/CSTONE).
-- **RadarSensitivity:** Represents the percentage of the maximum detection range. In this document, we concentrate exclusively on RS Signature Sensitivity, which is specific to resource scanning and determines how effectively resources can be detected.
-
-**In practice:**
-- In space, the formula simplifies to:
-  > **DetectedSignature = EmittedSignature × RadarSensitivity**
-- If DetectedSignature ≥ DistanceToTarget, the target appears on radar or ping.
-
-**Source:** [CIG Dev Formula](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582)
-
 ---
 
-## 3.4 How Detection Works (The Formula)
+## 3.3 Signal Detection Mechanics: Breaking Down the Radar Formula
 
 Ready to geek out? Here's where we dive into the mechanics of detection. Don't worry if formulas aren't your thing—we'll break them down step by step and show you how they apply in real scenarios.
 
@@ -67,15 +49,27 @@ To know if your ship can detect a resource, use this formula:
 
 > **DetectedSignature = (EmittedSignature - (Ambience × (1 - RadarPierce))) × RadarSensitivity**
 
+> **Units Note:** Both `DetectedSignature` and `EmittedSignature` are measured in meters (m). These values represent the maximum distance at which a radar can detect a target's signal.
+
 But in space, ambience is zero, so it simplifies to:
 
 > **DetectedSignature = EmittedSignature × RadarSensitivity**
 
 This means that in space, only the emitted signature of the target and your radar's sensitivity matter for detection—radar pierce and ambience have no effect in a true vacuum. This has been confirmed through experimentation in the [Aaron-Halo asteroid belt](https://cstone.space/resources/knowledge-base/65-aaron-halo-detailed-shape-and-density-survey), where detection results matched the simplified formula and showed no influence from radar pierce or ambience.
 
-If **DetectedSignature ≥ DistanceToTarget**, you will see the target on radar or ping.
+If **DetectedSignature ≥ DistanceToTarget**, you will see the target on radar or ping. In other words, if your radar's effective detection power reaches the target, it's revealed.
 
-### 3.4.1 Example: Ship Radar Sensitivity
+**Source:** [CIG Dev Formula](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582)
+
+### 3.3.1 Explanation of The Detection Formula Constituents
+
+- **EmittedSignature:** The signal strength emitted by the target (e.g., asteroid, salvage panel). Based on individual surveys, a value of 20,000 meters is accurate for asteroids and salvage panels.
+- **Ambience:** Determines the focus or width of the scanning cone. It has no impact in space due to zero ambience. More research is needed to figure out the actual values of Ambience on planetary body surfaces If figuring out such details is your suit, consider applying for the Cornerstone Star Citizen organization and its `analysis` pillar. Learn more and join at [Cornerstone Organization](https://robertsspaceindustries.com/en/orgs/CSTONE).
+- **RadarPierce:** The angle of the radar scan, determining how focused or wide the scanning cone is. According to the formula provided by CIG developers, if Ambience = 0, RadarPierce is effectively canceled out and has no impact on DetectedSignature.
+- **RadarSensitivity:** Effectively the percentage of the maximum 20 kilometers your radar can detect a signature in vacuum.
+
+
+### 3.3.2 Example: Ship Radar Sensitivity
 
 In vacuum, the scanned volume increases by the cube of the radius. This means RS Signature sensitivity has a huge impact on scanning results, as even small increases in sensitivity can lead to significantly larger scanned volumes.
 
@@ -98,13 +92,15 @@ The following table shows how much space different ships can scan in vacuum. The
 
 > **Note:** Detection range is calculated as EmittedSignature × RS Sensitivity. Scanned volume is calculated as 4/3 × π × (DetectionRange/1000)³.
 
-> **Tip:** Clusters of rocks will show a higher RS value on your HUD. If you notice a sudden jump in RS signature while scanning, it often means you've found a rich area with multiple deposits close together. Focus your search in these spots for the best mining opportunities.
-> 
-> **Tip:** Adjust your ship's speed while scanning—flying slower increases your chances of detecting smaller or more distant rocks, as it gives your radar more time to pick up faint signals.
->
-> **Tip:** Use slow, overlapping scan passes when covering an area. This helps ensure you don't miss small deposits that might fall between scan sweeps, especially when searching for valuable or rare resources.
+> *Sorry Reclaimer fans, I don’t make the rules—your radar just snoozes. Maybe it’s dreaming of a better patch!*
 
-### 3.4.2 Example: Surface Scanning
+> 💡 **Tip:** Clusters of rocks will show a higher RS value on your HUD. If you notice a sudden jump in RS signature while scanning, it often means you've found a rich area with multiple deposits close together. Focus your search in these spots for the best mining opportunities.
+> 
+> 💡 **Tip:** Adjust your ship's speed while scanning—flying slower increases your chances of detecting smaller or more distant rocks, as it gives your radar more time to pick up faint signals.
+>
+> 💡 **Tip:** Use slow, overlapping scan passes when covering an area. This helps ensure you don't miss small deposits that might fall between scan sweeps, especially when searching for valuable or rare resources.
+
+### 3.3.3 Example: Surface Scanning
 
 When scanning on a planet or moon, detection is limited to a 2D area (a circle) instead of a 3D volume. The scanned area is:
 
@@ -125,19 +121,7 @@ When scanning on a planet or moon, detection is limited to a 2D area (a circle) 
 
 > **Note:** Scanned area is calculated as π × (DetectionRange/1000)².
 
-- **EmittedSignature:** The signal strength emitted by the target (e.g., asteroid, salvage panel). Based on individual surveys, a value of 20,000 meters is a good working estimate for asteroids and salvage panels. This estimate is independent of the linked [Aaron-Halo asteroid belt survey](https://cstone.space/resources/knowledge-base/65-aaron-halo-detailed-shape-and-density-survey), which focuses on other aspects of the belt.
-- **Ambience:** The environmental background noise. At the moment, the exact values for ambience on planet or moon surfaces are largely unknown. If figuring out such details is your suit, consider applying for the Cornerstone Star Citizen organization and its `analysis` pillar. Learn more and join at [Cornerstone Organization](https://robertsspaceindustries.com/en/orgs/CSTONE).
-- **RadarPierce:** The angle of the radar scan, determining how focused or wide the scanning cone is. According to the formula provided by CIG developers, if Ambience = 0, RadarPierce is effectively canceled out and has no impact on DetectedSignature.
-- **RadarSensitivity:** Effectively the percentage of the maximum 20 kilometers your radar can detect a signature in vacuum.
-
-**In practice:**
-- If Ambience is 0 (as in space), the formula simplifies to:
-  > **DetectedSignature = EmittedSignature × RadarSensitivity**
-- If your DetectedSignature is greater than or equal to the distance to the target, you will see it on your radar or ping.
-
-**Source:** [CIG Dev Formula](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582)
-
-## 3.5 How Much Can You Scan? (Effective Scanning Volume)
+## 3.4 How Much Can You Scan? (Effective Scanning Volume)
 
 The farther your radar can detect, the more space you can scan. The formula is:
 
@@ -150,7 +134,7 @@ Even a small increase in detection range means a much larger increase in the vol
 - Dragonfly (RadarSensitivity = 100%) detects at ~20 km → ~33,510 km³ scanned
 - The Reclaimer scans about 12.5% of the volume that the Dragonfly can, which explains why you can't find much panels with a Reclaimer.
 
-## 3.6 How to Use Your Radar (Practical Steps)
+## 3.5 How to Use Your Radar (Practical Steps)
 
 1. **Know Your Ship's Specs:** Learn your ship's RS Signature Sensitivity and calculate its detection range and scanned volume.
 2. **Plan Your Route:** When exploring or mining, plan your route to maximize radar coverage. Consider your ship's radar limitations.
@@ -159,15 +143,17 @@ Even a small increase in detection range means a much larger increase in the vol
 5. **Analyze Readings:** Learn to quickly interpret radar or ping readings to find the location and quantity of resources.
 6. **Practice Makes Perfect:** The more you use and understand your ship's radar, the better you'll get at finding resources.
 
-## 3.7 Surface Scanning vs. Altitude
+## 3.6 Surface Scanning vs. Altitude
 
-### 3.7.1 Understanding Surface Scanning
+### 3.6.1 Understanding Surface Scanning
 
 When scanning for resources on a planet or moon, the scanned area forms a circular intersection between the radar's spherical detection range and the surface. As altitude increases, the radius of this circle decreases, reducing the scanned area.
 
 ![Surface Elevation vs Area](images/surface_elevation_vs_area.png)
 
-### 3.7.2 Surface Scanning Area Table
+> **Image:** This chart visualizes how your scanned area shrinks as you gain altitude above a planet or moon. The largest circle (at ground level) shows the maximum area you can scan in a single pass. As you climb higher, the intersection between your radar's detection sphere and the surface gets smaller—meaning you cover less ground with each scan. This is why low-altitude, overlapping passes are key for thorough surface prospecting. If you’re flying high and missing rocks, now you know why! (And yes, the math really does matter here.)
+
+### 3.6.2 Surface Scanning Area Table
 
 Below is a table illustrating how the scanned surface area changes with altitude for a ship with a maximum scanning radius of 20,000 meters (100% RS Signature Sensitivity) and 17,000 meters (85% RS Signature Sensitivity):
 
@@ -185,19 +171,19 @@ Below is a table illustrating how the scanned surface area changes with altitude
 | 18,000            | 8,717                             | 23.9                      | 7,717                             | 187.0                    |
 | 20,000            | 0                                 | 0                         | 0                                 | 0                        |
 
-> **Note:** The scanned area is calculated using the formula **π × (r² - h²)**, where `r` is the radar's maximum scanning radius and `h` is the altitude above the surface.
+> 💡 **Tip:** The scanned area is calculated using the formula **π × (r² - h²)**, where `r` is the radar's maximum scanning radius and `h` is the altitude above the surface.
 
-> **Important:** The table assumes RS Signature Sensitivity of 100% and 85%, which represent theoretical and practical values respectively.
+> ✅ **Key Point:** The table assumes RS Signature Sensitivity of 100% and 85%, which represent theoretical and practical values respectively.
 
-> **Caution:** The calculations assume Ambience=0, which is never true on a planet's surface.
+> ⚠️ **Caution:** The calculations assume Ambience=0, which is never true on a planet's surface.
 
-## 3.8 Key Takeaways
-- **Radar Sensitivity is Critical:** Higher sensitivity means more resources detected at greater distances.
-- **Ambience is Usually Negligible in Space:** RadarPierce rarely affects detection in vacuum.
-- **Detection is Binary:** If DetectedSignature ≥ DistanceToTarget, you see the resource; otherwise, you don't.
-- **Volume Scales Fast:** Small improvements in detection range yield much larger scanning volumes.
+## 3.7 Key Takeaways
+- ✅ **Radar Sensitivity is Critical:** Higher sensitivity means more resources detected at greater distances.
+- 💡 **Ambience is Zero in Space:** RadarPierce does not affect resource detection in vacuum.
+- ✅ **Detection is Binary:** If DetectedSignature ≥ DistanceToTarget, you see the resource; otherwise, you don't.
+- 💡 **Volume Scales Fast:** Small improvements in detection range yield much larger scanning volumes.
 
-## 3.9 Simple Rules Summary
+## 3.8 Simple Rules Summary
 
 1. The scanned volume increases by the cube of the radius.
 2. The scanned surface area at 0 altitude increases by the square of the radius.
@@ -205,7 +191,7 @@ Below is a table illustrating how the scanned surface area changes with altitude
 
 ---
 
-## 3.10 References & Further Reading
+## 3.9 References & Further Reading
 
 - [CIG Dev Formula Discussion](https://robertsspaceindustries.com/spectrum/community/SC/forum/50259/thread/what-do-the-numbers-on-right-of-hud-ir-cs-em-value/4685582) — Official developer discussion explaining the meaning and mechanics behind HUD IR/CS/EM values and the detection formula in Star Citizen.
 - [SC Ships Performances Viewer (RS Sensitivity)](https://www.spviewer.eu/performance?ship=drak_vulture) — Community-maintained tool for comparing ship radar sensitivity, detection ranges, and other performance metrics for all ships in Star Citizen.
