@@ -1,3 +1,5 @@
+[💬 Send feedback on this page](https://github.com/codepic/<REPO>/issues/new?template=feedback.yml&title=[Feedback]%20BaseSetup.md&body=**Page%3A%20BaseSetup.md**%0A%0A)  
+
 # 1. Base Setup (PD 45, Passive)
 
 This guide is not intended to present an overpowered or "meta" setup, but rather to share practical, experience-based recommendations for configuring your Argo MOLE. It serves as a quick start for newcomers entering MOLE mining—whether solo, in a group, or as part of a multi-ship operation—and also shares insights and new perspectives for seasoned veterans looking to improve or adapt their favorite setups. The focus is on convenience, efficiency, and real-world usability, providing a primer on the key dynamics, critical attributes, and how they affect gameplay. While this setup uses only passive modules, it is not meant to be static or unchanging; instead, it offers a foundation for learning, adapting as you gain experience, and finding your own mining style. Setups with active modules will be discussed separately. The following advice helps you prepare your MOLE for mining operations, supporting informed choices for your playstyle and crew.

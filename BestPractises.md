@@ -1,3 +1,5 @@
+[💬 Send feedback on this page](https://github.com/codepic/<REPO>/issues/new?template=feedback.yml&title=[Feedback]%20BestPractises.md&body=**Page%3A%20BestPractises.md**%0A%0A)  
+
 # 6. Best Practises
 
 ## 6.1 Power Management

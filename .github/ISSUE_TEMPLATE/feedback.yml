@@ -1,0 +1,34 @@
+name: "Page Feedback"
+description: "Send feedback about a specific documentation page."
+title: "[Feedback] <Replace with your feedback summary>"
+labels: [feedback]
+body:
+  - type: dropdown
+    id: feedback-type
+    attributes:
+      label: "Feedback Type"
+      description: "What kind of feedback are you providing?"
+      options:
+        - Correction (something is wrong or inaccurate)
+        - Suggestion (improvement or new idea)
+        - Question (clarification needed)
+        - Praise (something you liked)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: "Page/File Name"
+      description: "The documentation file this feedback is about. (Prepopulated by the feedback link)"
+      placeholder: "e.g. BaseSetup.md"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: "Feedback Details"
+      description: "Please describe your feedback in detail."
+      placeholder: "Enter your feedback here..."
+    validations:
+      required: true

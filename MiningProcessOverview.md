@@ -1,3 +1,5 @@
+[💬 Send feedback on this page](https://github.com/codepic/<REPO>/issues/new?template=feedback.yml&title=[Feedback]%20MiningProcessOverview.md&body=**Page%3A%20MiningProcessOverview.md**%0A%0A)  
+
 # 5. Mining Process Overview
 
 ## 5.1 Multicrew MOLE Mining

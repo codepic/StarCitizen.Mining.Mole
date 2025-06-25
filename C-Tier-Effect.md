@@ -1,3 +1,5 @@
+[💬 Send feedback on this page](https://github.com/codepic/<REPO>/issues/new?template=feedback.yml&title=[Feedback]%20C-Tier-Effect.md&body=**Page%3A%20C-Tier-Effect.md**%0A%0A)  
+
 # The Impact of C-Tier Ore Mass-to-SCU Ratio on Mining Profitability in Star Citizen
 
 ## Abstract

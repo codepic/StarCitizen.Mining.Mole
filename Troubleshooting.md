@@ -1,3 +1,5 @@
+[💬 Send feedback on this page](https://github.com/codepic/<REPO>/issues/new?template=feedback.yml&title=[Feedback]%20Troubleshooting.md&body=**Page%3A%20Troubleshooting.md**%0A%0A)  
+
 # 9. Troubleshooting
 
 ## Common Issues

@@ -1,3 +1,5 @@
+[💬 Send feedback on this page](https://github.com/codepic/<REPO>/issues/new?template=feedback.yml&title=[Feedback]%20MiningLocation.md&body=**Page%3A%20MiningLocation.md**%0A%0A)  
+
 # 2. Mining Location Selection in Star Citizen
 
 **Process for Choosing a Mining Location:**

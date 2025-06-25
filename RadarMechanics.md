@@ -1,3 +1,5 @@
+[💬 Send feedback on this page](https://github.com/codepic/<REPO>/issues/new?template=feedback.yml&title=[Feedback]%20RadarMechanics.md&body=**Page%3A%20RadarMechanics.md**%0A%0A)  
+
 # 3. Radar Mechanics and Resource Detection
 
 > **Summary:** This guide explores the mechanics of ship radar and scanning in Star Citizen, focusing on resource detection techniques and radar formulas. It provides practical insights for players aiming to improve their mining and exploration efficiency.
