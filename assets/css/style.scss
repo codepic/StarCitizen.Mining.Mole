@@ -2,12 +2,23 @@
 ---
 
 @import "{{ site.theme }}";
+header {
+  h1 {
+    margin-left: -180px;
+  }
+  p {
+    margin: 0px 0px 0px -180px;
+  }
+}
 .wrapper {
   width: 1024px;
-}
-nav {
- margin-left: -770px;
-}
-section {
-  width: 800px;
+  nav {
+    margin-left: -770px;
+  }
+  section {
+    width: 800px;
+  }
+  footer {
+    margin-left: -720px;
+  }
 }
