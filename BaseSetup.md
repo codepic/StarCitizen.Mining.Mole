@@ -1,4 +1,4 @@
-[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=[Feedback]%20BaseSetup.md&body=**Page%3A%20BaseSetup.md**%0A%0A)  
+[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=Feedback+on+BaseSetup.md&page=BaseSetup.md)  
 
 # 1. Base Setup (PD 45, Passive)
 

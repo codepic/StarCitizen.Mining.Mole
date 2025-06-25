@@ -1,4 +1,4 @@
-[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=[Feedback]%20Troubleshooting.md&body=**Page%3A%20Troubleshooting.md**%0A%0A)  
+[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=Feedback+on+Troubleshooting.md&page=Troubleshooting.md)  
 
 # 9. Troubleshooting
 

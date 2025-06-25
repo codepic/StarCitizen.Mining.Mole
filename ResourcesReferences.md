@@ -1,4 +1,4 @@
-[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=[Feedback]%20ResourcesReferences.md&body=**Page%3A%20ResourcesReferences.md**%0A%0A)
+[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=Feedback+on+ResourcesReferences.md&page=ResourcesReferences.md)
 
 # 10. Resources & References
 

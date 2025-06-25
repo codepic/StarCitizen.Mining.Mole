@@ -9,6 +9,7 @@ body:
       label: "Feedback Type"
       description: "What kind of feedback are you providing?"
       options:
+        - Select a feedback type...
         - Correction (something is wrong or inaccurate)
         - Suggestion (improvement or new idea)
         - Question (clarification needed)

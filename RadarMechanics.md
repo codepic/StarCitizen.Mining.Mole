@@ -1,4 +1,4 @@
-[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=[Feedback]%20RadarMechanics.md&body=**Page%3A%20RadarMechanics.md**%0A%0A)  
+[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=Feedback+on+RadarMechanics.md&page=RadarMechanics.md)  
 
 # 3. Radar Mechanics and Resource Detection
 

@@ -26,3 +26,5 @@
 - When updating, renaming, or adding markdown files referenced from the README.md, ensure the feedback links are kept up to date.
 - The feedback links must use the correct GitHub repository owner and name in the URL.
 - The feedback links for this repository must use `codepic` as the owner and `StarCitizen.Mining.Mole` as the repo in the URL.
+- **Example:**
+  `[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=Feedback+on+BaseSetup.md&page=BaseSetup.md)`

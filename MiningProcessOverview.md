@@ -1,4 +1,4 @@
-[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=[Feedback]%20MiningProcessOverview.md&body=**Page%3A%20MiningProcessOverview.md**%0A%0A)  
+[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=Feedback+on+MiningProcessOverview.md&page=MiningProcessOverview.md)  
 
 # 5. Mining Process Overview
 

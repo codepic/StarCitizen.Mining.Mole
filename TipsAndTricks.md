@@ -1,4 +1,4 @@
-[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=[Feedback]%20TipsAndTricks.md&body=**Page%3A%20TipsAndTricks.md**%0A%0A)
+[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=Feedback+on+TipsAndTricks.md&page=TipsAndTricks.md)
 
 # 8. Tips & Tricks
 
