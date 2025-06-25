@@ -27,6 +27,7 @@ Communicating your mining target as a single cutoff percentage—supported by a 
 Below are the most relevant mining ores, their acronyms, and approximate values (per SCU) as of June 2025. For a full, up-to-date list, see [Regolith Rocks Ore Survey](https://regolith.rocks/survey/ores) and [UEX Corp Commodities](https://uexcorp.space/commodities).
 
 ### 4.1.1 S-Tier Ores
+
 | Ore Name   | Acronym | Value (UEC/SCU) |
 |------------|---------|-----------------|
 | Quantanium | [QUAN](https://uexcorp.space/commodities/info/name/quantanium/tab/locations_buying/)    | 22,000          |
@@ -34,6 +35,7 @@ Below are the most relevant mining ores, their acronyms, and approximate values 
 | Riccite    | [RICC](https://uexcorp.space/commodities/info/name/riccite/tab/locations_buying/)    | 21,000          |
 
 ### 4.1.2 A-Tier Ores
+
 | Ore Name  | Acronym | Value (UEC/SCU) |
 |-----------|---------|-----------------|
 | Taranite  | [TARA](https://uexcorp.space/commodities/info/name/taranite/tab/locations_buying/)    | 9,000           |
@@ -41,6 +43,7 @@ Below are the most relevant mining ores, their acronyms, and approximate values 
 | Gold      | [GOLD](https://uexcorp.space/commodities/info/name/gold/tab/locations_buying/)    | 6,000           |
 
 ### 4.1.3 B-Tier Ores
+
 | Ore Name      | Acronym | Value (UEC/SCU) |
 |---------------|---------|-----------------|
 | Laranite      | [LARA](https://uexcorp.space/commodities/info/name/laranite/tab/locations_buying/)    | 3,000           |
@@ -50,6 +53,7 @@ Below are the most relevant mining ores, their acronyms, and approximate values 
 | Hephaestanite | [HEPH](https://uexcorp.space/commodities/info/name/hephaestanite/tab/locations_buying/)    | 2,000           |
 
 ### 4.1.4 C-Tier Ores
+
 | Ore Name   | Acronym | Value (UEC/SCU) |
 |------------|---------|-----------------|
 | Tungsten   | [TUNG](https://uexcorp.space/commodities/info/name/tungsten/tab/locations_buying/)    | 614             |
