@@ -1,6 +1,6 @@
 [💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=Feedback+on+OreCutoff.md&page=OreCutoff.md)  
 
-# 4. Ore Cutoff Percentages & Rock Evaluation
+# 5. Ore Cutoff Percentages & Rock Evaluation
 
 *Background:*
 Many times, I've tried to set myself a strict cutoff before going mining—only to realize that, in practice, I end up breaking my own "promise" here and there. This document was born from analyzing the factors that cause me (and likely others) to steer away from a predefined A-tier cutoff. By understanding these factors, we can treat a predefined cutoff not as a rigid rule, but as a dynamic target. This approach lets us adapt our decisions to the actual rock compositions we encounter, while still aiming for a consistent, reliable financial outcome over time.
@@ -9,7 +9,7 @@ Many times, I've tried to set myself a strict cutoff before going mining—only 
 
 ---
 
-## Why Use a Single Cutoff Number?
+## 5.1 Why Use a Single Cutoff Number?
 
 Communicating your mining target as a single cutoff percentage—supported by a few clear rules—offers powerful benefits for both solo and group mining:
 
@@ -24,11 +24,11 @@ Communicating your mining target as a single cutoff percentage—supported by a 
 
 ---
 
-## 4.1 Ore Tiers Explained
+## 5.2 Ore Tiers Explained
 
 Below are the most relevant mining ores, their acronyms, and approximate values (per SCU) as of June 2025. For a full, up-to-date list, see [Regolith Rocks Ore Survey](https://regolith.rocks/survey/ores) and [UEX Corp Commodities](https://uexcorp.space/commodities).
 
-### 4.1.1 S-Tier Ores
+### 5.2.1 S-Tier Ores
 
 | Ore Name   | Acronym | Value (UEC/SCU) |
 |------------|---------|-----------------|
@@ -36,7 +36,7 @@ Below are the most relevant mining ores, their acronyms, and approximate values 
 | Stileron   | [STIL](https://uexcorp.space/commodities/info/name/stileron/tab/locations_buying/)    | 28,000          |
 | Riccite    | [RICC](https://uexcorp.space/commodities/info/name/riccite/tab/locations_buying/)    | 21,000          |
 
-### 4.1.2 A-Tier Ores
+### 5.2.2 A-Tier Ores
 
 | Ore Name  | Acronym | Value (UEC/SCU) |
 |-----------|---------|-----------------|
@@ -44,7 +44,7 @@ Below are the most relevant mining ores, their acronyms, and approximate values 
 | Bexalite  | [BEXA](https://uexcorp.space/commodities/info/name/bexalite/tab/locations_buying/)    | 7,000           |
 | Gold      | [GOLD](https://uexcorp.space/commodities/info/name/gold/tab/locations_buying/)    | 6,000           |
 
-### 4.1.3 B-Tier Ores
+### 5.2.3 B-Tier Ores
 
 | Ore Name      | Acronym | Value (UEC/SCU) |
 |---------------|---------|-----------------|
@@ -54,7 +54,7 @@ Below are the most relevant mining ores, their acronyms, and approximate values 
 | Agricium      | [AGRI](https://uexcorp.space/commodities/info/name/agricium/tab/locations_buying/)    | 2,000           |
 | Hephaestanite | [HEPH](https://uexcorp.space/commodities/info/name/hephaestanite/tab/locations_buying/)    | 2,000           |
 
-### 4.1.4 C-Tier Ores
+### 5.2.4 C-Tier Ores
 
 | Ore Name   | Acronym | Value (UEC/SCU) |
 |------------|---------|-----------------|
@@ -71,11 +71,11 @@ Below are the most relevant mining ores, their acronyms, and approximate values 
 
 > **Note:** Values are approximate and fluctuate with the in-game market. Acronyms are community-standard.
 
-## 4.2 Practical Cutoff Guidelines
+## 5.3 Practical Cutoff Guidelines
 
 Before diving into the details, let's introduce the concept of an **A-tier focus**. This approach is based on the idea that you can achieve reliable and repeatable results by prioritizing A-tier ores, rather than endlessly hunting for the elusive S-tier "unicorn." Chasing only S-tier rocks might occasionally lead to a big win, but more often you'll come back empty-handed. Focusing on A-tier makes mining more fun and consistent, and when you do find an S-tier rock, it feels like a cherry on top of the cake. Using a single cutoff percentage based on A-tier content helps maximize profit and efficiency, filling your cargo with the most valuable and commonly available ores, while keeping your mining decisions simple and effective. The cutoff percentage and most crew policies in this guide are explained with this A-tier focus in mind, and the following policies (for S-tier, B-tier, or inerts) are adjustments to this default approach.
 
-### 4.2.1 Mission Start: Crew Communication
+### 5.3.1 Mission Start: Crew Communication
 At the beginning of each mining mission, discuss with your crew or event organizer:
 - What the cutoff percentage will be for A-tier ores
 - Whether B-tier ores will be refined or discarded
@@ -86,16 +86,16 @@ This ensures everyone is aligned on what rocks are worth mining and prevents was
 
 Because this method uses a single cutoff value and an A-tier focus, the group can easily adjust the material gathering threshold by simply communicating a new cutoff. For example, if the initial cutoff is 40% and the policy is that B-tier contributes to the A-tier and C-tier is garbage, but then a Caterpillar with Argo MOLE bags arrives to supply new ore bags, the pilot or event organizer can announce a new cutoff (e.g., lowering it to fill more bags quickly). The rest of the policy remains the same, and everyone can align their mining decisions accordingly. This flexibility makes it easy to adapt to changing goals or resources during a mining session.
 
-### 4.2.2 A-Tier Cutoff and Adjustment Policies
+### 5.3.2 A-Tier Cutoff and Adjustment Policies
 
 The baseline rule is that a rock should contain at least **40% A-tier mineral** to be considered worth mining. This is a starting point, not a hard maximum—higher percentages can be great, but setting the cutoff too high may mean you leave too many good rocks behind and end up with empty bags. Ultimately, you're optimizing time versus money: if high-percentage rocks are rare, the pilot or crew may decide to lower the cutoff to fill bags faster and keep the operation moving. Adjust your cutoff as needed to balance efficiency and profit. The following policies adjust this cutoff:
 
-#### 4.2.2.1 S-Tier Bonus
+#### 5.3.2.1 S-Tier Bonus
 If the rock contains any S-tier ore, **double its percentage value** and add it to any A-tier mineral present.
 
 > **Example:** If a rock has 10% Riccite (S-tier), 20% Taranite (A-tier), and the rest is tin and inert materials, the calculation is: 10% × 2 (RICC) + 20% (TARA) = 40%. This meets the cutoff.
 
-#### 4.2.2.2 Inert Material Adjustment
+#### 5.3.2.2 Inert Material Adjustment
 Inert materials (e.g., Inert, Waste) reduce the overall value of the rock. When evaluating a rock, apply your extraction laser's inert bonus—typically, use a **0.6 multiplier for inerts** (see the [Base Setup](BaseSetup.md#52-inert-filtering--extraction-laser-bonus) for your setup specifics). This means you only count 60% of the reported proportion of inerts in your calculation, reflecting their lower impact on your profit compared to valuable minerals.
 
 > **Example:** A rock with 33% Bexalite (A-tier) and 67% inert materials would be calculated as follows:
@@ -104,12 +104,12 @@ Inert materials (e.g., Inert, Waste) reduce the overall value of the rock. When 
 > - The proportion of Bexalite in the adjusted total: 33% / 73% ≈ 45%
 > - So, your initial 33% Bexalite is effectively 45% of the valuable content, making it worth mining.
 
-#### 4.2.2.3 B-Tier Contribution
+#### 5.3.2.3 B-Tier Contribution
 If your group decides to target B-tier ores in addition to A-tier, you may count B-tier ores toward the cutoff at a reduced rate.
 
 > **Example:** If the cutoff for A-tier is 40%, but a rock has 30% A-tier and 30% B-tier, you can count one third of the B-tier percentage toward the cutoff: 30% (A) + (30% × 1/3) = 30% + 10% = 40%. This makes the rock meet the cutoff. Always clarify this policy with your crew before starting the mining session.
 
-### 4.2.3 Example Evaluation
+### 5.3.3 Example Evaluation
 Rock composition: 32% Taranite (A-tier), 20% Tin (B-tier), 48% Inert
 - Adjusted Inert: 48% × 0.6 = 28.8%
 - Effective valuable content: 32% (A) + 20% (B) + 28.8% (Adjusted Inert) = 80.8%
@@ -117,7 +117,7 @@ Rock composition: 32% Taranite (A-tier), 20% Tin (B-tier), 48% Inert
 
 Here, the initial A-tier is right at the 40% cutoff after inert adjustment, making this rock a borderline but valid candidate for mining with the base setup. This demonstrates how inert filtering can make a borderline rock more attractive for mining.
 
-## When and Why to Adjust Your Cutoff
+## 5.4 When and Why to Adjust Your Cutoff
 
 There are many real-world situations where it makes sense to adjust your mining cutoff—sometimes for profit, sometimes for fun, and sometimes just to keep the operation running smoothly:
 
@@ -130,13 +130,13 @@ There are many real-world situations where it makes sense to adjust your mining 
 
 > **Remember:** The cutoff is a tool, not a law. Use it to keep mining fun, efficient, and engaging for everyone involved.
 
-## 4.3 Other Considerations
+## 5.5 Other Considerations
 
 - **Cargo Space:** Only mine rocks that maximize your profit per SCU. Avoid filling your hold with low-value C-tier or inert-heavy rocks.
 - **Time vs. Value:** Sometimes, a slightly lower cutoff is acceptable if you are in a hurry or want to fill your hold quickly.
 - **Market Fluctuations:** Ore prices can change. Adjust your cutoffs if the market shifts.
 
-## 4.4 References
+## 5.6 References
 
 - [Regolith Rocks Ore Survey](https://regolith.rocks/survey/ores)
 - [Star Citizen Mining Discords & Community Resources](ResourcesReferences.md)
