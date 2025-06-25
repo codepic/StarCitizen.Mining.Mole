@@ -1,4 +1,4 @@
-[💬 Send feedback on this page](https://github.com/codepic/<REPO>/issues/new?template=feedback.yml&title=[Feedback]%20ResourceScanning.md&body=**Page%3A%20ResourceScanning.md**%0A%0A)  
+[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=[Feedback]%20ResourceScanning.md&body=**Page%3A%20ResourceScanning.md**%0A%0A)  
 
 # 4. Scanning for Resources
 

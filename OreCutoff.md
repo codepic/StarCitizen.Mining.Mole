@@ -1,4 +1,4 @@
-[💬 Send feedback on this page](https://github.com/codepic/<REPO>/issues/new?template=feedback.yml&title=[Feedback]%20OreCutoff.md&body=**Page%3A%20OreCutoff.md**%0A%0A)  
+[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=[Feedback]%20OreCutoff.md&body=**Page%3A%20OreCutoff.md**%0A%0A)  
 
 # 4. Ore Cutoff Percentages & Rock Evaluation
 

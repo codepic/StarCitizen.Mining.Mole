@@ -1,4 +1,4 @@
-[💬 Send feedback on this page](https://github.com/codepic/<REPO>/issues/new?template=feedback.yml&title=[Feedback]%20C-Tier-Effect.md&body=**Page%3A%20C-Tier-Effect.md**%0A%0A)  
+[💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=[Feedback]%20C-Tier-Effect.md&body=**Page%3A%20C-Tier-Effect.md**%0A%0A)  
 
 # The Impact of C-Tier Ore Mass-to-SCU Ratio on Mining Profitability in Star Citizen
 
@@ -131,7 +131,7 @@ This table is similar to the S-Tier table, but uses a different set of ore value
 | Total Mass              | 50,000    | 50,000   | 50,000   | 50,000    | 50,000   | 50,000   | 50,000   | 50,000   | 50,000   | 50,000    |
 | Taranite %              | 20%       | 20%      | 20%      | 20%       | 20%      | 20%       | 20%      | 20%      | 20%      | 20%       |
 | C-Tier Ore              | Tungsten  | Ice      | Quartz   | Titanium  | Tin      | Aluminum  | Iron     | Copper   | Corundum  | Silicon   |
-| C-Tier %                | 30%       | 30%      | 30%       | 30%       | 30%      | 30%       | 30%      | 30%      | 30%      | 30%       |
+| C-Tier %                | 30%       | 30%       | 30%       | 30%       | 30%      | 30%       | 30%      | 30%      | 30%      | 30%       |
 | Value (aUEC)            | 314,000   | 940,000  | 756,000  | 657,000   | 590,000  | 740,000   | 511,000  | 479,000  | 665,000   | 750,000   |
 | Moles Filled            | 0.9       | 2.8      | 2.3      | 2.0       | 1.8      | 2.3       | 1.6      | 1.5      | 2.1       | 2.4       |
 | Value per Mole (aUEC)   | 348,889   | 335,714  | 328,696  | 328,500   | 327,778  | 321,739   | 319,375  | 319,333  | 316,667   | 312,500   |
