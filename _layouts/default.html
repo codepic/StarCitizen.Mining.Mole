@@ -16,9 +16,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-    <script>
-    mermaid.initialize({ startOnLoad: true });
-    </script>
 
     {% include head-custom.html %}
 </head>
@@ -33,7 +30,8 @@
     <div id="banner">
         <span id="logo"></span>
 
-        <a href="https://codepic.github.io/StarCitizen.Mining.Mole/" class="button fork"><strong>Table of Contents</strong></a>
+        <a href="https://codepic.github.io/StarCitizen.Mining.Mole/" class="button fork"><strong>Table of
+                Contents</strong></a>
         {% if site.show_downloads %}
         <div class="downloads">
             <span>Downloads:</span>
@@ -62,5 +60,18 @@
         </footer>
     </div>
 </body>
+
+<script>
+    var config = {
+        startOnLoad: true,
+        theme: 'forest',
+        flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true
+        }
+    };
+    mermaid.initialize(config);
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
 
 </html>
