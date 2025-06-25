@@ -45,8 +45,12 @@ header {
     }
   }
   #banner {
-    background: #223366;
-    border: 1px solid #123153;
+    background: #23272e;
+    border: 1px solid #2c313a;
+    .button {
+      border: 1px solid #3c4452;
+      background: linear-gradient(#2d333b, #22262c);
+    }
   }
   section {
     background: #22252a;
