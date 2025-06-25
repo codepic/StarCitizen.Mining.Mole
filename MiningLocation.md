@@ -138,7 +138,14 @@ Now that you’ve identified your miner type, group construct, and mining goals,
 
 ---
 
-## 2.8 Related Guides
+## 2.8 References & Further Reading
+
+- [Regolith Rocks Ore Survey](https://regolith.rocks/survey/ores)
+- [Star Citizen Mining Discords & Community Resources](ResourcesReferences.md)
+
+---
+
+## 2.9 Related Guides
 
 - For MOLE ship setup and turret loadouts, see [Base Setup](BaseSetup.md)
 - For radar mechanics, detection formulas, and scanning tips, see [Radar Mechanics and Resource Detection](RadarMechanics.md)

@@ -138,7 +138,7 @@ There are many real-world situations where it makes sense to adjust your mining 
 - **Time vs. Value:** Sometimes, a slightly lower cutoff is acceptable if you are in a hurry or want to fill your hold quickly.
 - **Market Fluctuations:** Ore prices can change. Adjust your cutoffs if the market shifts.
 
-## 5.6 References
+## 5.6 References & Further Reading
 
 - [Regolith Rocks Ore Survey](https://regolith.rocks/survey/ores)
 - [Star Citizen Mining Discords & Community Resources](ResourcesReferences.md)

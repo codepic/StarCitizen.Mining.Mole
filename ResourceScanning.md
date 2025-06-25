@@ -110,7 +110,14 @@ If you discover a deposit while surface scanning at a range of less than 5 km, i
 
 ---
 
-## 4.3 Related Guides
+## 4.3 References & Further Reading
+
+- [Regolith Rocks Rock Class Survey](https://regolith.rocks/survey/rock_class)
+- [Star Citizen Mining Discords & Community Resources](ResourcesReferences.md)
+
+---
+
+## 4.4 Related Guides
 
 - For MOLE ship setup and turret loadouts, see [Base Setup](BaseSetup.md)
 - For mining location strategies and ore property tables, see [Mining Location Selection](MiningLocation.md)

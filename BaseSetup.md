@@ -212,7 +212,14 @@ Solo MOLE mining is slower than with a full crew, but with careful planning and 
 
 ---
 
-## 1.7 Related Guides
+## 1.7 References & Further Reading
+
+- [Regolith Rocks Ore Survey](https://regolith.rocks/survey/ores)
+- [Star Citizen Mining Discords & Community Resources](ResourcesReferences.md)
+
+---
+
+## 1.8 Related Guides
 
 - For mining location strategies and ore property tables, see [Mining Location Selection](MiningLocation.md)
 - For radar mechanics, detection formulas, and scanning tips, see [Radar Mechanics and Resource Detection](RadarMechanics.md)
