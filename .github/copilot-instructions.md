@@ -1,5 +1,11 @@
 # Markdown
 
+## headings
+- Do not make links to headings.
+
+## Mermaid Diagrams
+- Do not make markdown links to Mermaid diagrams.
+
 ## Tables
 - Always leave an empty line before a table to ensure proper rendering with Github Pages.
 
