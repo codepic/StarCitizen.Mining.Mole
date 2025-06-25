@@ -7,6 +7,8 @@ Many times, I've tried to set myself a strict cutoff before going mining—only 
 
 > **Note:** While this document describes calculations you can make in the field, it's not intended that everyone mines with a calculator or spreadsheet in hand. Remember to have fun, relax, and review your decision-making process. At first, you might take a more rigid approach to mining decisions, but soon enough it should become a natural habit—knowing your choices are grounded in deterministic science and math, not just whim or guesswork.
 
+![Rock Evaluation Checklist](images/rock_eval_checklist_512.png)
+
 ---
 
 ## 5.1 Why Use a Single Cutoff Number?
