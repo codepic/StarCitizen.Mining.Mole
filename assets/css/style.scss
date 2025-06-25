@@ -27,3 +27,108 @@ header {
     margin-left: -720px;
   }
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #1e1e1e;
+    color: #d4d4d4;
+  }
+  header {
+    background: #23272e;
+    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.75);
+    h1 {
+      color: #dcdcaa;
+      text-shadow: 0px 2px 0px #000;
+    }
+    p {
+      color: #b5cea8;
+      text-shadow: none;
+    }
+  }
+  section {
+    background: #22252a;
+    border: 1px solid #333842;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25),
+      inset 0px 0px 2px 2px rgba(30, 30, 30, 0.5),
+      inset 0 0 5px 5px rgba(30, 30, 30, 0.4);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #dcdcaa;
+  }
+  h2 {
+    color: #4ec9b0;
+  }
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #9cdcfe;
+  }
+  a {
+    color: #569cd6;
+  }
+  a small {
+    color: #808080;
+  }
+  strong {
+    color: #d7ba7d;
+  }
+  blockquote {
+    border-left: 3px solid #d7ba7d;
+    color: #b5cea8;
+  }
+  code {
+    color: #dcdcaa;
+    background: #1e1e1e;
+    text-shadow: none;
+    border-radius: 2px;
+  }
+  pre {
+    background: #1e1e1e;
+    border: 1px solid #333842;
+    color: #d4d4d4;
+  }
+  kbd {
+    background-color: #23272e;
+    border: 1px solid #333842;
+    color: #d4d4d4;
+    box-shadow: none;
+  }
+  table {
+    background: #23272e;
+    color: #d4d4d4;
+  }
+  th {
+    color: #dcdcaa;
+    border-bottom: 1px solid #333842;
+  }
+  td {
+    border-bottom: 1px solid #333842;
+    border-right: 1px solid #264f78;
+    &:first-child {
+      border-left: 1px solid #264f78;
+    }
+  }
+  nav {
+    background: transparent;
+    a {
+      color: #9cdcfe;
+      &:hover {
+        color: #4ec9b0;
+      }
+    }
+    .tag-h1 a {
+      color: #dcdcaa;
+    }
+  }
+  footer {
+    color: #808080;
+  }
+  hr {
+    background: #333842;
+  }
+}
