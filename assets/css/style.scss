@@ -50,6 +50,10 @@ header {
     .button {
       border: 1px solid #3c4452;
       background: linear-gradient(#2d333b, #22262c);
+      transition: background 0.2s;
+      &:hover {
+        background: linear-gradient(#353b44, #292e36);
+      }
     }
   }
   section {
