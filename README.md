@@ -1,5 +1,8 @@
 # Mole Mining Guide - Star Citizen Universe
 
+> **About this Documentation:**
+> A practical guide to Star Citizen mining—covering radar mechanics, ship loadouts, scanning, and tips for efficient resource gathering.
+
 ## Table of Contents
 
 - [1. Base Setup (PD 45, Passive)](BaseSetup.md)
