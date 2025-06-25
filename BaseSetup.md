@@ -211,3 +211,10 @@ Solo MOLE mining is possible and effective with the right approach, even though 
 Solo MOLE mining is slower than with a full crew, but with careful planning and the right setup, it’s a rewarding and profitable way to mine.
 
 ---
+
+## 1.7 Related Guides
+
+- For mining location strategies and ore property tables, see [Mining Location Selection](MiningLocation.md)
+- For radar mechanics, detection formulas, and scanning tips, see [Radar Mechanics and Resource Detection](RadarMechanics.md)
+- For practical scanning steps and resource identification, see [Scanning for Resources](ResourceScanning.md)
+- For ore cutoff policies and evaluation math, see [Ore Cutoff Percentages & Rock Evaluation](OreCutoff.md)

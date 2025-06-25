@@ -1,3 +1,4 @@
+
 # Markdown
 
 ## headings
@@ -42,11 +43,11 @@ Manual process for ensuring the Table of Contents (TOC) in `README.md` and all l
 - Ensure each top-level entry (e.g., `1.`, `2.`, `3.`) is numbered sequentially, with no gaps or duplicates.
 - Example:
 
-  ```
-  - [1. Base Setup](BaseSetup.md)
-  - [2. Mining Location Selection](MiningLocation.md)
-  - [3. Radar Mechanics](RadarMechanics.md)
-  ```
+```
+- [1. Base Setup](BaseSetup.md)
+- [2. Mining Location Selection](MiningLocation.md)
+- [3. Radar Mechanics](RadarMechanics.md)
+```
 
 ---
 
@@ -115,7 +116,31 @@ Manual process for ensuring the Table of Contents (TOC) in `README.md` and all l
 
 ---
 
+## Section Structure: References & Related Guides
+
+Where relevant, each documentation page should end with the following two sections, using the next sequential heading number, and always in this order:
+
+1. `n.n References & Further Reading`
+2. `n.n Related Guides`
+
+The `References & Further Reading` section must always come before the `Related Guides` section when both are present.
+
+---
+
+## n.n References & Further Reading
+
+This section contains all the external links mentioned on the page. It may also include additional links to community content.
+
+## n.n Related Guides
+
+Cross-linking between related guides in this repository.
+
+---
+
+All headings must follow the heading and numbering rules described elsewhere in this documentation.
+
+---
+
 ## Example Commit Message
 ```
 Validate and fix TOC and heading numbering for BaseSetup.md and MiningLocation.md. Ensured sequential numbering, correct title casing, and updated feedback links.
-```

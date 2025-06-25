@@ -143,5 +143,14 @@ There are many real-world situations where it makes sense to adjust your mining 
 
 ---
 
+## 5.7 Related Guides
+
+- For MOLE ship setup and turret loadouts, see [Base Setup](BaseSetup.md)
+- For mining location strategies and ore property tables, see [Mining Location Selection](MiningLocation.md)
+- For radar mechanics, detection formulas, and scanning tips, see [Radar Mechanics and Resource Detection](RadarMechanics.md)
+- For practical scanning steps and resource identification, see [Scanning for Resources](ResourceScanning.md)
+
+---
+
 **Summary:**
 - Aim for 40%+ A-tier, adjust for inerts, and always check the rest of the rock’s content. Treat your cutoff as a dynamic target, and adapt your strategy as the market, your crew, and your goals change.

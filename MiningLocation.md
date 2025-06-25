@@ -135,3 +135,12 @@ The mass of the resource required to fill one Standard Cargo Unit (SCU). Lower v
 ## 2.7 How to Find a Good Location
 
 Now that you’ve identified your miner type, group construct, and mining goals, you’re ready to make informed decisions about where to mine. To further narrow down the best locations for your specific needs and preferences, visit [Regolith Rocks Ore Survey](https://regolith.rocks/survey/ores). This resource will help you match your strategy to the most promising mining sites in the 'verse.
+
+---
+
+## 2.8 Related Guides
+
+- For MOLE ship setup and turret loadouts, see [Base Setup](BaseSetup.md)
+- For radar mechanics, detection formulas, and scanning tips, see [Radar Mechanics and Resource Detection](RadarMechanics.md)
+- For practical scanning steps and resource identification, see [Scanning for Resources](ResourceScanning.md)
+- For ore cutoff policies and evaluation math, see [Ore Cutoff Percentages & Rock Evaluation](OreCutoff.md)

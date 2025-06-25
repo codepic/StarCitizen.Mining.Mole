@@ -108,3 +108,12 @@ If you discover a deposit while surface scanning at a range of less than 5 km, i
 
 > **Note:** These minables are typically smaller and have lower `RS Signature` values compared to ship minables, which are detectable at much greater distances.
 
+---
+
+## 4.3 Related Guides
+
+- For MOLE ship setup and turret loadouts, see [Base Setup](BaseSetup.md)
+- For mining location strategies and ore property tables, see [Mining Location Selection](MiningLocation.md)
+- For radar mechanics, detection formulas, and scanning tips, see [Radar Mechanics and Resource Detection](RadarMechanics.md)
+- For ore cutoff policies and evaluation math, see [Ore Cutoff Percentages & Rock Evaluation](OreCutoff.md)
+
