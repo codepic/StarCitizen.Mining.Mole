@@ -27,7 +27,7 @@ This guide is focused on actionable advice—how to use your ship’s radar to f
 
 ### 4.1.1.3 Visualizing the Focused Cone: Advanced HUD and Ping Angle
 
-With the angle set to 45% in SCN mode, much of the area is excluded from the ping. The difference between 90° and 45% is significant: at 90°, your ping really covers a sphere around you; at 45%, it covers only a narrow slice in front of you. This can be surprising if you expect a gradual change.
+With the angle set to 45% in SCN mode, much of the area is excluded from the ping. The difference between 90° and 45% is significant: at 90°, your ping really covers a sphere around you; at 45°, it covers only a narrow slice in front of you. This can be surprising if you expect a gradual change.
 
 ![Radar Ping Angle 45%](images/ping_angle_45.png)
 
