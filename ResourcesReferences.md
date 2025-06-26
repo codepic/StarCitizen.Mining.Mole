@@ -1,6 +1,6 @@
 [💬 Send feedback on this page](https://github.com/codepic/StarCitizen.Mining.Mole/issues/new?template=feedback.yml&title=Feedback+on+ResourcesReferences.md&page=ResourcesReferences.md)
 
-# 11. Resources & References
+# 10. Resources & References
 
 Because you can never have too many links. Or can you?
 
