@@ -4,7 +4,9 @@
 
 > **Summary:** This guide explores the mechanics of ship radar and scanning in Star Citizen, focusing on resource detection techniques and radar formulas. It provides practical insights for players aiming to improve their mining and exploration efficiency.
 
-> **Geek-Out Warning:** This guide dives into the nitty-gritty of radar formulas and scanning techniques. But don't worry—it's all grounded in common sense, so even if math isn't your thing, you'll find it easy to follow and super rewarding! Math-phobes, don’t worry: there’s only a slight chance of spontaneous algebra.
+> **Scope Note:** This guide focuses on spherical 360° pinging and general radar mechanics. For practical scanning techniques, such as directional or SCN mode scanning, see [Scanning for Resources](ResourceScanning.md).
+
+> **Geek-Out Warning:** This guide dives into the nitty-gritty of radar formulas and radar mechanics. But don't worry—it's all grounded in common sense, so even if math isn't your thing, you'll find it easy to follow and super rewarding! Math-phobes, don’t worry: there’s only a slight chance of spontaneous algebra.
 
 > **Quick Note:** Even if mining isn't your thing and you're more into the pew-pew action, you might actually learn something useful here. After all, understanding radar mechanics can give you an edge in any scenario!
 
@@ -44,6 +46,18 @@ Before we dive into the technical details, let's set the stage with what you'll 
 **Bottom line:** Whether you're a seasoned veteran or just starting your journey, this guide will help you make the most of your radar and scanning techniques, ensuring you never miss a valuable find again!
 
 Finally, you can blame the formulas instead of your piloting skills.
+
+---
+
+## 3.2.1 Radar Detection, Ping, and Scanning: The Three Detection Modes
+
+**Radar Detection** is passive. It constantly monitors your surroundings and automatically picks up nearby objects that emit detectable signatures (like ships with active systems). Think of it as your ship’s ears, always listening.
+
+**Ping** is active. When you press the ping key (`Tab`), your ship sends out a pulse to reveal objects that might not be visible on passive radar. It’s like shouting into the void and seeing what echoes back. However, using ping makes you more detectable too—so it’s a trade-off between information and stealth.
+
+**Scanning** is targeted and detailed. Once you’ve detected something via radar detection or ping, you can scan it (by holding the left mouse button in scan mode) to get more information—like cargo contents, ship type, or mining data. It’s your ship’s version of zooming in and analyzing.
+
+> **Note:** For advanced details on how the shape of your radar ping changes in SCN mode (and how to use this for precision scanning), see [4.1.1 Ping Cone Shape, SCN Mode, and Real-World Radar Behavior](ResourceScanning.md#411-ping-cone-shape-scn-mode-and-real-world-radar-behavior) in the Scanning for Resources guide.
 
 ---
 
