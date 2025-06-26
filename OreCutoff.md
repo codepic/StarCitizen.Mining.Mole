@@ -98,7 +98,7 @@ If the rock contains any S-tier ore, **double its percentage value** and add it 
 > **Example:** If a rock has 10% Riccite (S-tier), 20% Taranite (A-tier), and the rest is tin and inert materials, the calculation is: 10% × 2 (RICC) + 20% (TARA) = 40%. This meets the cutoff.
 
 #### 5.3.2.2 Inert Material Adjustment
-Inert materials (e.g., Inert, Waste) reduce the overall value of the rock. When evaluating a rock, apply your extraction laser's inert bonus—typically, use a **0.6 multiplier for inerts** (see the [Base Setup](BaseSetup.md#52-inert-filtering--extraction-laser-bonus) for your setup specifics). This means you only count 60% of the reported proportion of inerts in your calculation, reflecting their lower impact on your profit compared to valuable minerals.
+Inert materials (e.g., Inert, Waste) reduce the overall value of the rock. When evaluating a rock, apply your extraction laser's inert bonus—typically, use a **0.6 multiplier for inerts**. For details and examples, see [1.2 Inert Filtering & Extraction Laser Bonus](BaseSetup.md#12-inert-filtering--extraction-laser-bonus) in the Base Setup guide. This means you only count 60% of the reported proportion of inerts in your calculation, reflecting their lower impact on your profit compared to valuable minerals.
 
 > **Example:** A rock with 33% Bexalite (A-tier) and 67% inert materials would be calculated as follows:
 > - Adjusted Inert: 67% × 0.6 = 40%
