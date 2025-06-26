@@ -14,14 +14,14 @@ Recommended mining head and module configurations for each turret, with roles an
 ```mermaid
 flowchart TD
     MOLE["Argo MOLE"]
-    MOLE --> PT["Port Turret (Arbor MH2, optimal range 90m)"]
+    MOLE --> PT["Port (Arbor MH2)"]
     PT --> P1["Focus III"]
     PT --> P2["Focus III"]
-    MOLE --> FT["Front Turret (HELIX II, optimal range 30m)"]
+    MOLE --> FT["Front (HELIX II)"]
     FT --> R1["Rieger C3"]
     FT --> R2["Rieger C3"]
     FT --> R3["Rieger C3"]
-    MOLE --> ST["Starboard Turret (Hofstede S2, min power 10%, optimal range 60m)"]
+    MOLE --> ST["Starboard (Hofstede S2)"]
     ST --> S1["Rieger C3"]
     ST --> S2["Focus III"]
 ```
