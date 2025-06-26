@@ -2,6 +2,8 @@
 
 # 11. Resources & References
 
+Because you can never have too many links. Or can you?
+
 - Links to official Star Citizen mining guides and patch notes.
 - Community resources (websites, Discords, calculators).
 - Further reading and video guides.

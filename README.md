@@ -3,6 +3,8 @@
 > **About this Guide:**
 > This guide is a comprehensive resource for Star Citizen mining enthusiasts, focusing on the mechanics, strategies, and best practices for efficient mining with the MOLE and other ships. It covers radar detection, ship loadouts, resource evaluation, scanning techniques, and practical tips—helping both new and veteran players maximize their mining success in the 'verse.
 
+For those who read manuals before pushing buttons—this one’s for you.
+
 ## Table of Contents
 
 - [1. Base Setup (PD 45, Passive)](BaseSetup.md)

@@ -11,6 +11,8 @@
 
 This step-by-step approach ensures your mining runs are efficient, profitable, and tailored to your playstyle.
 
+Sure, you could have spent all this time actually mining and making a tidy profit—but stick with this guide a little longer, and I promise you’ll earn back every minute (and then some) in the near future. Trust me, your future self will thank you for the extra credits.
+
 ## 2.1 Factors Influencing Mining Location Choice
 
 Before selecting a mining location, take a moment to identify what kind of miner you are and what you want from your mining experience. Clarifying your goals and needs will help ensure a smoother, more profitable session.
@@ -19,11 +21,20 @@ Before selecting a mining location, take a moment to identify what kind of miner
 
 There are three main types of miners, each with distinct goals and strategies:
 
-**Value Miners** focus exclusively on the highest-value ores (S- and A-Tier), often discarding or ignoring B- and C-Tier ores. Their goal is to maximize profit per trip by only extracting the most lucrative materials, even if it means leaving rocks partially unmined or making fewer, more selective hauls. This approach is best for those who want the highest return for their time and are willing to be patient and discerning in their rock selection.
+#### Value Miner
+> *"Why settle for less when you can spend all day looking for that one perfect rock? My cargo hold may be empty, but my standards are full."*
 
-**Volume Miners** collect and refine everything, regardless of ore tier. They fill their cargo holds as quickly as possible, maximizing throughput and minimizing downtime. This strategy is well-suited for group mining, multi-ship operations, or when using on-field ore bag swapping with haulers. Volume miners benefit most from efficient logistics and are less concerned with ore quality, focusing instead on total yield and operational efficiency.
+Value Miners focus exclusively on the highest-value ores (S- and A-Tier), often discarding or ignoring B- and C-Tier ores. Their goal is to maximize profit per trip by only extracting the most lucrative materials, even if it means leaving rocks partially unmined or making fewer, more selective hauls. This approach is best for those who want the highest return for their time and are willing to be patient and discerning in their rock selection.
 
-**A-Tier Focus Miners** target rocks rich in A-Tier ores, sometimes discarding C-Tier ores but often refining B-Tier ores if present. They strike a balance between the selectivity of value miners and the throughput of volume miners, aiming for a steady profit while maintaining flexibility. This approach is ideal for those who want consistent returns without the strict selectivity of value mining or the indiscriminate approach of volume mining.
+#### Volume Miner
+> *"If it fits, it ships. Quantity is my love language—refineries, brace yourselves!"*
+
+Volume Miners collect and refine everything, regardless of ore tier. They fill their cargo holds as quickly as possible, maximizing throughput and minimizing downtime. This strategy is well-suited for group mining, multi-ship operations, or when using on-field ore bag swapping with haulers. Volume miners benefit most from efficient logistics and are less concerned with ore quality, focusing instead on total yield and operational efficiency.
+
+#### A-Tier Focus Miner
+> *"Why choose between quality and quantity when you can have a little existential crisis in the middle? Moderation is my superpower."*
+
+A-Tier Focus Miners target rocks rich in A-Tier ores, sometimes discarding C-Tier ores but often refining B-Tier ores if present. They strike a balance between the selectivity of value miners and the throughput of volume miners, aiming for a steady profit while maintaining flexibility. This approach is ideal for those who want consistent returns without the strict selectivity of value mining or the indiscriminate approach of volume mining.
 
 Understanding your miner type will help you choose the most suitable locations, equipment, and strategies for your playstyle and goals.
 
@@ -44,6 +55,8 @@ As you gain experience, you can gradually take on rocks with higher instability,
 ### 2.1.3 Personal Preference
 
 Your personal preference plays a significant role in mining location selection. Some miners enjoy a relaxed, low-risk experience—choosing locations with easy-to-break rocks, minimal instability, and low explosion risk, even if it means lower overall profit. Others thrive on challenge, seeking out locations with high-resistance or high-instability rocks that require precise technique and coordination, aiming for the satisfaction of conquering the toughest breaks and maximizing yield.
+
+Some miners just want to watch the rocks explode.
 
 You might also prefer scenic or quiet locations for immersion, or busy areas for social interaction and teamwork. Ultimately, your enjoyment and satisfaction should guide your choices—there is no single "best" location, only the one that best fits your playstyle and goals.
 

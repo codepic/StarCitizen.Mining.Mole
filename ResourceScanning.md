@@ -9,6 +9,8 @@ A significant portion of this document's contents revolves around radar mechanic
 While the `RadarMechanics.md` guide dives deeper into the underlying technology and theoretical aspects, this document focuses on practical advice for leveraging that technology to your advantage during resource scanning and mining operations.
 
 ## 4.2 Identifying Deposit Types from Kilometers Away 🚀 *New in 4.2.0*
+ 
+Because flying to every rock is so last patch.
 
 To effectively identify resource types without moving to them, follow this procedure:
 
@@ -16,11 +18,12 @@ To effectively identify resource types without moving to them, follow this proce
 2. Switch to `NAV SCN` mode (Keyboard: V).
 3. Widen the angle of your radar to 90% (Mouse: Wheel).
 4. Initiate radar ping (Keyboard: Tab).
-5. Point your ship towards a detected signature and ensure as high signal strength as possible.
+5. If you see a shrubbery on your radar, you may have wandered into the wrong guide.
+6. Point your ship towards a detected signature and ensure as high signal strength as possible.
 
    ![Radar Ping Angle 90%](images/radar_ping_angle_90.png)
 
-6. Narrow down the radar angle to 2% while maintaining signal strenth
+7. Narrow down the radar angle to 2% while maintaining signal strenth
 
    ![Radar Ping Angle 2%](images/radar_ping_angle_02.png)
 
