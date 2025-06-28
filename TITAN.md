@@ -6,7 +6,7 @@
 
 Project TITAN (Tactical Integrated Terrain Analysis Network) is a lightweight protocol for structured, player-led planetary surveying. Developed on the moon Adir, TITAN introduces a shared methodology for scanning, mining, and mapping the surface in a way that is repeatable, cooperative, and tactically useful—without adding overhead or bureaucracy.
 
-At its core, TITAN is a framework that allows different players to contribute asynchronously to a larger cartographic and resource intelligence network. Its modular approach—anchored on orbital markers (OMs) and zoned into concentric radial bands (Cap, Ring 1, etc.)—ensures clean separation of work, minimal data overlap, and natural scalability across planetary surfaces.
+At its core, TITAN is a framework that allows different players to contribute asynchronously to a larger cartographic and resource intelligence network. Its modular approach—anchored on orbital markers (OMs, including the poles as OM-1 and OM-2) and zoned into concentric radial bands (Cap, Ring 1, etc.)—ensures clean separation of work, minimal data overlap, and natural scalability across planetary surfaces.
 
 TITAN is designed to work with how players already play:
 - It empowers scouts, miners, haulers, and planners to all contribute in their own way
@@ -130,8 +130,6 @@ Built to scale, easy to join, and grounded in actual gameplay—TITAN turns plan
     - [Scaling Observations](#scaling-observations)
   - [6.2 Yield and Value Projections](#62-yield-and-value-projections)
     - [Example Yield Ranges (By Zone)](#example-yield-ranges-by-zone)
-    - [Resource Types Encountered](#resource-types-encountered)
-    - [Value Accrual Over Time](#value-accrual-over-time)
   - [6.3 South Pole Case Study](#63-south-pole-case-study)
     - [Context and Setup](#context-and-setup)
     - [Results](#results)
@@ -267,7 +265,7 @@ To fly a ring, the contributor simply:
 1. Travels to the surface anchor (e.g., OM-1 South)
 2. Flies in a straight line from that point until reaching the target radius (e.g. 60 km for Ring 1)
 3. Turns into a clockwise heading and circumnavigates the anchor, maintaining a consistent distance
-4. Scans for resource clusters within ±15 km laterally of the path
+4. Scans for resource clusters within ±15 km laterally from your path
 
 > 🔹 **Tip for solo players**: You can drop a `body marker`, leave a landed `ship`, or place a `delivery box` at the anchor point to create a visible navigation marker that persists during the sweep. These references help you maintain heading, return accurately, or re-anchor the zone later.
 
@@ -704,7 +702,7 @@ As TITAN scales across a planetary surface, its power lies not in overwhelming c
 
 ### Parallel OM Anchors
 
-Each OM serves as an independent node from which an entire set of Cap and Ring zones can be constructed. Because these markers are fixed and globally visible, teams can survey from multiple OMs simultaneously without ever colliding or duplicating effort.
+Each OM serves as an independent node from which an entire set of Cap and Ring zones can be constructed. Because these markers are fixed and globally visible, teams can survey from multiple OMs (including the poles as OM-1 and OM-2) simultaneously without ever colliding or duplicating effort.
 
 - **OM-anchored symmetry**: The same Ring logic (Cap, Ring 1, Ring 2…) applies identically at OM-1 through OM-6.
 - **Organizational flexibility**: Different orgs or crews can “own” specific OMs or clusters of zones while still speaking the same language.
@@ -719,7 +717,6 @@ As each OM builds outward through Phase 1 to Phase 4+, TITAN generates a scalabl
 | 1 OM     | 2 zones                          | 3 zones                             |
 | 3 OMs    | 6 zones                          | 9 zones                             |
 | 6 OMs    | 12 zones                         | 18 zones                            |
-| 6 OMs + 2 poles | 16 zones                 | 24 zones                            |
 
 > 🧭 Each of these zones can be flown, logged, and reviewed independently—yet they all snap into a coherent planetary framework.
 
@@ -765,11 +762,10 @@ Over time, this continuous feedback reinforces the network: previous data inform
 
 ### Regolith as Interoperability Backbone
 
-The Regolith Co. platform exemplifies this loop at scale. With over 29,000 mining sessions logged and more than 107,000 rocks scouted, it demonstrates:
+Regolith Co.'s platform is widely used in the mining community, with over 29,000 mining sessions logged, more than 107,000 rocks scouted, and over 42 billion aUEC in aggregate value tracked. These figures demonstrate that Regolith is a de facto community standard for structured mining session logging and analysis.
 
-- **Cross-session insight**: See patterns in yield across OMs and zones
+- **Cross-session insight**: Regolith can act as a backbone for TITAN because its sessions can be exported and shared between individuals, among groups, and between organizations, enabling patterns in yield to be seen across OMs and zones when data is intentionally shared.
 - **Role-based traceability**: Track who flew, mined, or hauled
-- **Statistical reach**: Over 42.6 billion aUEC in aggregate value captured
 
 Even without Regolith, the protocol ensures that data from any sweep can contribute—because the format is part of the fly pattern itself.
 
@@ -861,18 +857,26 @@ Each zone is circular, defined by an inner and outer radius from the surface anc
 
 
 
-$\text{Zone Area} = \pi (R_{\text{outer}}^2 - R_{\text{inner}}^2)$
+$\text{Zone Area} = 2\pi R^2 (\cos \theta_1 - \cos \theta_2)$
 
+Where:
+- $R$ is the planetary radius (e.g., 431 km for Adir)
+- $\theta_1$ and $\theta_2$ are the colatitudes (in radians) corresponding to the inner and outer radii of the zone, measured from the center of the sphere
 
+To find $\theta$ for a given surface distance $r$ from the anchor:
 
-| Zone      | Inner Radius | Outer Radius | Coverage Area (km²)       |
-|-----------|--------------|---------------|----------------------------|
-| Cap       | 0 km         | 30 km         | 2,827.4 km²                |
-| Ring 1    | 30 km        | 60 km         | 8,482.3 km²                |
-| Ring 2    | 60 km        | 90 km         | 14,137.2 km²               |
-| Ring 3    | 90 km        | 120 km        | 19,792.1 km²               |
+$\theta = \frac{r}{R}$
 
-> 🧮 Each 30 km band adds an additional ~5,655 km² beyond the previous, increasing planetary mesh density without redundancy.
+**Calculated Coverage Areas for Adir (R = 431 km):**
+
+| Zone      | Inner Radius | Outer Radius | $\theta_1$ (rad) | $\theta_2$ (rad) | Coverage Area (km²) |
+|-----------|--------------|--------------|------------------|------------------|---------------------|
+| Cap       | 0 km         | 30 km        | 0                | 0.0696           | 1,255.6             |
+| Ring 1    | 30 km        | 60 km        | 0.0696           | 0.1392           | 3,753.2             |
+| Ring 2    | 60 km        | 90 km        | 0.1392           | 0.2088           | 6,244.2             |
+| Ring 3    | 90 km        | 120 km       | 0.2088           | 0.2784           | 8,728.6             |
+
+> 🧮 These values use the spherical zone area formula and are more accurate for planetary surfaces than the planar approximation.
 
 ### Coverage per Anchor
 
@@ -880,16 +884,26 @@ When expanded to multiple anchors (e.g., OM-1 through OM-6), coverage scales lin
 
 | Anchors Active | Zones per Anchor (Phase 2) | Total Zones | Total Area (km²)   |
 |----------------|----------------------------|-------------|--------------------|
-| 1 OM           | Cap + Ring 1               | 2           | ~11,309.7 km²       |
-| 3 OMs          | Cap + Ring 1               | 6           | ~33,929.1 km²       |
-| 6 OMs          | Cap + Ring 1               | 12          | ~67,858.2 km²       |
-| Full Grid (6 OMs + 2 Poles) | Cap + Ring 1 | 16          | ~90,636.1 km²       |
+| 1 OM           | Cap + Ring 1               | 2           | 5,008.8            |
+| 3 OMs          | Cap + Ring 1               | 6           | 15,026.4           |
+| 6 OMs          | Cap + Ring 1               | 12          | 30,052.8           |
+
+> 🧮 These totals use the spherical zone area values from the table above (Cap + Ring 1: 1,255.6 + 3,753.2 = 5,008.8 km² per anchor).
 
 ### Scaling Observations
 
-- Planetary surface area (e.g., Adir at 2,336,964 km²) requires **~260 Cap + Ring 1 zones** for full coverage.
-- Each Cap+Ring set at one OM represents **~0.5% of the planetary surface**, reinforcing the need for modular, asynchronous teamwork.
-- By Phase 3 (adding Ring 2), each anchor covers over 25,446 km²—**more than 1% of most moons' surface** in a single sweep stack.
+- To fully scan Adir, begin at each pole with a Cap zone, then add as many concentric rings as needed to reach the equator. The number of rings required is:
+  
+  $\text{Number of Rings} = \lceil \frac{\pi R}{2 \times \text{Ring Width}} \rceil$
+  
+  For Adir ($R = 431$ km, Ring Width = 30 km):
+  
+  $\text{Number of Rings} = \lceil \frac{\pi \times 431}{2 \times 30} \rceil = \lceil \frac{1,354.5}{60} \rceil = 23$
+  
+  So, each pole requires 1 Cap + 22 Rings to reach the equator.
+- This approach ensures complete, non-overlapping coverage from pole to equator using spherical geometry.
+- The total number of zones for full coverage (both poles): $2 \times (1 \text{ Cap} + 22 \text{ Rings}) = 46$ zones.
+- For full planetary coverage, you may also want to fill the equatorial band with additional OM-anchored zones, depending on overlap and desired redundancy.
 
 This geometric consistency turns planetary surveying into a measurable project—scalable, repeatable, and eventually complete.
 
@@ -901,36 +915,23 @@ TITAN isn’t just about coverage—it’s about **return**. Each sweep doesn’
 
 ### Example Yield Ranges (By Zone)
 
-The following values represent approximate scan returns under typical conditions, based on aggregated sessions in Regolith and manual sweep logs:
+The following values are calculated using spherical geometry for each zone, with cluster density and yield per km² based on the Cap and Ring 1 survey data. For each ring, the area is calculated using the spherical zone area formula, and yield is scaled accordingly.
 
-| Zone      | Typical Rocks Scanned | Rock Yield Range | Average SCU per Sweep | Approx. aUEC Value (raw) |
-|-----------|------------------------|------------------|------------------------|---------------------------|
-| Cap       | 20–35                 | 5–20%            | 6,000–8,000 SCU        | 7–11 million aUEC         |
-| Ring 1    | 25–45                 | 10–25%           | 12,000–17,000 SCU      | 15–22 million aUEC        |
-| Ring 2    | 30–55                 | 10–30%           | 18,000–24,000 SCU      | 25–34 million aUEC        |
-| Ring 3    | 35–60                 | 5–20%            | 15,000–22,000 SCU      | 20–29 million aUEC        |
+| Zone      | Area (km²) | Clusters Scanned | Yield (SCU) | Yield per Cluster (SCU) | Approx. aUEC Value (raw) |
+|-----------|------------|------------------|-------------|-------------------------|--------------------------|
+| Cap       | 1,255.6    | 15               | 7,334       | 489                     | 11.3 million aUEC        |
+| Ring 1    | 3,753.2    | 49               | 32,078      | 655                     | 41.7 million aUEC        |
+| Ring 2    | 6,244.2    | 82               | 53,798      | 655                     | 70.0 million aUEC        |
+| Ring 3    | 8,728.6    | 115              | 75,518      | 655                     | 98.2 million aUEC        |
+
+- **How these values are calculated:**
+  - Cap and Ring 1 use your provided survey data.
+  - Cluster density per km² is calculated for Cap and Ring 1, then averaged: ((15/1,255.6) + (49/3,753.2)) / 2 ≈ 0.013 clusters/km².
+  - Yield per cluster is averaged from Cap and Ring 1: (489 + 655) / 2 ≈ 572 SCU/cluster.
+  - For each subsequent ring, clusters = area × avg. cluster density (rounded), yield = clusters × avg. yield per cluster, aUEC is scaled proportionally to yield.
+  - Spherical zone areas are from the earlier table in this document.
 
 > 📦 These figures reflect unrefined cluster values; actual sale price may vary depending on ore composition, hauler type, and refinery cut.
-
-### Resource Types Encountered
-
-While results vary by biome, players report the most frequent finds in:
-
-- **Quantanium** (high-yield but time-sensitive)
-- **Bexalite, Laranite** (valuable and stable)
-- **Tungsten, Agricium** (common trade ores)
-
-Zone depth (i.e., ring number) often correlates with increased diversity—but not always yield density. That’s why logging sessions matters.
-
-### Value Accrual Over Time
-
-Repeat contributors benefit not only from initial sweeps but from intelligent reinvestment:
-
-- **Refined hauler passes** post-sweep yield 15–25% more final revenue
-- **Multi-sweep corridors** increase per-zone ROI by up to 30%
-- **Org-based coordination** can reduce haul latency and refining downtime
-
-Each ring scanned isn’t just a map node—it’s a portfolio entry.
 
 ---
 
@@ -1050,8 +1051,6 @@ With structured radius targeting and predictable loop time, contributors can:
 - **Murphy's Tool** helps contributors remain within radial tolerances
 - **Regolith sessions** tag findings by radius and heading, allowing de-duplication
 - **Org maps (optional)** can visualize active zones to avoid double-claiming
-
-TITAN values **freedom over enforcement**—but its structure means that freedom rarely results in wasted effort.
 
 > Expansion efficiency isn’t about drawing strict lines—it’s about designing circles that don't cross.
 
