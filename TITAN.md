@@ -134,32 +134,6 @@ Built to scale, easy to join, and grounded in actual gameplay—TITAN turns plan
     - [Context and Setup](#context-and-setup)
     - [Results](#results)
     - [Tactical Takeaways](#tactical-takeaways)
-- [7. Contributing as a Player](#7-contributing-as-a-player)
-  - [7.1 Joining a Sweep Assignment](#71-joining-a-sweep-assignment)
-    - [Ways to Join](#ways-to-join)
-    - [What to Know Before You Fly](#what-to-know-before-you-fly)
-    - [Optional Pre-Flight Post](#optional-pre-flight-post)
-  - [7.2 Navigation and Scanning Guidelines](#72-navigation-and-scanning-guidelines)
-    - [Establishing the Anchor](#establishing-the-anchor)
-    - [Measuring Your Radius](#measuring-your-radius)
-    - [Flying the Sweep](#flying-the-sweep)
-    - [Scanning Practices](#scanning-practices)
-    - [Environmental Tips](#environmental-tips)
-  - [7.3 Recording and Submitting Findings](#73-recording-and-submitting-findings)
-    - [Basic Logging Principles](#basic-logging-principles)
-    - [Recording Options](#recording-options)
-    - [Submitting Your Session](#submitting-your-session)
-    - [Sample Manual Entry (Markdown Format)](#sample-manual-entry-markdown-format)
-  - [7.4 Etiquette and Band Discipline](#74-etiquette-and-band-discipline)
-    - [The Unwritten Code of the Sweep](#the-unwritten-code-of-the-sweep)
-    - [Courtesy Between Contributors](#courtesy-between-contributors)
-    - [Clean Logs, Clean Map](#clean-logs-clean-map)
-    - [Collaborative Optional, Consistency Essential](#collaborative-optional-consistency-essential)
-  - [7.5 Summary Checklist / Quickstart](#75-summary-checklist--quickstart)
-    - [✅ PRE-FLIGHT](#-pre-flight)
-    - [🛫 NAVIGATION](#-navigation)
-    - [📡 SCANNING](#-scanning)
-    - [📋 LOGGING](#-logging)
 
 ---
 
@@ -1041,7 +1015,7 @@ With structured radius targeting and predictable loop time, contributors can:
 - **Regolith sessions** tag findings by radius and heading, allowing de-duplication
 - **Org maps (optional)** can visualize active zones to avoid double-claiming
 
-> Expansion efficiency isn’t about drawing strict lines—it’s about designing circles that don't cross. -->
+> Expansion efficiency isn’t about drawing strict lines—it’s about designing circles that don't cross.
 
 ---
 
@@ -1244,3 +1218,4 @@ New to TITAN? This quickstart gets you from orbit to actionable scan in minutes.
 > 🧭 Fly clean, log clean. The map remembers.
 
 ---
+ -->
