@@ -134,15 +134,6 @@ Built to scale, easy to join, and grounded in actual gameplay—TITAN turns plan
     - [Context and Setup](#context-and-setup)
     - [Results](#results)
     - [Tactical Takeaways](#tactical-takeaways)
-  - [6.4 OM-Wide Statistics](#64-om-wide-statistics)
-    - [Sample OM Statistics (Aggregate to Date)](#sample-om-statistics-aggregate-to-date)
-    - [Tactical Implications](#tactical-implications)
-    - [Visualizing Progress](#visualizing-progress)
-  - [6.5 Expansion Efficiency and Overlap Estimates](#65-expansion-efficiency-and-overlap-estimates)
-    - [The 30 km Band Philosophy](#the-30-km-band-philosophy)
-    - [Zone Adjacency and Edge Bleed](#zone-adjacency-and-edge-bleed)
-    - [Sweep Efficiency per Contributor](#sweep-efficiency-per-contributor)
-    - [Overlap Prevention Tools](#overlap-prevention-tools)
 - [7. Contributing as a Player](#7-contributing-as-a-player)
   - [7.1 Joining a Sweep Assignment](#71-joining-a-sweep-assignment)
     - [Ways to Join](#ways-to-join)
@@ -945,37 +936,35 @@ The South Pole of Adir was TITAN’s birthplace—a testbed chosen for its clari
 
 ### Context and Setup
 
-The first operational flights were launched from the true South Pole, anchored on planetary coordinates and verified against OM-3S vector alignments. No orbital station was present—just frozen terrain, open sky, and a clean slate.
+The first operational flights were launched from the true South Pole, anchored on planetary coordinates and verified against OM-2 vector alignments.
 
 Survey parameters:
 
-- **Anchor**: Geographic South Pole (no orbital marker)
+- **Anchor**: Geographic South Pole (OM-2)
 - **Sweep Radius**: 0–60 km (Cap + Ring 1)
 - **Sweep Width**: 30 km bands
-- **Tools Used**: Murphy’s Navigation Tool, manual SCU logging, lateral scan sweeps
+- **Tools Used**: Murphy’s Navigation Tool, Regolith
 
 ### Results
 
 | Sweep Band | Clusters Scanned | Average SCU (total) | Unrefined aUEC Yield |
 |------------|------------------|----------------------|-----------------------|
-| Cap (0–30) | 29               | ~9,600 SCU           | ~13 million aUEC     |
-| Ring 1     | 42               | ~29,500 SCU          | ~40 million aUEC     |
-| **Total**  | 71               | **~39,100 SCU**       | **~53 million aUEC**  |
+| Cap (0–30) | 15               | ~7,334 SCU           | ~11.3 million aUEC    |
+| Ring 1     | 49               | ~32,078 SCU          | ~41.7 million aUEC    |
+| **Total**  | 64               | **~39,412 SCU**      | **~53.0 million aUEC**|
 
-> ⛏️ All SCU values based on unrefined quantanium, bexalite, and laranite clusters across ~110 minutes of flight time.
+> ⛏️ All SCU and aUEC values based on Regolith
 
 ### Tactical Takeaways
 
 - **Proof of Repeatability**: The clean radial symmetry at the pole confirmed that Cap and Ring bands could be flown without drift or directional loss.
 - **Low-Noise Environment**: Absence of player infrastructure made every find attributable to the sweep—ideal for baseline testing.
-- **Tool Synergy**: Manual scanning paired well with Regolith formatting, even in single-player conditions.
-
-This flight was the protocol’s “one small step” moment. What started as a lone circumnavigation became the foundation for a system now used across OMs, crews, and planets.
+- **Tool Synergy**: Manual scanning paired well with Regolith, even in single-player conditions.
 
 > The South Pole taught us that scale doesn’t require complexity—just intent, structure, and a good set of bearings.
 
 ---
-
+<!-- 
 ## 6.4 OM-Wide Statistics
 
 As TITAN scales across orbital anchors, each OM becomes a measurable contributor to the planetary network—serving as a statistical and cartographic hub. This section quantifies operational outputs across OMs, translating radial sweeps into concrete metrics: zones flown, clusters scanned, SCU extracted, and economic yield.
@@ -1052,7 +1041,7 @@ With structured radius targeting and predictable loop time, contributors can:
 - **Regolith sessions** tag findings by radius and heading, allowing de-duplication
 - **Org maps (optional)** can visualize active zones to avoid double-claiming
 
-> Expansion efficiency isn’t about drawing strict lines—it’s about designing circles that don't cross.
+> Expansion efficiency isn’t about drawing strict lines—it’s about designing circles that don't cross. -->
 
 ---
 
