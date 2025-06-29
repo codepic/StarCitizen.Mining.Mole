@@ -1,4 +1,3 @@
-
 # Markdown
 
 ## headings
@@ -15,6 +14,7 @@
 - Top-level headings should link directly to the document without a link to a specific heading.
 - Before updating the Table of Contents, ensure that the linked document has consistent heading levels and numberings.
 - When generating anchor links, use GitHub's automatic anchor format: lowercase, spaces replaced with hyphens, and most punctuation removed. See: https://gist.github.com/asabaylus/3071099
+- **Important:** Only apply heading numbering from the main README.md to markdown files in the root folder. Do not apply README.md numbering to markdown files in any subfolder; subfolder markdown files should use their own internal numbering as appropriate.
 
 # Feedback Links in Documentation
 
@@ -53,6 +53,7 @@ Manual process for ensuring the Table of Contents (TOC) in `README.md` and all l
 
 ## 2. Validate H1 Headings in Linked Documents
 - For each markdown file linked at the top level in the TOC:
+  - **Only apply the TOC number to markdown files in the root folder.** Do not apply README.md numbering to markdown files in any subfolder; subfolder markdown files should use their own internal numbering as appropriate.
   - The H1 heading (`#`) must match the TOC number (e.g., `# 1. Base Setup`).
   - The heading text should follow generally accepted title casing rules. (Recommended: [AP Title Case](https://titlecase.com/) or [Chicago Manual of Style](https://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-1.html))
   - If the H1 heading is missing, add it. If the number or text is inconsistent, update it to match the TOC number and the document’s intended title.
@@ -61,6 +62,7 @@ Manual process for ensuring the Table of Contents (TOC) in `README.md` and all l
 
 ## 3. Validate and Fix Heading Numbering Within Each Document
 - For each linked markdown file:
+  - **Only apply the README.md numbering sequence to markdown files in the root folder.** For markdown files in subfolders, use their own internal numbering as appropriate, not the README.md sequence.
   - All numbered headings (e.g., `1.1`, `2.3.1`) must be sequential, with no gaps or duplicates.
   - If a heading is not numbered but should be, add the correct number.
   - If numbering is out of order, renumber all subsequent headings to restore sequential order.
@@ -144,3 +146,4 @@ All headings must follow the heading and numbering rules described elsewhere in 
 ## Example Commit Message
 ```
 Validate and fix TOC and heading numbering for BaseSetup.md and MiningLocation.md. Ensured sequential numbering, correct title casing, and updated feedback links.
+```
