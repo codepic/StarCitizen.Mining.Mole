@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This study investigates whether the mass-to-SCU (Standard Cargo Unit) ratio of mineable ores influences mining profitability in Star Citizen. Using controlled scenario modeling, in-game data, and community-sourced calculations, we examine how ore density impacts value-per-trip efficiency across different rock compositions. Contrary to popular belief, the results reveal that **mass-to-SCU alone is not a reliable predictor of profitability**. Instead, profitability is shaped by contextual interactions between ore types, their intrinsic values, and role-specific mining constraints. These findings challenge density-first heuristics and lay the foundation for more nuanced, context-aware mining strategies.
+This study investigates whether the mass-to-SCU (Standard Cargo Unit) ratio of mineable ores directly influences mining profitability in Star Citizen. Using controlled scenario modeling, in-game data, and community-sourced calculations, we examine how ore density impacts value-per-trip efficiency across different rock compositions. Contrary to popular belief, the results reveal that **mass-to-SCU alone is not a reliable predictor of profitability**. Instead, profitability is shaped by contextual interactions between ore types, their intrinsic values, and role-specific mining constraints. These findings challenge density-first heuristics and lay the foundation for more nuanced, context-aware mining strategies.
 
 ---
 
