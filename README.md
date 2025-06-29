@@ -87,7 +87,7 @@ For those who read manuals before pushing buttons—this one’s for you.
 - [6. Best Practises](BestPractises.md)
     - [6.1 Power Management](BestPractises.md#61-power-management)
 - 7\. Research and Projects
-    - [The Relationship between Mass-to-SCU Ratio and Value per Mole in Star Citizen Mining](./Analysis/OreTiers/README.md)
+    - [The Relationship between Mass-to-SCU Ratio and Value per Mole](./Analysis/OreTiers/README.md)
     - [Tactical Integrated Terrain Analysis Network (T.I.T.A.N.)](./Projects/TITAN/README.md)
 - [8. Tips & Tricks](TipsAndTricks.md)
 - [9. Troubleshooting](Troubleshooting.md)

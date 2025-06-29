@@ -1,4 +1,4 @@
-# The Relationship between Mass-to-SCU Ratio and Value per Mole in Star Citizen Mining
+# The Relationship between Mass-to-SCU Ratio and Value per Mole
 
 ## Abstract
 
