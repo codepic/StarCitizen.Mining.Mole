@@ -80,6 +80,8 @@ However, the analysis of A-Tier ores challenges this assumption.
 
 ### A-Tier Ore Comparison Table
 
+[RAW DATA](./A-Tier-Mass-to-SCU.md)
+
 This table summarizes how each A-Tier ore performed across three rock compositions, showing how context influences profitability beyond raw density values.
 
 | Ore        | Mass-to-SCU ⚖️ | Value per Mole (Stileron) | % Best | Value per Mole (Laranite) | % Best | Value per Mole (Quartz) | % Best |
@@ -104,6 +106,8 @@ This finding prompts a reassessment of “density-efficient” mining and unders
 ---
 
 ## B-Tier Ore Analysis: Findings vs. Hypothesis
+
+[RAW DATA](./B-Tier-Mass-to-SCU.md)
 
 The working hypothesis asserts that **lower mass-to-SCU ores should result in greater mining profitability**, assuming that less mass required to fill a cargo unit equates to higher value concentration per trip. This concept aligns with the idea of density-efficient mining—especially relevant when B-Tier ores make up the majority of rock mass.
 
@@ -136,6 +140,8 @@ Taken together with the A-Tier analysis, this data supports a revised interpreta
 ---
 
 ## C-Tier Ore Analysis: Findings vs. Hypothesis
+
+[RAW DATA](./C-Tier-Mass-to-SCU.md)
 
 The working hypothesis contends that **lower mass-to-SCU C-Tier ores should lead to higher profitability**, on the assumption that rocks composed of lighter filler materials leave more room for high-value ores—improving value density and trip efficiency.
 
