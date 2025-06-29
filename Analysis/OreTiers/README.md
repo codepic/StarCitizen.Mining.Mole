@@ -1,4 +1,4 @@
-# The Impact of Different Ore Tiers' Mass-to-SCU Ratio on Mining Profitability in Star Citizen
+# The Relationship between Mass-to-SCU Ratio and Value per Mole in Star Citizen Mining
 
 ## Abstract
 

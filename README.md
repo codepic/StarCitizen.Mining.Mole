@@ -86,8 +86,8 @@ For those who read manuals before pushing buttons—this one’s for you.
     - [5.5 References](OreCutoff.md#55-references)
 - [6. Best Practises](BestPractises.md)
     - [6.1 Power Management](BestPractises.md#61-power-management)
-- 7\. Projects, Surveys, Analysis, and Research
-    - [The Impact of C-Tier Ore Mass-to-SCU Ratio on Mining Profitability in Star Citizen](./Analysis/C-Tier-Effect.md)
+- 7\. Research and Projects
+    - [The Impact of C-Tier Ore Mass-to-SCU Ratio on Mining Profitability in Star Citizen](./Analysis/OreTiers/README.md)
     - [Tactical Integrated Terrain Analysis Network (T.I.T.A.N.)](./Projects/TITAN/README.md)
 - [8. Tips & Tricks](TipsAndTricks.md)
 - [9. Troubleshooting](Troubleshooting.md)
