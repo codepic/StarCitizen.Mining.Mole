@@ -1,5 +1,11 @@
 # The Relationship between Mass-to-SCU Ratio and Value per Mole
 
+| Study Details            |                                                                                                |
+|--------------------------|-----------------------------------------------------------------------------------------------:|
+| **Author**               | [codepic](https://robertsspaceindustries.com/en/citizens/codepic)                              |
+| **Date**                 | 2955-07-03                                                                                     |
+| **Star Citizen Version** | 4.2.0                                                                                          |
+
 ## Abstract
 
 This study investigates whether the mass-to-SCU (Standard Cargo Unit) ratio of mineable ores directly influences mining profitability in Star Citizen. Using controlled scenario modeling, in-game data, and community-sourced calculations, we examine how ore density impacts value-per-trip efficiency across different rock compositions. Contrary to popular belief, the results reveal that **mass-to-SCU alone is not a reliable predictor of profitability**. Instead, profitability is shaped by contextual interactions between ore types, their intrinsic values, and role-specific mining constraints. These findings challenge density-first heuristics and lay the foundation for more nuanced, context-aware mining strategies.
@@ -50,7 +56,7 @@ By narrowing the scope in this way, the study aims to establish a clear foundati
 
 This study uses scenario-based simulation to evaluate the effect of ore mass-to-SCU ratios on mining profitability, specifically in the context of value-per-trip efficiency. The analysis draws from both in-game mechanics and community-calculated data, employing a consistent framework across multiple ore tiers to isolate density as the primary variable.
 
-- **Data Sources**: All mass-to-SCU values, ore percentages, and per-unit sale prices were derived from a combination of live game observations and trusted community tools, such as Regolith's Cluster Calculator. These tools provide granular data on material densities and value per SCU, reflecting mechanics current to Star Citizen 4.1.1.
+- **Data Sources**: All mass-to-SCU values, ore percentages, and per-unit sale prices were derived from a combination of live game observations and trusted community tools, such as Regolith's Cluster Calculator. These tools provide granular data on material densities and value per SCU, reflecting mechanics current to Star Citizen 4.2.0. The value of different rock compositions was specifically calculated using [Regolith's Cluster Calculator](https://regolith.rocks/cluster).
 
 - **Controlled Variables**: To isolate the effect of ore density, each scenario fixed the total rock mass and ore composition percentages. Only the identity of the targeted ore was varied in each test case, enabling direct comparison of how mass-to-SCU ratios influence trip value.
 
@@ -77,6 +83,78 @@ By structuring the methodology in this way, the study ensures internal consisten
 A prevailing hypothesis within the mining community suggests that **ores with a lower mass-to-SCU ratio should yield greater profitability**, as they require less mass to fill cargo space—thus, delivering higher value per trip. This logic forms the backbone of a density-first mining strategy, especially relevant for mass-constrained ships like the Mole.
 
 However, the analysis of A-Tier ores challenges this assumption.
+
+### 🏷️ Ore Tier Classification: Community Convention, Not Official Canon
+
+The terms **S-, A-, B-, and C-Tier ores** follow a **community-driven classification** from [Regolith Co.](https://regolith.rocks/survey/rock_class), which groups mineable resources based on economic value and gameplay relevance. These labels are *not officially defined* by Cloud Imperium Games (CIG), but have become widely accepted within the Star Citizen mining community.
+
+- **[S-Tier ores](https://regolith.rocks/survey/ores?ot=S)**: Ultra-rare and extremely valuable ores, typically found in small percentages and highly prioritized by miners.
+- **[A-Tier ores](https://regolith.rocks/survey/ores?ot=A)**: High-value ores that significantly contribute to profitability when present in sufficient concentrations.
+- **[B-Tier ores](https://regolith.rocks/survey/ores?ot=B)**: Moderately valuable ores that influence cargo yield and laser control dynamics. Often useful as balancing material.
+- **[C-Tier ores](https://regolith.rocks/survey/ores?ot=C)**: Abundant, low-value ores. Despite being discarded during refining, their mass-to-SCU ratios have a major effect on yield per trip and overall mining strategy.
+
+This tier system provides a practical framework for modeling mining efficiency, including analyses such as the effect of **mass-to-SCU ratio on Value per Mole**.
+
+---
+
+### ⚖️ Ore Mass-to-SCU Density Overview
+
+The following table summarizes the **mass-to-SCU ratios** for ores in Star Citizen.
+
+| Ore Tier | Ore Name        | Mass-to-SCU ⚖️ |
+|----------|-----------------|:--------------:|
+| A-Tier   | Bexalite        | 231            |
+| A-Tier   | Taranite        | 340            |
+| A-Tier   | Gold            | 644            |
+| B-Tier   | Beryl           | 92             |
+| B-Tier   | Hephaestanite   | 107            |
+| B-Tier   | Borase          | 150            |
+| B-Tier   | Agricium        | 240            |
+| B-Tier   | Laranite        | 384            |
+| C-Tier   | Ice             | 34             |
+| C-Tier   | Silicon         | 78             |
+| C-Tier   | Quartz          | 89             |
+| C-Tier   | Aluminum        | 90             |
+| C-Tier   | Corundum        | 134            |
+| C-Tier   | Titanium        | 150            |
+| C-Tier   | Tin             | 193            |
+| C-Tier   | Iron            | 263            |
+| C-Tier   | Copper          | 299            |
+| C-Tier   | Tungsten        | 644            |
+
+> 📌 *Lower mass-to-SCU values mean more volume is filled with less mass. Higher values compress more mass into less SCU.
+
+---
+
+## How to Read the Ore Comparison Tables
+
+The following section explains how to interpret the A-Tier, B-Tier, and C-Tier ore comparison tables found below. Each table compares the mining efficiency and value of different ores when paired with other ore types in a rock. Here’s what each column means:
+
+- **Ore**: The specific ore being analyzed (e.g., Bexalite, Taranite, Gold).
+- **Mass-to-SCU ⚖️**: The mass (in kg) required to fill one Standard Cargo Unit (SCU) for that ore. Lower values mean less mass is needed to fill your cargo, which can increase value per trip.
+- **Value per Mole (Stileron / Laranite / Quartz)**: The estimated in-game value (aUEC) of a full Mole cargo hold when mining rocks containing the listed ore, paired with the indicated secondary ore (e.g., Stileron, Laranite, or Quartz). Each column represents a different scenario where the main ore is paired with a specific secondary ore, holding total rock mass and ore percentages constant.
+- **% Best**: The value per Mole for that ore, expressed as a percentage of the best-performing ore in that scenario (100% = highest value per Mole for that scenario).
+
+**How to use the tables:**
+- Compare the Value per Mole columns to see which ore yields the highest value per trip in different rock compositions.
+- Use the % Best column to quickly identify which ores are most efficient relative to the best possible outcome in each scenario.
+- The tables help you understand that profitability depends not just on the mass-to-SCU ratio, but also on the context of which other ores are present in the rock.
+
+## Raw Data for Ore Comparison Tables
+
+Below are direct links to the full raw data for each ore tier. Use these documents for detailed breakdowns, calculations, and scenario modeling:
+
+**Raw Data for All Ore Tiers:**
+
+| Tier   | Raw Data Link |
+|--------|---------------|
+| A-Tier | [A-Tier Mass-to-SCU Raw Data](./A-Tier-Mass-to-SCU.md) |
+| B-Tier | [B-Tier Mass-to-SCU Raw Data](./B-Tier-Mass-to-SCU.md) |
+| C-Tier | [C-Tier Mass-to-SCU Raw Data](./C-Tier-Mass-to-SCU.md) |
+
+These documents contain the full calculation tables and source values for each ore tier. Refer to them for detailed breakdowns and methodology.
+
+---
 
 ### A-Tier Ore Comparison Table
 
@@ -109,7 +187,7 @@ This finding prompts a reassessment of “density-efficient” mining and unders
 
 [RAW DATA](./B-Tier-Mass-to-SCU.md)
 
-The working hypothesis asserts that **lower mass-to-SCU ores should result in greater mining profitability**, assuming that less mass required to fill a cargo unit equates to higher value concentration per trip. This concept aligns with the idea of density-efficient mining—especially relevant when B-Tier ores make up the majority of rock mass.
+The working hypothesis asserts that **lower mass-to-SCU ores should result in greater mining profitability**, assuming that less mass required to fill a cargo unit equates to higher value concentration per trip. This concept aligns with the idea of density-efficient mining—especially relevant when B-Tier ores make up the majority of rock mass. For example, if a rock is composed of 60% B-Tier ore (such as Borase) and 40% split between A- and C-Tier ores, the mass-to-SCU and value properties of Borase will have the greatest impact on the total value per trip and cargo efficiency. In this case, optimizing for the best B-Tier ore can significantly improve profitability, and the influence of the other tiers is comparatively minor. Conversely, if the majority of the rock's mass were A-Tier or C-Tier, the mining outcome would be driven by the properties of those tiers instead, and the predictive power of B-Tier density would diminish.
 
 However, the findings across all three scenarios—paired with S-, A-, and C-Tier ores—complicate this narrative:
 
